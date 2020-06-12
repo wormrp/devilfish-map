@@ -1,0 +1,5 @@
+mn-dnr-lakes.geojson is a subset of the DNR Hydrography Dataset by the Minnesota Dept. Natural Resources
+
+https://gisdata.mn.gov/dataset/water-dnr-hydrography
+
+The dataset is clipped to features within our interested area, as well as filtering out features > 500 acres in area.
