@@ -68,10 +68,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>degrees</units>
     <extent>
-      <xmin>-90.98979470846931861</xmin>
-      <ymin>47.53348217183894064</ymin>
-      <xmax>-89.49055844452475128</xmax>
-      <ymax>48.13590472691684852</ymax>
+      <xmin>-90.58400548933255436</xmin>
+      <ymin>47.67012134812247837</ymin>
+      <xmax>-89.8343873573602707</xmax>
+      <ymax>47.9713326256614323</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -2538,6 +2538,55 @@ def my_form_open(dialog, layer, feature):
                 </Option>
               </data_defined_properties>
             </layer>
+            <layer class="MarkerLine" locked="0" pass="0" enabled="1">
+              <prop k="interval" v="100"/>
+              <prop k="interval_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="interval_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_along_line" v="0"/>
+              <prop k="offset_along_line_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_along_line_unit" v="MM"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="placement" v="interval"/>
+              <prop k="ring_filter" v="0"/>
+              <prop k="rotate" v="0"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+              <symbol force_rhr="0" type="marker" name="@0@4" clip_to_extent="1" alpha="1">
+                <layer class="SvgMarker" locked="0" pass="0" enabled="1">
+                  <prop k="angle" v="0"/>
+                  <prop k="color" v="35,35,35,255"/>
+                  <prop k="fixedAspectRatio" v="0"/>
+                  <prop k="horizontal_anchor_point" v="1"/>
+                  <prop k="name" v="./img/I-35.svg"/>
+                  <prop k="offset" v="0,0"/>
+                  <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="offset_unit" v="MM"/>
+                  <prop k="outline_color" v="35,35,35,255"/>
+                  <prop k="outline_width" v="0.2"/>
+                  <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="outline_width_unit" v="MM"/>
+                  <prop k="scale_method" v="diameter"/>
+                  <prop k="size" v="6"/>
+                  <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop k="size_unit" v="MM"/>
+                  <prop k="vertical_anchor_point" v="1"/>
+                  <data_defined_properties>
+                    <Option type="Map">
+                      <Option type="QString" value="" name="name"/>
+                      <Option name="properties"/>
+                      <Option type="QString" value="collection" name="type"/>
+                    </Option>
+                  </data_defined_properties>
+                </layer>
+              </symbol>
+            </layer>
           </symbol>
           <symbol force_rhr="0" type="line" name="1" clip_to_extent="1" alpha="1">
             <layer class="SimpleLine" locked="1" pass="0" enabled="1">
@@ -2783,6 +2832,30 @@ def my_form_open(dialog, layer, feature):
         <rotation/>
         <sizescale/>
       </renderer-v2>
+      <labeling type="rule-based">
+        <rules key="{bb18952e-2fbc-4ca9-b545-c2234e6fe4be}">
+          <rule key="{77a9e210-5a54-4ea7-a981-8af883e23d8d}" filter=" &quot;type&quot;  = 'motorway'">
+            <settings>
+              <text-style fontItalic="0" isExpression="1" multilineHeight="1" namedStyle="Regular" textOpacity="1" fontWordSpacing="0" previewBkgrdColor="#ffffff" fontWeight="50" fontCapitals="0" fontFamily="Trebuchet MS" fontSize="8" fontStrikeout="0" blendMode="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontUnderline="0" fieldName="''" fontSizeUnit="Point" textColor="0,0,0,255" useSubstitutions="0" fontLetterSpacing="0">
+                <text-buffer bufferSize="1" bufferNoFill="1" bufferBlendMode="0" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferOpacity="1" bufferColor="255,255,255,255" bufferJoinStyle="128" bufferDraw="0" bufferSizeUnits="MM"/>
+                <background shapeRadiiY="0" shapeOffsetY="0" shapeSizeType="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiX="0" shapeSVGFile="./img/I-35.svg" shapeDraw="1" shapeBlendMode="0" shapeType="4" shapeSizeY="0" shapeOffsetUnit="MM" shapeRadiiUnit="MM" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeOpacity="1" shapeRotationType="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeBorderColor="128,128,128,255" shapeJoinStyle="64" shapeSizeUnit="MM" shapeFillColor="255,255,255,255" shapeBorderWidth="0" shapeRotation="0" shapeBorderWidthUnit="MM" shapeSizeX="0" shapeOffsetX="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0"/>
+                <shadow shadowDraw="0" shadowOffsetDist="1" shadowOffsetGlobal="1" shadowColor="0,0,0,255" shadowOffsetAngle="135" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowUnder="0" shadowOffsetUnit="MM" shadowOpacity="0.7" shadowBlendMode="6" shadowRadius="1.5" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusAlphaOnly="0" shadowScale="100" shadowRadiusUnit="MM"/>
+                <substitutions/>
+              </text-style>
+              <text-format useMaxLineLengthForAutoWrap="1" autoWrapLength="0" multilineAlign="4294967295" decimals="3" formatNumbers="0" plussign="0" leftDirectionSymbol="&lt;" addDirectionSymbol="0" wrapChar="" reverseDirectionSymbol="0" placeDirectionSymbol="0" rightDirectionSymbol=">"/>
+              <placement priority="5" repeatDistanceUnits="MM" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" distMapUnitScale="3x:0,0,0,0,0,0" repeatDistance="50" maxCurvedCharAngleIn="25" fitInPolygonOnly="0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" quadOffset="4" xOffset="0" offsetType="0" centroidInside="0" rotationAngle="0" offsetUnits="MM" placement="4" dist="0" yOffset="0" distUnits="MM" maxCurvedCharAngleOut="-25" preserveRotation="1" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" placementFlags="10" centroidWhole="0"/>
+              <rendering obstacleType="0" mergeLines="0" scaleMin="0" drawLabels="1" obstacleFactor="1" scaleVisibility="0" maxNumLabels="2000" labelPerPart="0" scaleMax="0" minFeatureSize="0" zIndex="0" displayAll="0" obstacle="1" limitNumLabels="0" upsidedownLabels="0" fontMaxPixelSize="10000" fontLimitPixelSize="0" fontMinPixelSize="3"/>
+              <dd_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </dd_properties>
+            </settings>
+          </rule>
+        </rules>
+      </labeling>
       <customproperties>
         <property key="dualview/previewExpressions">
           <value>"fid"</value>
