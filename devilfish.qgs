@@ -68,10 +68,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>degrees</units>
     <extent>
-      <xmin>-90.58400548933255436</xmin>
-      <ymin>47.67012134812247837</ymin>
-      <xmax>-89.8343873573602707</xmax>
-      <ymax>47.9713326256614323</ymax>
+      <xmin>-91.13357453318977264</xmin>
+      <ymin>47.47730345273348007</ymin>
+      <xmax>-89.50606366687478044</xmax>
+      <ymax>48.27226622256748101</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -3091,5 +3091,82 @@ def my_form_open(dialog, layer, feature):
     <creation>2020-06-12T02:52:27</creation>
   </projectMetadata>
   <Annotations/>
-  <Layouts/>
+  <Layouts>
+    <Layout printResolution="300" worldFileMap="{6cc92c23-2d3a-4d8c-abe1-215191191225}" name="overview" units="mm">
+      <Snapper snapToItems="1" tolerance="5" snapToGrid="0" snapToGuides="1"/>
+      <Grid resolution="10" offsetX="0" offsetY="0" offsetUnits="mm" resUnits="mm"/>
+      <PageCollection>
+        <symbol force_rhr="0" type="fill" name="" clip_to_extent="1" alpha="1">
+          <layer class="SimpleFill" locked="0" pass="0" enabled="1">
+            <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="color" v="255,255,255,255"/>
+            <prop k="joinstyle" v="miter"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="35,35,35,255"/>
+            <prop k="outline_style" v="no"/>
+            <prop k="outline_width" v="0.26"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="style" v="solid"/>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+        <LayoutItem itemRotation="0" groupUuid="" size="297,210,mm" referencePoint="0" outlineWidthM="0.3,mm" templateUuid="{ecd02fc2-7fa8-497b-9ec9-0c64db86507d}" frameJoinStyle="miter" positionLock="false" excludeFromExports="0" blendMode="0" uuid="{ecd02fc2-7fa8-497b-9ec9-0c64db86507d}" position="0,0,mm" opacity="1" positionOnPage="0,0,mm" id="" type="65638" frame="false" background="true" zValue="0" visibility="1">
+          <FrameColor red="0" green="0" blue="0" alpha="255"/>
+          <BackgroundColor red="255" green="255" blue="255" alpha="255"/>
+          <LayoutObject>
+            <dataDefinedProperties>
+              <Option type="Map">
+                <Option type="QString" value="" name="name"/>
+                <Option name="properties"/>
+                <Option type="QString" value="collection" name="type"/>
+              </Option>
+            </dataDefinedProperties>
+            <customproperties/>
+          </LayoutObject>
+        </LayoutItem>
+        <GuideCollection visible="1"/>
+      </PageCollection>
+      <LayoutItem itemRotation="0" groupUuid="" size="297,210,mm" referencePoint="0" outlineWidthM="0.3,mm" mapRotation="0" keepLayerSet="false" templateUuid="{6cc92c23-2d3a-4d8c-abe1-215191191225}" followPreset="false" frameJoinStyle="miter" followPresetName="" positionLock="false" excludeFromExports="0" blendMode="0" uuid="{6cc92c23-2d3a-4d8c-abe1-215191191225}" position="0,0,mm" opacity="1" positionOnPage="0,0,mm" id="" type="65639" frame="false" background="true" drawCanvasItems="true" zValue="1" visibility="1">
+        <FrameColor red="0" green="0" blue="0" alpha="255"/>
+        <BackgroundColor red="255" green="255" blue="255" alpha="255"/>
+        <LayoutObject>
+          <dataDefinedProperties>
+            <Option type="Map">
+              <Option type="QString" value="" name="name"/>
+              <Option name="properties"/>
+              <Option type="QString" value="collection" name="type"/>
+            </Option>
+          </dataDefinedProperties>
+          <customproperties/>
+        </LayoutObject>
+        <Extent ymin="704986.60517089325003326" xmin="3113783.05625443020835519" ymax="980577.15635199681855738" xmax="3503546.83578198915347457"/>
+        <crs>
+          <spatialrefsys>
+            <proj4>+proj=lcc +lat_1=48.63333333333333 +lat_2=47.03333333333333 +lat_0=46.5 +lon_0=-93.09999999999999 +x_0=800000.0000101599 +y_0=99999.99998983997 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+            <srsid>2263</srsid>
+            <srid>26865</srid>
+            <authid>EPSG:26865</authid>
+            <description>NAD83(NSRS2007) / Minnesota North (ftUS)</description>
+            <projectionacronym>lcc</projectionacronym>
+            <ellipsoidacronym>GRS80</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <LayerSet/>
+        <AtlasMap scalingMode="2" margin="0.10000000000000001" atlasDriven="0"/>
+      </LayoutItem>
+      <customproperties>
+        <property key="atlasRasterFormat" value="png"/>
+      </customproperties>
+      <Atlas filenamePattern="'output_'||@atlas_featurenumber" pageNameExpression="" coverageLayer="" hideCoverage="0" sortFeatures="0" enabled="0" filterFeatures="0"/>
+    </Layout>
+  </Layouts>
 </qgis>
