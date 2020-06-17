@@ -3,3 +3,13 @@ mn-dnr-lakes.geojson is a subset of the DNR Hydrography Dataset by the Minnesota
 https://gisdata.mn.gov/dataset/water-dnr-hydrography
 
 The dataset is clipped to features within our interested area, as well as filtering out features > 500 acres in area.
+
+---
+
+alos-dem.tif is a downset of ALOS synthetic aperture radar imaging by JAXA
+
+https://www.eorc.jaxa.jp/ALOS/en/obs/palsar_strat.htm
+https://asf.alaska.edu/doi/10-5067-z97hfcnkr6va/
+© JAXA/METI 2010.
+
+The data was clipped, converted from UTM, and downsampled because daddy github doesn't want to take a 280 MiB GeoTIFF file apparently.
