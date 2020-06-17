@@ -5,3 +5,8 @@ Remove-Item "export" -Recurse -ErrorAction Ignore
 mkdir "export" | out-null
 
 python-qgis .\renderMaps.py
+
+Get-ChildItem "export" -Filter *.png | 
+Foreach-Object {
+    optipng $_.FullName
+}
