@@ -4,6 +4,8 @@
 Remove-Item "export" -Recurse -ErrorAction Ignore
 mkdir "export" | out-null
 
+$env:devilfishGitRev = $(git describe --always)
+
 python-qgis .\renderMaps.py
 
 Get-ChildItem "export" -Filter *.png | 

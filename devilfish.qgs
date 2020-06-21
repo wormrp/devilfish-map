@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUserFull="Keira Dueck" saveDateTime="2020-06-21T12:37:39" version="3.14.0-Pi" saveUser="Keira" projectname="Devilfish, Minnesota">
+<qgis saveUserFull="Keira Dueck" saveDateTime="2020-06-21T13:36:15" version="3.14.0-Pi" saveUser="Keira" projectname="Devilfish, Minnesota">
   <homePath path="C:/Users/Keira/Documents/GitHub/devilfish-map"/>
   <title>Devilfish, Minnesota</title>
   <autotransaction active="0"/>
@@ -4055,6 +4055,22 @@ def my_form_open(dialog, layer, feature):
         </LayoutItem>
         <GuideCollection visible="1"/>
       </PageCollection>
+      <LayoutItem positionOnPage="297,210,mm" templateUuid="{996b77e1-9e79-479d-9a23-8fb515db68bd}" blendMode="0" opacity="1" excludeFromExports="0" frameJoinStyle="miter" referencePoint="8" type="65641" zValue="2" size="190.494,7.02625,mm" halign="2" visibility="1" positionLock="false" frame="false" itemRotation="0" marginX="0" position="297,210,mm" valign="64" outlineWidthM="0.3,mm" groupUuid="" htmlState="0" uuid="{996b77e1-9e79-479d-9a23-8fb515db68bd}" id="" labelText="[%@project_filename%]|[%@layout_name%] rev [%env('devilfishGitRev')%] // [%format_date(now(), 'yyyy-MM-dd HH:mm:ss')%] // qgis [% @qgis_version %]" background="false" marginY="0">
+        <FrameColor green="0" alpha="255" blue="0" red="0"/>
+        <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
+        <LayoutObject>
+          <dataDefinedProperties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option name="properties"/>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </dataDefinedProperties>
+          <customproperties/>
+        </LayoutObject>
+        <LabelFont description="Fira Code Retina,3,-1,5,57,0,0,0,0,0,Retina" style="Retina"/>
+        <FontColor green="0" alpha="255" blue="0" red="0"/>
+      </LayoutItem>
       <LayoutItem positionOnPage="0,0,mm" templateUuid="{6cc92c23-2d3a-4d8c-abe1-215191191225}" blendMode="0" opacity="1" excludeFromExports="0" frameJoinStyle="miter" referencePoint="0" labelMargin="0,mm" type="65639" zValue="1" followPreset="false" size="297,210,mm" isTemporal="0" visibility="1" followPresetName="" positionLock="false" frame="false" itemRotation="0" drawCanvasItems="true" mapFlags="0" position="0,0,mm" outlineWidthM="0.3,mm" groupUuid="" uuid="{6cc92c23-2d3a-4d8c-abe1-215191191225}" id="" mapRotation="0" keepLayerSet="false" background="true">
         <FrameColor green="0" alpha="255" blue="0" red="0"/>
         <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
