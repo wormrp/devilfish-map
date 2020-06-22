@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUserFull="Keira Dueck" saveDateTime="2020-06-21T21:51:28" version="3.14.0-Pi" saveUser="Keira" projectname="Devilfish, Minnesota">
+<qgis saveUserFull="Keira Dueck" saveDateTime="2020-06-22T05:42:35" version="3.14.0-Pi" saveUser="Keira" projectname="Devilfish, Minnesota">
   <homePath path="C:/Users/Keira/Documents/GitHub/devilfish-map"/>
   <title>Devilfish, Minnesota</title>
   <autotransaction active="0"/>
@@ -20,6 +20,9 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" providerKey="ogr" source="./data-internal/temp-grid.geojson|layername=temp-grid" patch_size="-1,-1" legend_exp="" name="Grid" id="Grid_db213654_5882_4962_8a8a_1a5064685098" legend_split_behavior="0">
+      <customproperties/>
+    </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" providerKey="ogr" source="./data-internal/pois.geojson|layername=pois" patch_size="0,0" legend_exp="" name="Points of Interest" id="pois_fdbe2e3b_3791_4818_8e1b_4b578f2cac50" legend_split_behavior="0">
       <customproperties/>
     </layer-tree-layer>
@@ -61,6 +64,7 @@
       <item>streets_a2b76a53_9683_4a95_8ff3_094db4a3422c</item>
       <item>OpenStreetMap_40cda925_9224_41bc_9932_8a15662279b1</item>
       <item>Streets_0d29fc64_af9f_4899_8dca_531d0d9a956d</item>
+      <item>Grid_db213654_5882_4962_8a8a_1a5064685098</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings enabled="0" self-snapping="0" mode="2" maxScale="0" unit="1" type="1" scaleDependencyMode="0" intersection-snapping="0" minScale="0" tolerance="12">
@@ -72,16 +76,17 @@
       <layer-setting enabled="0" units="1" maxScale="0" type="1" minScale="0" id="mn_dnr_lakes_063e6742_003b_4566_bf0e_5a23510898f2" tolerance="12"/>
       <layer-setting enabled="0" units="1" maxScale="0" type="1" minScale="0" id="landuse_5fdb587e_20b2_4c29_8f73_0c3d8f724eb1" tolerance="12"/>
       <layer-setting enabled="0" units="1" maxScale="0" type="1" minScale="0" id="rivers_79409b2b_2391_4e5b_8db1_ea05972824d3" tolerance="12"/>
+      <layer-setting enabled="0" units="1" maxScale="0" type="1" minScale="0" id="Grid_db213654_5882_4962_8a8a_1a5064685098" tolerance="12"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>degrees</units>
     <extent>
-      <xmin>-90.72635505344095463</xmin>
-      <ymin>47.8109336298864136</ymin>
-      <xmax>-90.01943518612665684</xmax>
-      <ymax>47.99463846928639299</ymax>
+      <xmin>-90.17008729149978308</xmin>
+      <ymin>47.88468386764223794</ymin>
+      <xmax>-90.08172230808571612</xmax>
+      <ymax>47.90764697256734905</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -102,6 +107,11 @@
   </mapcanvas>
   <projectModels/>
   <legend updateDrawingOrder="true">
+    <legendlayer showFeatureCount="0" checked="Qt::Checked" open="true" name="Grid" drawingOrder="-1">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" layerid="Grid_db213654_5882_4962_8a8a_1a5064685098" visible="1"/>
+      </filegroup>
+    </legendlayer>
     <legendlayer showFeatureCount="0" checked="Qt::Checked" open="true" name="Points of Interest" drawingOrder="-1">
       <filegroup hidden="false" open="true">
         <legendlayerfile isInOverview="0" layerid="pois_fdbe2e3b_3791_4818_8e1b_4b578f2cac50" visible="1"/>
@@ -156,6 +166,218 @@
   <mapViewDocks/>
   <mapViewDocks3D/>
   <projectlayers>
+    <maplayer simplifyLocal="1" autoRefreshTime="0" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" wkbType="Point" minScale="100000000" simplifyAlgorithm="0" readOnly="0" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" type="vector" geometry="Point" simplifyMaxScale="1" labelsEnabled="0" simplifyDrawingTol="1" simplifyDrawingHints="1" styleCategories="AllStyleCategories" maxScale="0">
+      <extent>
+        <xmin>3062968.50298553938046098</xmin>
+        <ymin>581195.78712917224038392</ymin>
+        <xmax>3740392.50298553938046098</xmax>
+        <ymax>1028675.78712917224038392</ymax>
+      </extent>
+      <id>Grid_db213654_5882_4962_8a8a_1a5064685098</id>
+      <datasource>./data-internal/temp-grid.geojson|layername=temp-grid</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Grid</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["NAD83(NSRS2007) / Minnesota North (ftUS)",BASEGEOGCRS["NAD83(NSRS2007)",DATUM["NAD83 (National Spatial Reference System 2007)",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4759]],CONVERSION["SPCS83 Minnesota North zone (US Survey feet)",METHOD["Lambert Conic Conformal (2SP)",ID["EPSG",9802]],PARAMETER["Latitude of false origin",46.5,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8821]],PARAMETER["Longitude of false origin",-93.1,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8822]],PARAMETER["Latitude of 1st standard parallel",48.6333333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8823]],PARAMETER["Latitude of 2nd standard parallel",47.0333333333333,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8824]],PARAMETER["Easting at false origin",2624666.6667,LENGTHUNIT["US survey foot",0.304800609601219],ID["EPSG",8826]],PARAMETER["Northing at false origin",328083.3333,LENGTHUNIT["US survey foot",0.304800609601219],ID["EPSG",8827]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["US survey foot",0.304800609601219]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["US survey foot",0.304800609601219]],USAGE[SCOPE["unknown"],AREA["USA - Minnesota - SPCS - N"],BBOX[46.64,-97.22,49.38,-89.49]],ID["EPSG",26865]]</wkt>
+          <proj4>+proj=lcc +lat_0=46.5 +lon_0=-93.1 +lat_1=48.6333333333333 +lat_2=47.0333333333333 +x_0=800000.00001016 +y_0=99999.99998984 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+          <srsid>2263</srsid>
+          <srid>26865</srid>
+          <authid>EPSG:26865</authid>
+          <description>NAD83(NSRS2007) / Minnesota North (ftUS)</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <temporal enabled="0" endExpression="" mode="0" startField="" fixedDuration="0" accumulate="0" endField="" durationUnit="min" durationField="" startExpression="">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 enableorderby="0" type="singleSymbol" forceraster="0" symbollevels="0">
+        <symbols>
+          <symbol alpha="1" force_rhr="0" type="marker" name="0" clip_to_extent="1">
+            <layer enabled="1" locked="0" class="SimpleMarker" pass="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="190,207,80,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="left">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="top">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="right">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="bottom">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="id" name="" index="0"/>
+        <alias field="left" name="" index="1"/>
+        <alias field="top" name="" index="2"/>
+        <alias field="right" name="" index="3"/>
+        <alias field="bottom" name="" index="4"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default applyOnUpdate="0" field="id" expression=""/>
+        <default applyOnUpdate="0" field="left" expression=""/>
+        <default applyOnUpdate="0" field="top" expression=""/>
+        <default applyOnUpdate="0" field="right" expression=""/>
+        <default applyOnUpdate="0" field="bottom" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" notnull_strength="0" field="id" unique_strength="0" exp_strength="0"/>
+        <constraint constraints="0" notnull_strength="0" field="left" unique_strength="0" exp_strength="0"/>
+        <constraint constraints="0" notnull_strength="0" field="top" unique_strength="0" exp_strength="0"/>
+        <constraint constraints="0" notnull_strength="0" field="right" unique_strength="0" exp_strength="0"/>
+        <constraint constraints="0" notnull_strength="0" field="bottom" unique_strength="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="id" exp="" desc=""/>
+        <constraint field="left" exp="" desc=""/>
+        <constraint field="top" exp="" desc=""/>
+        <constraint field="right" exp="" desc=""/>
+        <constraint field="bottom" exp="" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
     <maplayer styleCategories="AllStyleCategories" autoRefreshTime="0" autoRefreshEnabled="0" maxScale="0" refreshOnNotifyMessage="" type="raster" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" minScale="1e+08">
       <extent>
         <xmin>-20037508.34278924390673637</xmin>
@@ -3970,9 +4192,9 @@ def my_form_open(dialog, layer, feature):
     <maplayer simplifyLocal="1" autoRefreshTime="0" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="1" wkbType="LineString" minScale="100000" simplifyAlgorithm="0" readOnly="0" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" type="vector" geometry="Line" simplifyMaxScale="1" labelsEnabled="1" simplifyDrawingTol="1" simplifyDrawingHints="1" styleCategories="AllStyleCategories" maxScale="0">
       <extent>
         <xmin>-90.44846933454873295</xmin>
-        <ymin>47.91164762786635833</ymin>
-        <xmax>-90.37623911158756584</xmax>
-        <ymax>47.92702999016364629</ymax>
+        <ymin>47.80384004882298399</ymin>
+        <xmax>-90.05870185107660575</xmax>
+        <ymax>47.94025424133259605</ymax>
       </extent>
       <id>streets_a2b76a53_9683_4a95_8ff3_094db4a3422c</id>
       <datasource>./data-internal/streets.geojson|layerid=0|subset="type" IN ('major','minor')</datasource>
@@ -4940,10 +5162,6 @@ def my_form_open(dialog, layer, feature):
       <customproperties>
         <property key="dualview/previewExpressions">
           <value>"fid"</value>
-          <value>fid</value>
-          <value>"fid"</value>
-          <value>fid</value>
-          <value>"fid"</value>
         </property>
         <property key="embeddedWidgets/count" value="0"/>
         <property key="variableNames"/>
@@ -5114,6 +5332,7 @@ def my_form_open(dialog, layer, feature):
     <layer id="streets_a2b76a53_9683_4a95_8ff3_094db4a3422c"/>
     <layer id="OpenStreetMap_40cda925_9224_41bc_9932_8a15662279b1"/>
     <layer id="Streets_0d29fc64_af9f_4899_8dca_531d0d9a956d"/>
+    <layer id="Grid_db213654_5882_4962_8a8a_1a5064685098"/>
   </layerorder>
   <properties>
     <DefaultStyles>
