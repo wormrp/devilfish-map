@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUser="Keira" saveDateTime="2020-06-29T05:07:44" version="3.14.0-Pi" projectname="Devilfish, Minnesota" saveUserFull="Keira Dueck">
+<qgis saveUser="Keira" saveDateTime="2020-06-29T05:33:57" version="3.14.0-Pi" projectname="Devilfish, Minnesota" saveUserFull="Keira Dueck">
   <homePath path="C:/Users/Keira/Documents/GitHub/devilfish-map"/>
   <title>Devilfish, Minnesota</title>
   <autotransaction active="0"/>
@@ -83,10 +83,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>degrees</units>
     <extent>
-      <xmin>-90.22721129663591455</xmin>
-      <ymin>47.87478347287137126</ymin>
-      <xmax>-90.05048132980778064</xmax>
-      <ymax>47.92070968272159348</ymax>
+      <xmin>-90.26651542977759846</xmin>
+      <ymin>47.85517636813062836</ymin>
+      <xmax>-90.08978546294946455</xmax>
+      <ymax>47.90110257798085058</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -4192,7 +4192,7 @@ def my_form_open(dialog, layer, feature):
         <xmin>-90.44846933454873295</xmin>
         <ymin>47.80384004882298399</ymin>
         <xmax>-90.05870185107660575</xmax>
-        <ymax>47.94025424133259605</ymax>
+        <ymax>47.94087246649625911</ymax>
       </extent>
       <id>streets_a2b76a53_9683_4a95_8ff3_094db4a3422c</id>
       <datasource>./data-internal/streets.geojson|layerid=0|subset="type" IN ('major','minor')</datasource>
@@ -4635,8 +4635,8 @@ def my_form_open(dialog, layer, feature):
         <sizescale/>
       </renderer-v2>
       <labeling type="rule-based">
-        <rules key="{f4101312-054f-4af2-bb96-37a17d6e5ec7}">
-          <rule description="Interstates" filter=" &quot;type&quot;  = 'motorway'" key="{6fe57b5d-5432-42f8-996d-1b83b551b64a}" active="0">
+        <rules key="{f36cdefd-ac61-488c-86cf-be9a0469dda3}">
+          <rule description="Interstates" filter=" &quot;type&quot;  = 'motorway'" key="{9a3ef750-a084-4654-8ecc-dd4b9a358e3f}" active="0">
             <settings calloutType="simple">
               <text-style namedStyle="Regular" textColor="255,255,255,255" fontStrikeout="0" fontLetterSpacing="0" fontWeight="50" fontKerning="1" fieldName="substr( &quot;Label&quot;, regexp_match( &quot;Label&quot;, '\\d+'))" fontSize="12" fontSizeUnit="Point" useSubstitutions="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontFamily="Roadgeek 2005 Print D4B" multilineHeight="1" allowHtml="0" isExpression="1" fontItalic="0" fontCapitals="0" fontUnderline="0" textOrientation="horizontal" blendMode="0" previewBkgrdColor="255,255,255,255" fontWordSpacing="0" textOpacity="1">
                 <text-buffer bufferOpacity="1" bufferJoinStyle="128" bufferSize="1" bufferBlendMode="0" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSizeUnits="MM" bufferDraw="0" bufferNoFill="1" bufferColor="255,255,255,255"/>
@@ -4739,7 +4739,7 @@ def my_form_open(dialog, layer, feature):
               </callout>
             </settings>
           </rule>
-          <rule description="State Hwy" filter=" &quot;type&quot;  = 'primary'" key="{752de5e2-e80b-45c8-a3d1-722434d14c3b}" active="0">
+          <rule description="State Hwy" filter=" &quot;type&quot;  = 'primary'" key="{e2f848f6-962d-4699-b1d4-8f200bdb2ed4}" active="0">
             <settings calloutType="simple">
               <text-style namedStyle="Regular" textColor="255,255,255,255" fontStrikeout="0" fontLetterSpacing="0" fontWeight="50" fontKerning="1" fieldName="substr( &quot;Label&quot;, regexp_match( &quot;Label&quot;, '\\d+'))" fontSize="10" fontSizeUnit="Point" useSubstitutions="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontFamily="Roadgeek 2005 Print D4B" multilineHeight="1" allowHtml="0" isExpression="1" fontItalic="0" fontCapitals="0" fontUnderline="0" textOrientation="horizontal" blendMode="0" previewBkgrdColor="255,255,255,255" fontWordSpacing="0" textOpacity="1">
                 <text-buffer bufferOpacity="1" bufferJoinStyle="128" bufferSize="1" bufferBlendMode="0" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSizeUnits="MM" bufferDraw="0" bufferNoFill="1" bufferColor="255,255,255,255"/>
@@ -4842,7 +4842,7 @@ def my_form_open(dialog, layer, feature):
               </callout>
             </settings>
           </rule>
-          <rule description="Cty Hwy" filter=" &quot;type&quot;  = 'secondary'" key="{7a578390-97f8-4cd2-805a-6b0b5b620447}" active="0">
+          <rule description="Cty Hwy" filter=" &quot;type&quot;  = 'secondary'" key="{997c3b10-3880-4948-96b7-e3d960d2cc46}" active="0">
             <settings calloutType="simple">
               <text-style namedStyle="Regular" textColor="255,255,255,255" fontStrikeout="0" fontLetterSpacing="0" fontWeight="50" fontKerning="1" fieldName="substr( &quot;Label&quot;, regexp_match( &quot;Label&quot;, '\\d+'))" fontSize="9" fontSizeUnit="Point" useSubstitutions="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontFamily="Roadgeek 2005 Print D4B" multilineHeight="1" allowHtml="0" isExpression="1" fontItalic="0" fontCapitals="0" fontUnderline="0" textOrientation="horizontal" blendMode="0" previewBkgrdColor="255,255,255,255" fontWordSpacing="0" textOpacity="1">
                 <text-buffer bufferOpacity="1" bufferJoinStyle="128" bufferSize="1" bufferBlendMode="0" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSizeUnits="MM" bufferDraw="0" bufferNoFill="1" bufferColor="255,255,255,255"/>
@@ -4945,7 +4945,7 @@ def my_form_open(dialog, layer, feature):
               </callout>
             </settings>
           </rule>
-          <rule description="Default" filter=" &quot;type&quot; = 'rail'" key="{961a2794-5eca-4b15-9ef1-98572eefce64}" active="0">
+          <rule description="Default" filter=" &quot;type&quot; = 'rail'" key="{db6aabd8-9d8d-47e2-b010-a29e7c886b89}" active="0">
             <settings calloutType="simple">
               <text-style namedStyle="Regular" textColor="0,0,0,255" fontStrikeout="0" fontLetterSpacing="0.5" fontWeight="50" fontKerning="1" fieldName="Label" fontSize="6" fontSizeUnit="Point" useSubstitutions="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontFamily="Trebuchet MS" multilineHeight="1" allowHtml="0" isExpression="0" fontItalic="0" fontCapitals="0" fontUnderline="0" textOrientation="horizontal" blendMode="0" previewBkgrdColor="255,255,255,255" fontWordSpacing="0" textOpacity="1">
                 <text-buffer bufferOpacity="1" bufferJoinStyle="128" bufferSize="1" bufferBlendMode="0" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSizeUnits="MM" bufferDraw="0" bufferNoFill="1" bufferColor="255,255,255,255"/>
@@ -5052,7 +5052,7 @@ def my_form_open(dialog, layer, feature):
               </callout>
             </settings>
           </rule>
-          <rule description="Default" filter="ELSE" key="{4c08ed4c-a026-434c-a0bb-d88936a96154}">
+          <rule description="Default" filter="ELSE" key="{9b7dd3df-7dd8-47e0-bf67-22bb80bd657d}">
             <settings calloutType="simple">
               <text-style namedStyle="Regular" textColor="0,0,0,255" fontStrikeout="0" fontLetterSpacing="0.984375" fontWeight="50" fontKerning="1" fieldName="Label" fontSize="6" fontSizeUnit="Point" useSubstitutions="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontFamily="Trebuchet MS" multilineHeight="1" allowHtml="0" isExpression="0" fontItalic="0" fontCapitals="0" fontUnderline="0" textOrientation="horizontal" blendMode="0" previewBkgrdColor="255,255,255,255" fontWordSpacing="0" textOpacity="1">
                 <text-buffer bufferOpacity="1" bufferJoinStyle="128" bufferSize="1" bufferBlendMode="0" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSizeUnits="MM" bufferDraw="0" bufferNoFill="1" bufferColor="255,255,255,255"/>
@@ -5100,7 +5100,7 @@ def my_form_open(dialog, layer, feature):
               </text-style>
               <text-format useMaxLineLengthForAutoWrap="1" reverseDirectionSymbol="0" wrapChar="" plussign="0" formatNumbers="0" multilineAlign="0" placeDirectionSymbol="0" autoWrapLength="0" addDirectionSymbol="0" leftDirectionSymbol="&lt;" rightDirectionSymbol=">" decimals="3"/>
               <placement centroidInside="0" preserveRotation="1" geometryGeneratorEnabled="0" quadOffset="4" repeatDistanceUnits="MM" centroidWhole="0" maxCurvedCharAngleIn="25" layerType="LineGeometry" distUnits="MM" overrunDistanceUnit="MM" rotationAngle="0" placement="3" geometryGenerator="" repeatDistance="100" dist="0" yOffset="0" maxCurvedCharAngleOut="-25" overrunDistance="0" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" offsetType="0" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" distMapUnitScale="3x:0,0,0,0,0,0" geometryGeneratorType="PointGeometry" xOffset="0" polygonPlacementFlags="2" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" priority="5" placementFlags="14" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" fitInPolygonOnly="0" offsetUnits="MM"/>
-              <rendering upsidedownLabels="0" mergeLines="0" displayAll="0" maxNumLabels="2000" obstacleType="0" fontMinPixelSize="3" zIndex="0" labelPerPart="0" fontMaxPixelSize="10000" obstacleFactor="1" fontLimitPixelSize="0" scaleMax="0" minFeatureSize="0" scaleMin="0" drawLabels="1" scaleVisibility="0" limitNumLabels="0" obstacle="1"/>
+              <rendering upsidedownLabels="0" mergeLines="1" displayAll="0" maxNumLabels="2000" obstacleType="0" fontMinPixelSize="3" zIndex="0" labelPerPart="0" fontMaxPixelSize="10000" obstacleFactor="1" fontLimitPixelSize="0" scaleMax="0" minFeatureSize="0" scaleMin="0" drawLabels="1" scaleVisibility="0" limitNumLabels="0" obstacle="1"/>
               <dd_properties>
                 <Option type="Map">
                   <Option name="name" type="QString" value=""/>
