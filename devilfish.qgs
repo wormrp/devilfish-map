@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUser="Keira" saveDateTime="2020-06-30T02:11:05" version="3.14.0-Pi" projectname="Devilfish, Minnesota" saveUserFull="Keira Dueck">
+<qgis saveUser="Keira" saveDateTime="2020-06-30T03:09:09" version="3.14.0-Pi" projectname="Devilfish, Minnesota" saveUserFull="Keira Dueck">
   <homePath path="C:/Users/Keira/Documents/GitHub/devilfish-map"/>
   <title>Devilfish, Minnesota</title>
   <autotransaction active="0"/>
@@ -20,7 +20,7 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" patch_size="-1,-1" id="city_grid_5dc7923c_cfe7_4210_b6ba_ae1d672b2195" legend_exp="" name="city-grid" source="./data-internal/city-grid.geojson" providerKey="ogr" legend_split_behavior="0">
+    <layer-tree-layer expanded="1" checked="Qt::Unchecked" patch_size="-1,-1" id="city_grid_5dc7923c_cfe7_4210_b6ba_ae1d672b2195" legend_exp="" name="city-grid" source="./data-internal/city-grid.geojson" providerKey="ogr" legend_split_behavior="0">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" patch_size="0,0" id="pois_fdbe2e3b_3791_4818_8e1b_4b578f2cac50" legend_exp="" name="Points of Interest" source="./data-internal/pois.geojson|layername=pois" providerKey="ogr" legend_split_behavior="0">
@@ -83,10 +83,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>degrees</units>
     <extent>
-      <xmin>-90.34769588742442181</xmin>
-      <ymin>47.86192813628333909</ymin>
-      <xmax>-90.1709659205962879</xmax>
-      <ymax>47.90785434613356131</ymax>
+      <xmin>-90.65192261712623178</xmin>
+      <ymin>47.80560939983881497</ymin>
+      <xmax>-89.94500274981369614</xmax>
+      <ymax>47.98931423923970385</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -107,9 +107,9 @@
   </mapcanvas>
   <projectModels/>
   <legend updateDrawingOrder="true">
-    <legendlayer open="true" checked="Qt::Checked" drawingOrder="-1" name="city-grid" showFeatureCount="0">
+    <legendlayer open="true" checked="Qt::Unchecked" drawingOrder="-1" name="city-grid" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="city_grid_5dc7923c_cfe7_4210_b6ba_ae1d672b2195"/>
+        <legendlayerfile isInOverview="0" visible="0" layerid="city_grid_5dc7923c_cfe7_4210_b6ba_ae1d672b2195"/>
       </filegroup>
     </legendlayer>
     <legendlayer open="true" checked="Qt::Checked" drawingOrder="-1" name="Points of Interest" showFeatureCount="0">
@@ -1191,7 +1191,9 @@
         </rules>
       </labeling>
       <customproperties>
-        <property key="dualview/previewExpressions" value="&quot;fid&quot;"/>
+        <property key="dualview/previewExpressions">
+          <value>"fid"</value>
+        </property>
         <property key="embeddedWidgets/count" value="0"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
