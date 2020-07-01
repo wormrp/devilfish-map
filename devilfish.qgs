@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUser="Keira" saveDateTime="2020-06-30T03:59:46" version="3.14.0-Pi" projectname="Devilfish, Minnesota" saveUserFull="Keira Dueck">
+<qgis saveUser="Keira" saveDateTime="2020-06-30T20:49:49" version="3.14.0-Pi" projectname="Devilfish, Minnesota" saveUserFull="Keira Dueck">
   <homePath path="C:/Users/Keira/Documents/GitHub/devilfish-map"/>
   <title>Devilfish, Minnesota</title>
   <autotransaction active="0"/>
@@ -41,19 +41,19 @@
     <layer-tree-layer expanded="1" checked="Qt::Checked" patch_size="0,0" id="rivers_79409b2b_2391_4e5b_8db1_ea05972824d3" legend_exp="" name="Rivers" source="./data-internal/rivers.geojson|layername=rivers" providerKey="ogr" legend_split_behavior="0">
       <customproperties/>
     </layer-tree-layer>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" patch_size="-1,-1" id="Lakes___Devilfish_aef9117a_d225_48fb_b3dd_bae338677ac8" legend_exp="" name="Lakes - Devilfish" source="./data-internal/lakes.geojson|layername=lakes" providerKey="ogr" legend_split_behavior="0">
+      <customproperties/>
+    </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" patch_size="0,0" id="mn_dnr_lakes_063e6742_003b_4566_bf0e_5a23510898f2" legend_exp="" name="Lakes" source="./data-external/mn-dnr-lakes.geojson" providerKey="ogr" legend_split_behavior="0">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" checked="Qt::Checked" patch_size="0,0" id="landuse_5fdb587e_20b2_4c29_8f73_0c3d8f724eb1" legend_exp="" name="Land Use" source="./data-internal/landuse.geojson|layername=landuse" providerKey="ogr" legend_split_behavior="0">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" patch_size="0,0" id="OpenStreetMap_40cda925_9224_41bc_9932_8a15662279b1" legend_exp="" name="OpenStreetMap" source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=http://a.tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0" providerKey="wms" legend_split_behavior="0">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" patch_size="0,0" id="alos_dem_bdd2b2ad_5f38_48dd_8a7c_88a79c5d0415" legend_exp="" name="Hillshade" source="./data-external/alos-dem.tif" providerKey="gdal" legend_split_behavior="0">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" patch_size="0,0" id="alos_dem_bdd2b2ad_5f38_48dd_8a7c_88a79c5d0415" legend_exp="" name="Hillshade" source="./data-external/alos-dem.tif" providerKey="gdal" legend_split_behavior="0">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="0" checked="Qt::Unchecked" patch_size="0,0" id="alos_dem_72cbf94e_f8d7_450c_b004_7cf461c4c7d8" legend_exp="" name="Elevation" source="./data-external/alos-dem.tif" providerKey="gdal" legend_split_behavior="0">
+    <layer-tree-layer expanded="0" checked="Qt::Checked" patch_size="0,0" id="alos_dem_72cbf94e_f8d7_450c_b004_7cf461c4c7d8" legend_exp="" name="Elevation" source="./data-external/alos-dem.tif" providerKey="gdal" legend_split_behavior="0">
       <customproperties/>
     </layer-tree-layer>
     <custom-order enabled="0">
@@ -65,10 +65,10 @@
       <item>alos_dem_72cbf94e_f8d7_450c_b004_7cf461c4c7d8</item>
       <item>alos_dem_bdd2b2ad_5f38_48dd_8a7c_88a79c5d0415</item>
       <item>streets_a2b76a53_9683_4a95_8ff3_094db4a3422c</item>
-      <item>OpenStreetMap_40cda925_9224_41bc_9932_8a15662279b1</item>
       <item>Streets_0d29fc64_af9f_4899_8dca_531d0d9a956d</item>
       <item>city_grid_5dc7923c_cfe7_4210_b6ba_ae1d672b2195</item>
       <item>Reprojected_0c260c54_717b_4b10_939c_7583b49037d7</item>
+      <item>Lakes___Devilfish_aef9117a_d225_48fb_b3dd_bae338677ac8</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings unit="1" tolerance="12" intersection-snapping="0" maxScale="0" enabled="0" mode="2" scaleDependencyMode="0" minScale="0" self-snapping="0" type="1">
@@ -78,6 +78,7 @@
       <layer-setting tolerance="12" maxScale="0" enabled="0" id="city_grid_5dc7923c_cfe7_4210_b6ba_ae1d672b2195" units="1" minScale="0" type="1"/>
       <layer-setting tolerance="12" maxScale="0" enabled="0" id="landuse_5fdb587e_20b2_4c29_8f73_0c3d8f724eb1" units="1" minScale="0" type="1"/>
       <layer-setting tolerance="12" maxScale="0" enabled="0" id="boundaries_8392bb63_6bdc_4d98_b63a_d358ba0e349e" units="1" minScale="0" type="1"/>
+      <layer-setting tolerance="12" maxScale="0" enabled="0" id="Lakes___Devilfish_aef9117a_d225_48fb_b3dd_bae338677ac8" units="1" minScale="0" type="1"/>
       <layer-setting tolerance="12" maxScale="0" enabled="0" id="pois_fdbe2e3b_3791_4818_8e1b_4b578f2cac50" units="1" minScale="0" type="1"/>
       <layer-setting tolerance="12" maxScale="0" enabled="0" id="rivers_79409b2b_2391_4e5b_8db1_ea05972824d3" units="1" minScale="0" type="1"/>
       <layer-setting tolerance="12" maxScale="0" enabled="0" id="mn_dnr_lakes_063e6742_003b_4566_bf0e_5a23510898f2" units="1" minScale="0" type="1"/>
@@ -88,10 +89,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>degrees</units>
     <extent>
-      <xmin>-90.653942716738797</xmin>
-      <ymin>47.85989076989795166</ymin>
-      <xmax>-90.30048278308252918</xmax>
-      <ymax>47.9517431895983961</ymax>
+      <xmin>-90.03129895200575561</xmin>
+      <ymin>47.88780205747218588</ymin>
+      <xmax>-89.98711646029872213</xmax>
+      <ymax>47.89928360993474143</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -147,6 +148,11 @@
         <legendlayerfile isInOverview="0" visible="1" layerid="rivers_79409b2b_2391_4e5b_8db1_ea05972824d3"/>
       </filegroup>
     </legendlayer>
+    <legendlayer open="true" checked="Qt::Checked" drawingOrder="-1" name="Lakes - Devilfish" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" visible="1" layerid="Lakes___Devilfish_aef9117a_d225_48fb_b3dd_bae338677ac8"/>
+      </filegroup>
+    </legendlayer>
     <legendlayer open="true" checked="Qt::Checked" drawingOrder="-1" name="Lakes" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" visible="1" layerid="mn_dnr_lakes_063e6742_003b_4566_bf0e_5a23510898f2"/>
@@ -157,19 +163,14 @@
         <legendlayerfile isInOverview="0" visible="1" layerid="landuse_5fdb587e_20b2_4c29_8f73_0c3d8f724eb1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="true" checked="Qt::Unchecked" drawingOrder="-1" name="OpenStreetMap" showFeatureCount="0">
+    <legendlayer open="true" checked="Qt::Checked" drawingOrder="-1" name="Hillshade" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" visible="0" layerid="OpenStreetMap_40cda925_9224_41bc_9932_8a15662279b1"/>
+        <legendlayerfile isInOverview="0" visible="1" layerid="alos_dem_bdd2b2ad_5f38_48dd_8a7c_88a79c5d0415"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="true" checked="Qt::Unchecked" drawingOrder="-1" name="Hillshade" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" visible="0" layerid="alos_dem_bdd2b2ad_5f38_48dd_8a7c_88a79c5d0415"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer open="false" checked="Qt::Unchecked" drawingOrder="-1" name="Elevation" showFeatureCount="0">
+    <legendlayer open="false" checked="Qt::Checked" drawingOrder="-1" name="Elevation" showFeatureCount="0">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" visible="0" layerid="alos_dem_72cbf94e_f8d7_450c_b004_7cf461c4c7d8"/>
+        <legendlayerfile isInOverview="0" visible="1" layerid="alos_dem_72cbf94e_f8d7_450c_b004_7cf461c4c7d8"/>
       </filegroup>
     </legendlayer>
   </legend>
@@ -251,48 +252,39 @@
     <expressionContextScope/>
   </mapcanvas>
   <projectlayers>
-    <maplayer autoRefreshTime="0" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" maxScale="0" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" minScale="1e+08" refreshOnNotifyMessage="" type="raster">
+    <maplayer maxScale="0" simplifyLocal="1" wkbType="Polygon" autoRefreshEnabled="0" simplifyDrawingHints="1" type="vector" readOnly="0" styleCategories="AllStyleCategories" autoRefreshTime="0" simplifyDrawingTol="1" minScale="100000000" hasScaleBasedVisibilityFlag="0" geometry="Polygon" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" simplifyAlgorithm="0" simplifyMaxScale="1" labelsEnabled="0">
       <extent>
-        <xmin>-20037508.34278924390673637</xmin>
-        <ymin>-20037508.34278925508260727</ymin>
-        <xmax>20037508.34278924390673637</xmax>
-        <ymax>20037508.34278924390673637</ymax>
+        <xmin>-90.02615752627775692</xmin>
+        <ymin>47.85951771710034564</ymin>
+        <xmax>-89.98810861654428095</xmax>
+        <ymax>47.89412599986763297</ymax>
       </extent>
-      <id>OpenStreetMap_40cda925_9224_41bc_9932_8a15662279b1</id>
-      <datasource>crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=http://a.tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0</datasource>
+      <id>Lakes___Devilfish_aef9117a_d225_48fb_b3dd_bae338677ac8</id>
+      <datasource>./data-internal/lakes.geojson|layername=lakes</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>OpenStreetMap</layername>
+      <layername>Lakes - Devilfish</layername>
       <srs>
         <spatialrefsys>
-          <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["World - 85°S to 85°N"],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
-          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
-          <srsid>3857</srsid>
-          <srid>3857</srid>
-          <authid>EPSG:3857</authid>
-          <description>WGS 84 / Pseudo-Mercator</description>
-          <projectionacronym>merc</projectionacronym>
+          <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
           <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
+          <geographicflag>true</geographicflag>
         </spatialrefsys>
       </srs>
       <resourceMetadata>
         <identifier></identifier>
         <parentidentifier></parentidentifier>
         <language></language>
-        <type></type>
+        <type>dataset</type>
         <title></title>
         <abstract></abstract>
-        <contact>
-          <name></name>
-          <organization></organization>
-          <position></position>
-          <voice></voice>
-          <fax></fax>
-          <email></email>
-          <role></role>
-        </contact>
         <links/>
         <fees></fees>
         <encoding></encoding>
@@ -309,57 +301,101 @@
             <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
-        <extent>
-          <spatial miny="0" dimensions="2" crs="" maxx="0" maxy="0" maxz="0" minz="0" minx="0"/>
-          <temporal>
-            <period>
-              <start></start>
-              <end></end>
-            </period>
-          </temporal>
-        </extent>
+        <extent/>
       </resourceMetadata>
-      <provider>wms</provider>
-      <noData>
-        <noDataList useSrcNoData="0" bandNo="1"/>
-      </noData>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
       <map-layer-style-manager current="default">
         <map-layer-style name="default"/>
       </map-layer-style-manager>
+      <auxiliaryLayer/>
       <flags>
         <Identifiable>1</Identifiable>
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <temporal enabled="0" mode="0" fetchMode="0">
+      <temporal durationField="" endField="" durationUnit="min" accumulate="0" enabled="0" endExpression="" mode="0" startField="" startExpression="" fixedDuration="0">
         <fixedRange>
           <start></start>
           <end></end>
         </fixedRange>
       </temporal>
-      <customproperties>
-        <property key="WMSBackgroundLayer" value="false"/>
-        <property key="WMSPublishDataSourceUrl" value="false"/>
-        <property key="embeddedWidgets/count" value="0"/>
-        <property key="identify/format" value="Undefined"/>
-      </customproperties>
-      <pipe>
-        <rasterrenderer opacity="0.7" band="1" alphaBand="-1" type="singlebandcolordata" nodataColor="">
-          <rasterTransparency/>
-          <minMaxOrigin>
-            <limits>None</limits>
-            <extent>WholeRaster</extent>
-            <statAccuracy>Estimated</statAccuracy>
-            <cumulativeCutLower>0.02</cumulativeCutLower>
-            <cumulativeCutUpper>0.98</cumulativeCutUpper>
-            <stdDevFactor>2</stdDevFactor>
-          </minMaxOrigin>
-        </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="0"/>
-        <huesaturation saturation="0" colorizeOn="0" colorizeStrength="100" grayscaleMode="0" colorizeGreen="128" colorizeRed="255" colorizeBlue="128"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
+      <renderer-v2 enableorderby="0" forceraster="0" symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol force_rhr="0" alpha="1" name="0" clip_to_extent="1" type="fill">
+            <layer pass="0" enabled="1" class="SimpleFill" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="165,191,221,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="165,191,221,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
       <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <referencedLayers/>
+      <referencingLayers/>
+      <fieldConfiguration/>
+      <aliases/>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults/>
+      <constraints/>
+      <constraintExpressions/>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
     </maplayer>
     <maplayer maxScale="0" simplifyLocal="1" wkbType="Point" autoRefreshEnabled="0" simplifyDrawingHints="0" type="vector" readOnly="0" styleCategories="AllStyleCategories" autoRefreshTime="0" simplifyDrawingTol="1" minScale="100000" hasScaleBasedVisibilityFlag="1" geometry="Point" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" simplifyAlgorithm="0" simplifyMaxScale="1" labelsEnabled="1">
       <extent>
@@ -450,44 +486,10 @@
           <end></end>
         </fixedRange>
       </temporal>
-      <renderer-v2 enableorderby="0" forceraster="0" symbollevels="0" type="singleSymbol">
-        <symbols>
-          <symbol force_rhr="0" alpha="1" name="0" clip_to_extent="1" type="marker">
-            <layer pass="0" enabled="1" class="SimpleMarker" locked="0">
-              <prop v="0" k="angle"/>
-              <prop v="114,155,111,255" k="color"/>
-              <prop v="1" k="horizontal_anchor_point"/>
-              <prop v="bevel" k="joinstyle"/>
-              <prop v="circle" k="name"/>
-              <prop v="0,0" k="offset"/>
-              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-              <prop v="MM" k="offset_unit"/>
-              <prop v="35,35,35,255" k="outline_color"/>
-              <prop v="solid" k="outline_style"/>
-              <prop v="0" k="outline_width"/>
-              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
-              <prop v="MM" k="outline_width_unit"/>
-              <prop v="diameter" k="scale_method"/>
-              <prop v="2" k="size"/>
-              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
-              <prop v="MM" k="size_unit"/>
-              <prop v="1" k="vertical_anchor_point"/>
-              <data_defined_properties>
-                <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
-                  <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
-                </Option>
-              </data_defined_properties>
-            </layer>
-          </symbol>
-        </symbols>
-        <rotation/>
-        <sizescale/>
-      </renderer-v2>
+      <renderer-v2 type="nullSymbol"/>
       <labeling type="simple">
         <settings calloutType="simple">
-          <text-style namedStyle="Regular" textColor="0,0,0,255" fontStrikeout="0" fontLetterSpacing="0.5" fontWeight="50" fontKerning="1" fieldName="Label" fontSize="7" fontSizeUnit="Point" useSubstitutions="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontFamily="Trebuchet MS" multilineHeight="1" allowHtml="0" isExpression="0" fontItalic="0" fontCapitals="1" fontUnderline="0" textOrientation="horizontal" blendMode="0" previewBkgrdColor="255,255,255,255" fontWordSpacing="3" textOpacity="0.75">
+          <text-style namedStyle="Regular" textColor="0,0,0,255" fontStrikeout="0" fontLetterSpacing="0.5" fontWeight="50" fontKerning="1" fieldName="Label" fontSize="7" fontSizeUnit="Point" useSubstitutions="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontFamily="Trebuchet MS" multilineHeight="1" allowHtml="0" isExpression="0" fontItalic="0" fontCapitals="1" fontUnderline="0" textOrientation="horizontal" blendMode="0" previewBkgrdColor="255,255,255,255" fontWordSpacing="0.984375" textOpacity="0.75">
             <text-buffer bufferOpacity="1" bufferJoinStyle="128" bufferSize="1" bufferBlendMode="0" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSizeUnits="MM" bufferDraw="0" bufferNoFill="1" bufferColor="255,255,255,255"/>
             <text-mask maskSize="1.5" maskEnabled="0" maskOpacity="1" maskJoinStyle="128" maskedSymbolLayers="" maskType="0" maskSizeUnits="MM" maskSizeMapUnitScale="3x:0,0,0,0,0,0"/>
             <background shapeOffsetY="0" shapeSizeType="0" shapeType="0" shapeSVGFile="" shapeRadiiUnit="MM" shapeRotationType="0" shapeFillColor="255,255,255,255" shapeBorderWidth="0" shapeBlendMode="0" shapeJoinStyle="64" shapeOpacity="1" shapeOffsetX="0" shapeBorderColor="128,128,128,255" shapeRadiiX="0" shapeRadiiY="0" shapeOffsetUnit="MM" shapeRotation="0" shapeSizeUnit="MM" shapeBorderWidthUnit="MM" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeDraw="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeSizeX="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeSizeY="0">
@@ -5110,10 +5112,10 @@ def my_form_open(dialog, layer, feature):
     <layer id="alos_dem_72cbf94e_f8d7_450c_b004_7cf461c4c7d8"/>
     <layer id="alos_dem_bdd2b2ad_5f38_48dd_8a7c_88a79c5d0415"/>
     <layer id="streets_a2b76a53_9683_4a95_8ff3_094db4a3422c"/>
-    <layer id="OpenStreetMap_40cda925_9224_41bc_9932_8a15662279b1"/>
     <layer id="Streets_0d29fc64_af9f_4899_8dca_531d0d9a956d"/>
     <layer id="city_grid_5dc7923c_cfe7_4210_b6ba_ae1d672b2195"/>
     <layer id="Reprojected_0c260c54_717b_4b10_939c_7583b49037d7"/>
+    <layer id="Lakes___Devilfish_aef9117a_d225_48fb_b3dd_bae338677ac8"/>
   </layerorder>
   <properties>
     <DefaultStyles>
