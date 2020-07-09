@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUser="Keira" saveDateTime="2020-06-30T21:36:56" version="3.14.0-Pi" projectname="Devilfish, Minnesota" saveUserFull="Keira Dueck">
+<qgis saveUser="Keira" saveDateTime="2020-07-01T00:54:46" version="3.14.0-Pi" projectname="Devilfish, Minnesota" saveUserFull="Keira Dueck">
   <homePath path="C:/Users/Keira/Documents/GitHub/devilfish-map"/>
   <title>Devilfish, Minnesota</title>
   <autotransaction active="0"/>
@@ -50,10 +50,10 @@
     <layer-tree-layer expanded="1" checked="Qt::Checked" patch_size="0,0" id="landuse_5fdb587e_20b2_4c29_8f73_0c3d8f724eb1" legend_exp="" name="Land Use" source="./data-internal/landuse.geojson|layername=landuse" providerKey="ogr" legend_split_behavior="0">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" patch_size="0,0" id="alos_dem_bdd2b2ad_5f38_48dd_8a7c_88a79c5d0415" legend_exp="" name="Hillshade" source="./data-external/alos-dem.tif" providerKey="gdal" legend_split_behavior="0">
+    <layer-tree-layer expanded="1" checked="Qt::Checked" patch_size="0,0" id="alos_dem_bdd2b2ad_5f38_48dd_8a7c_88a79c5d0415" legend_exp="" name="Hillshade" source="./data-external/alos-dem.tif" providerKey="gdal" legend_split_behavior="0">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" checked="Qt::Unchecked" patch_size="0,0" id="alos_dem_72cbf94e_f8d7_450c_b004_7cf461c4c7d8" legend_exp="" name="Elevation" source="./data-external/alos-dem.tif" providerKey="gdal" legend_split_behavior="0">
+    <layer-tree-layer expanded="0" checked="Qt::Checked" patch_size="0,0" id="alos_dem_72cbf94e_f8d7_450c_b004_7cf461c4c7d8" legend_exp="" name="Elevation" source="./data-external/alos-dem.tif" providerKey="gdal" legend_split_behavior="0">
       <customproperties/>
     </layer-tree-layer>
     <custom-order enabled="0">
@@ -89,10 +89,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>degrees</units>
     <extent>
-      <xmin>-90.24029713349418103</xmin>
-      <ymin>47.87661763689808225</ymin>
-      <xmax>-90.06356716666240914</xmax>
-      <ymax>47.92254384674648549</ymax>
+      <xmin>-90.3500961142600687</xmin>
+      <ymin>47.72941734825852933</ymin>
+      <xmax>-89.71765459338770654</xmax>
+      <ymax>47.99303149584827821</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -163,14 +163,14 @@
         <legendlayerfile isInOverview="0" visible="1" layerid="landuse_5fdb587e_20b2_4c29_8f73_0c3d8f724eb1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="true" checked="Qt::Unchecked" drawingOrder="-1" name="Hillshade" showFeatureCount="0">
+    <legendlayer open="true" checked="Qt::Checked" drawingOrder="-1" name="Hillshade" showFeatureCount="0">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" visible="0" layerid="alos_dem_bdd2b2ad_5f38_48dd_8a7c_88a79c5d0415"/>
+        <legendlayerfile isInOverview="0" visible="1" layerid="alos_dem_bdd2b2ad_5f38_48dd_8a7c_88a79c5d0415"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="false" checked="Qt::Unchecked" drawingOrder="-1" name="Elevation" showFeatureCount="0">
+    <legendlayer open="false" checked="Qt::Checked" drawingOrder="-1" name="Elevation" showFeatureCount="0">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" visible="0" layerid="alos_dem_72cbf94e_f8d7_450c_b004_7cf461c4c7d8"/>
+        <legendlayerfile isInOverview="0" visible="1" layerid="alos_dem_72cbf94e_f8d7_450c_b004_7cf461c4c7d8"/>
       </filegroup>
     </legendlayer>
   </legend>
@@ -2030,7 +2030,7 @@ def my_form_open(dialog, layer, feature):
       <flags>
         <Identifiable>1</Identifiable>
         <Removable>1</Removable>
-        <Searchable>1</Searchable>
+        <Searchable>0</Searchable>
       </flags>
       <temporal enabled="0" mode="0" fetchMode="0">
         <fixedRange>
@@ -5150,7 +5150,7 @@ def my_form_open(dialog, layer, feature):
       <pythonCode type="QString"></pythonCode>
     </Macros>
     <Measure>
-      <Ellipsoid type="QString">WGS84</Ellipsoid>
+      <Ellipsoid type="QString">NONE</Ellipsoid>
     </Measure>
     <Measurement>
       <AreaUnits type="QString">ac</AreaUnits>
@@ -5199,20 +5199,28 @@ def my_form_open(dialog, layer, feature):
     <WMSContactPerson type="QString"></WMSContactPerson>
     <WMSContactPhone type="QString"></WMSContactPhone>
     <WMSContactPosition type="QString"></WMSContactPosition>
+    <WMSDefaultMapUnitsPerMm type="double">2.73986161656454e-06</WMSDefaultMapUnitsPerMm>
     <WMSFees type="QString">conditions unknown</WMSFees>
     <WMSImageQuality type="int">90</WMSImageQuality>
     <WMSKeywordList type="QStringList">
       <value></value>
     </WMSKeywordList>
+    <WMSMaxAtlasFeatures type="int">1</WMSMaxAtlasFeatures>
     <WMSOnlineResource type="QString"></WMSOnlineResource>
     <WMSPrecision type="QString">8</WMSPrecision>
     <WMSRequestDefinedDataSources type="bool">false</WMSRequestDefinedDataSources>
+    <WMSRootName type="QString"></WMSRootName>
     <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
     <WMSServiceAbstract type="QString"></WMSServiceAbstract>
     <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
     <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <WMSTileBuffer type="int">0</WMSTileBuffer>
     <WMSUrl type="QString"></WMSUrl>
     <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WMTSGrids>
+      <CRS type="QStringList"/>
+      <Config type="QStringList"/>
+    </WMTSGrids>
     <WMTSJpegLayers>
       <Group type="QStringList"/>
       <Layer type="QStringList"/>
@@ -5326,7 +5334,7 @@ def my_form_open(dialog, layer, feature):
         </LayoutItem>
         <GuideCollection visible="1"/>
       </PageCollection>
-      <LayoutItem excludeFromExports="0" htmlState="0" referencePoint="8" itemRotation="0" valign="64" frame="false" size="190.494,3.22347,mm" zValue="2" visibility="1" positionOnPage="420,297,mm" groupUuid="" type="65641" frameJoinStyle="miter" marginX="0" marginY="0" halign="2" opacity="1" background="false" templateUuid="{996b77e1-9e79-479d-9a23-8fb515db68bd}" id="" labelText="[%@project_filename%]|[%@layout_name%] rev [%env('devilfishGitRev')%] // [%format_date(now(), 'yyyy-MM-dd HH:mm:ss')%] // qgis [% @qgis_version %]" uuid="{996b77e1-9e79-479d-9a23-8fb515db68bd}" blendMode="0" position="420,297,mm" outlineWidthM="0.3,mm" positionLock="false">
+      <LayoutItem excludeFromExports="0" htmlState="0" referencePoint="8" itemRotation="0" valign="64" frame="false" size="56.0282,36.143,mm" zValue="4" visibility="1" positionOnPage="420,297,mm" groupUuid="" type="65641" frameJoinStyle="miter" marginX="1" marginY="1" halign="2" opacity="1" background="false" templateUuid="{6be2a2f3-cfe4-4831-97ba-874ff3ec4db6}" id="" labelText="[%@project_filename%] // [%@layout_name%]&#xa;tag [%env('devilfishGitRev')%]&#xa;[%format_date(now(), 'yyyy-MM-dd HH:mm:ss')%]&#xa;qgis [% @qgis_version %]" uuid="{6be2a2f3-cfe4-4831-97ba-874ff3ec4db6}" blendMode="0" position="420,297,mm" outlineWidthM="0.3,mm" positionLock="false">
         <FrameColor blue="0" red="0" alpha="255" green="0"/>
         <BackgroundColor blue="255" red="255" alpha="255" green="255"/>
         <LayoutObject>
@@ -5339,7 +5347,7 @@ def my_form_open(dialog, layer, feature):
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
-        <LabelFont description="Fira Code Retina,3,-1,5,57,0,0,0,0,0,Retina" style="Retina"/>
+        <LabelFont description="Fira Code Retina,6,-1,5,57,0,0,0,0,0,Retina" style="Retina"/>
         <FontColor blue="0" red="0" alpha="255" green="0"/>
       </LayoutItem>
       <LayoutItem excludeFromExports="0" referencePoint="0" itemRotation="0" frame="false" size="420,297,mm" isTemporal="0" zValue="1" visibility="1" positionOnPage="0,0,mm" keepLayerSet="false" groupUuid="" type="65639" frameJoinStyle="miter" opacity="1" background="true" labelMargin="0,mm" mapFlags="0" templateUuid="{6cc92c23-2d3a-4d8c-abe1-215191191225}" mapRotation="0" drawCanvasItems="true" id="" uuid="{6cc92c23-2d3a-4d8c-abe1-215191191225}" blendMode="0" position="0,0,mm" followPreset="false" outlineWidthM="0.3,mm" followPresetName="" positionLock="false">
@@ -5442,7 +5450,7 @@ def my_form_open(dialog, layer, feature):
         </LayoutItem>
         <GuideCollection visible="1"/>
       </PageCollection>
-      <LayoutItem excludeFromExports="0" htmlState="0" referencePoint="8" itemRotation="0" valign="64" frame="false" size="190.494,3.22347,mm" zValue="2" visibility="1" positionOnPage="694.593,297,mm" groupUuid="" type="65641" frameJoinStyle="miter" marginX="0" marginY="0" halign="2" opacity="1" background="false" templateUuid="{58be9d07-7068-4d08-9611-40ebe07341b6}" id="" labelText="[%@project_filename%]|[%@layout_name%] rev [%env('devilfishGitRev')%] // [%format_date(now(), 'yyyy-MM-dd HH:mm:ss')%] // qgis [% @qgis_version %]" uuid="{58be9d07-7068-4d08-9611-40ebe07341b6}" blendMode="0" position="694.593,297,mm" outlineWidthM="0.3,mm" positionLock="false">
+      <LayoutItem excludeFromExports="0" htmlState="0" referencePoint="8" itemRotation="0" valign="64" frame="false" size="56.0282,36.143,mm" zValue="2" visibility="1" positionOnPage="694.593,297,mm" groupUuid="" type="65641" frameJoinStyle="miter" marginX="1" marginY="1" halign="2" opacity="1" background="false" templateUuid="{58be9d07-7068-4d08-9611-40ebe07341b6}" id="" labelText="[%@project_filename%] // [%@layout_name%]&#xa;tag [%env('devilfishGitRev')%]&#xa;[%format_date(now(), 'yyyy-MM-dd HH:mm:ss')%]&#xa;qgis [% @qgis_version %]" uuid="{58be9d07-7068-4d08-9611-40ebe07341b6}" blendMode="0" position="694.593,297,mm" outlineWidthM="0.3,mm" positionLock="false">
         <FrameColor blue="0" red="0" alpha="255" green="0"/>
         <BackgroundColor blue="255" red="255" alpha="255" green="255"/>
         <LayoutObject>
@@ -5455,7 +5463,7 @@ def my_form_open(dialog, layer, feature):
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
-        <LabelFont description="Fira Code Retina,3,-1,5,57,0,0,0,0,0,Retina" style="Retina"/>
+        <LabelFont description="Fira Code Retina,6,-1,5,57,0,0,0,0,0,Retina" style="Retina"/>
         <FontColor blue="0" red="0" alpha="255" green="0"/>
       </LayoutItem>
       <LayoutItem excludeFromExports="0" referencePoint="0" itemRotation="0" frame="false" size="694.593,297,mm" isTemporal="0" zValue="1" visibility="1" positionOnPage="0,0,mm" keepLayerSet="false" groupUuid="" type="65639" frameJoinStyle="miter" opacity="1" background="true" labelMargin="0,mm" mapFlags="0" templateUuid="{b6dd1516-d830-4a6b-8dfe-3e06ee3eedae}" mapRotation="0" drawCanvasItems="true" id="" uuid="{b6dd1516-d830-4a6b-8dfe-3e06ee3eedae}" blendMode="0" position="0,0,mm" followPreset="false" outlineWidthM="0.3,mm" followPresetName="" positionLock="true">

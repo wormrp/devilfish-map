@@ -24,6 +24,7 @@
 { "type": "Feature", "properties": { "fid": 19, "Label": "Federal Building", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.169875218823037, 47.889935520416024 ] } },
 { "type": "Feature", "properties": { "fid": 20, "Label": "Imperial Street Station", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.144205859553125, 47.881328421758759 ] } },
 { "type": "Feature", "properties": { "fid": 21, "Label": "DRR Terminal", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.074328159318313, 47.829416447807873 ] } },
-{ "type": "Feature", "properties": { "fid": 22, "Label": "Pineland Hutterite Colony", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.892182467168425, 47.806673649821271 ] } }
+{ "type": "Feature", "properties": { "fid": 22, "Label": "Pineland Hutterite Colony", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.892182467168425, 47.806673649821271 ] } },
+{ "type": "Feature", "properties": { "fid": 23, "Label": "Camp Gunflint", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.764892788190721, 48.083655959786903 ] } }
 ]
 }
