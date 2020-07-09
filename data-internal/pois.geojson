@@ -25,6 +25,25 @@
 { "type": "Feature", "properties": { "fid": 20, "Label": "Imperial Street Station", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.144205859553125, 47.881328421758759 ] } },
 { "type": "Feature", "properties": { "fid": 21, "Label": "DRR Terminal", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.074328159318313, 47.829416447807873 ] } },
 { "type": "Feature", "properties": { "fid": 22, "Label": "Pineland Hutterite Colony", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.892182467168425, 47.806673649821271 ] } },
-{ "type": "Feature", "properties": { "fid": 23, "Label": "Camp Gunflint", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.764892788190721, 48.083655959786903 ] } }
+{ "type": "Feature", "properties": { "fid": 23, "Label": "Camp Gunflint", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.764892788190721, 48.083655959786903 ] } },
+{ "type": "Feature", "properties": { "fid": 24, "Label": "Great Lakes Lumber Company", "type": "" }, "geometry": { "type": "Point", "coordinates": [ -90.854568448494192, 48.04035136652945 ] } },
+{ "type": "Feature", "properties": { "fid": 25, "Label": "City Hall", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.163377777356459, 47.875341420287207 ] } },
+{ "type": "Feature", "properties": { "fid": 26, "Label": "Cook County Courthouse", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.172876366896503, 47.900247170813522 ] } },
+{ "type": "Feature", "properties": { "fid": 27, "Label": "Police HQ", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.196585444724846, 47.879230606555574 ] } },
+{ "type": "Feature", "properties": { "fid": 28, "Label": "Devilfish Dump", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.03103325616631, 47.852529846982357 ] } },
+{ "type": "Feature", "properties": { "fid": 29, "Label": "Waste Treatment Plant", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.055228482278281, 47.839254259239354 ] } },
+{ "type": "Feature", "properties": { "fid": 30, "Label": "DMV", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.530382335412455, 47.954733174592562 ] } },
+{ "type": "Feature", "properties": { "fid": 31, "Label": "Animal Shelter", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.159899947328114, 47.827923264630535 ] } },
+{ "type": "Feature", "properties": { "fid": 32, "Label": "Big Jim Salvage", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.060389133288268, 47.836075597385381 ] } },
+{ "type": "Feature", "properties": { "fid": 33, "Label": "435 Auto Salvage", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.052872532904203, 47.884653029718201 ] } },
+{ "type": "Feature", "properties": { "fid": 34, "Label": "A1 Towing", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.172988554962032, 47.805336067456501 ] } },
+{ "type": "Feature", "properties": { "fid": 35, "Label": "Greyhound Bus", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.182075788262267, 47.849164205019321 ] } },
+{ "type": "Feature", "properties": { "fid": 36, "Label": "Devilfish Marina", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.330051846569461, 47.751037043786518 ] } },
+{ "type": "Feature", "properties": { "fid": 37, "Label": "Cloverleaf Acres Mall", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.356303853881016, 47.918346845370209 ] } },
+{ "type": "Feature", "properties": { "fid": 38, "Label": "Devilfish Zoo and Fish Hatchery", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.47806530089855, 47.882110100235074 ] } },
+{ "type": "Feature", "properties": { "fid": 39, "Label": "Gilbert Spencer Perfoming Arts Theatre", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.21214218979847, 47.923844060576478 ] } },
+{ "type": "Feature", "properties": { "fid": 40, "Label": "Big Dicks Brewery", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.172801574853011, 47.866590751183438 ] } },
+{ "type": "Feature", "properties": { "fid": 41, "Label": "Cook County Fairgrounds", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.449980888518212, 47.965166664677959 ] } },
+{ "type": "Feature", "properties": { "fid": 42, "Label": "Bombtastic Bob's Family Fun Center", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.380723456123704, 47.959632053449909 ] } }
 ]
 }
