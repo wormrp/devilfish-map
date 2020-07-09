@@ -36,7 +36,7 @@
 { "type": "Feature", "properties": { "id": 30, "Label": "Cascade Ranch" }, "geometry": { "type": "Point", "coordinates": [ -90.534782062451129, 47.874801057155182 ] } },
 { "type": "Feature", "properties": { "id": 31, "Label": "Ridgemont Village" }, "geometry": { "type": "Point", "coordinates": [ -90.141515921883766, 47.918444006901176 ] } },
 { "type": "Feature", "properties": { "id": 32, "Label": "Ravenwood" }, "geometry": { "type": "Point", "coordinates": [ -90.41824099884397, 47.890627621348784 ] } },
-{ "type": "Feature", "properties": { "id": 33, "Label": "Mint Hill" }, "geometry": { "type": "Point", "coordinates": [ -90.339587770730503, 47.95057672814275 ] } },
+{ "type": "Feature", "properties": { "id": 33, "Label": "Pleasant Valley" }, "geometry": { "type": "Point", "coordinates": [ -90.339587770730503, 47.95057672814275 ] } },
 { "type": "Feature", "properties": { "id": 34, "Label": "Stonehaven" }, "geometry": { "type": "Point", "coordinates": [ -90.03025037967447, 47.827800957428721 ] } },
 { "type": "Feature", "properties": { "id": 35, "Label": "Canary Hills" }, "geometry": { "type": "Point", "coordinates": [ -90.46715946998772, 47.892545992766188 ] } },
 { "type": "Feature", "properties": { "id": 36, "Label": "Cloverleaf Acres" }, "geometry": { "type": "Point", "coordinates": [ -90.359730670613217, 47.924678714007747 ] } },
