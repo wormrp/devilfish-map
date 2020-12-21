@@ -4,7 +4,7 @@
 Remove-Item "export" -Recurse -ErrorAction Ignore
 mkdir "export" | out-null
 
-$env:devilfishGitRev = $(git describe --always)
+$env:devilfishGitRev = $(git describe --tags --dirty --always)
 
 Get-ChildItem "." -Filter *.qgs | 
 Foreach-Object {
