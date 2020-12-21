@@ -8,11 +8,12 @@ $env:devilfishGitRev = $(git describe --always)
 
 Get-ChildItem "." -Filter *.qgs | 
 Foreach-Object {
-    python-qgis .\renderMaps.py $_.FullName
+	echo $_.FullName
+	Measure-Command { python-qgis .\renderMaps.py $_.FullName | Out-Default }
 }
 
 
 Get-ChildItem "export" -Filter *.png | 
 Foreach-Object {
-    optipng $_.FullName
+	Measure-Command { optipng $_.FullName | Out-Default }
 }
