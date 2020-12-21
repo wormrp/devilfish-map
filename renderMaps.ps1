@@ -6,7 +6,11 @@ mkdir "export" | out-null
 
 $env:devilfishGitRev = $(git describe --always)
 
-python-qgis .\renderMaps.py
+Get-ChildItem "." -Filter *.qgs | 
+Foreach-Object {
+    python-qgis .\renderMaps.py $_.FullName
+}
+
 
 Get-ChildItem "export" -Filter *.png | 
 Foreach-Object {

@@ -1,13 +1,14 @@
 from qgis.core import *
 from osgeo import gdal
 import os
+import sys
 
 gdal.PushErrorHandler('CPLQuietErrorHandler')
 
 qgs = QgsApplication([], False)
 qgs.initQgis()
 project = QgsProject.instance()
-project.read('devilfish.qgs')
+project.read(sys.argv[1])
 
 layouts = project.layoutManager().layouts()
 settings = QgsLayoutExporter.ImageExportSettings()
