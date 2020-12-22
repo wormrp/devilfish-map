@@ -8,8 +8,10 @@ $env:devilfishGitRev = $(git describe --tags --dirty --always)
 
 Get-ChildItem "." -Filter *.qgs | 
 Foreach-Object {
-	echo $_.FullName
-	Measure-Command { python-qgis .\renderMaps.py $_.FullName | Out-Default }
+	if ($_.FullName -notmatch '\~$')  {
+		echo $_.FullName
+		Measure-Command { python-qgis .\renderMaps.py $_.FullName | Out-Default }
+	}
 }
 
 
