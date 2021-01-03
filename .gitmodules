@@ -1,0 +1,4 @@
+[submodule "pwb"]
+	path = pwb
+	url = https://gerrit.wikimedia.org/r/pywikibot/core.git
+	branch = stable
