@@ -50,6 +50,13 @@
 { "type": "Feature", "properties": { "fid": 45, "Label": "West Precinct", "type": null, "owner": "Heroes" }, "geometry": { "type": "Point", "coordinates": [ -90.509389377263801, 47.93187957614051 ] } },
 { "type": "Feature", "properties": { "fid": 46, "Label": "The Collector", "type": null, "owner": null }, "geometry": { "type": "Point", "coordinates": [ -90.23464642145089, 47.847497304443692 ] } },
 { "type": "Feature", "properties": { "fid": 47, "Label": "Eva", "type": null, "owner": null }, "geometry": { "type": "Point", "coordinates": [ -90.469486574207181, 47.898341198661008 ] } },
-{ "type": "Feature", "properties": { "fid": 48, "Label": "1st Intl Bank of Minnesota", "type": null, "owner": null }, "geometry": { "type": "Point", "coordinates": [ -90.200106898374983, 47.899556875456646 ] } }
+{ "type": "Feature", "properties": { "fid": 48, "Label": "1st Intl Bank of Minnesota", "type": null, "owner": null }, "geometry": { "type": "Point", "coordinates": [ -90.200106898374983, 47.899556875456646 ] } },
+{ "type": "Feature", "properties": { "fid": 49, "Label": "Deckard Co. Iron Mine", "type": null, "owner": null }, "geometry": { "type": "Point", "coordinates": [ -90.996039348778751, 48.003434980062586 ] } },
+{ "type": "Feature", "properties": { "fid": 50, "Label": "Mulligan Quarry", "type": null, "owner": null }, "geometry": { "type": "Point", "coordinates": [ -90.843881821170967, 47.916981839376348 ] } },
+{ "type": "Feature", "properties": { "fid": 51, "Label": "Intrepid Creek Mine", "type": null, "owner": null }, "geometry": { "type": "Point", "coordinates": [ -90.856650285026149, 47.662942610590633 ] } },
+{ "type": "Feature", "properties": { "fid": 52, "Label": "Vulcan Resources Mining Operation", "type": null, "owner": null }, "geometry": { "type": "Point", "coordinates": [ -90.71885727925546, 47.73423320044882 ] } },
+{ "type": "Feature", "properties": { "fid": 53, "Label": "Geopulse Copper Mine", "type": null, "owner": null }, "geometry": { "type": "Point", "coordinates": [ -90.572684969079816, 47.808582901438982 ] } },
+{ "type": "Feature", "properties": { "fid": 54, "Label": "Devilfish Granite Co.", "type": null, "owner": null }, "geometry": { "type": "Point", "coordinates": [ -90.434625953645494, 47.800602611529484 ] } },
+{ "type": "Feature", "properties": { "fid": 55, "Label": "Geopulse Gold Mine", "type": null, "owner": null }, "geometry": { "type": "Point", "coordinates": [ -89.961128752348557, 47.95010004250075 ] } }
 ]
 }
