@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUser="Keira" version="3.14.0-Pi" saveDateTime="2021-01-03T04:14:37" projectname="Devilfish, Minnesota" saveUserFull="Keira Dueck">
+<qgis saveUser="Keira" version="3.14.0-Pi" saveDateTime="2021-01-03T08:17:18" projectname="Devilfish, Minnesota" saveUserFull="Keira Dueck">
   <homePath path="C:/Users/Keira/Documents/GitHub/devilfish-map"/>
   <title>Devilfish, Minnesota</title>
   <autotransaction active="0"/>
@@ -65,7 +65,7 @@
         <property key="cached_name" value="Lakes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" name="Land Use" id="landuse_5fdb587e_20b2_4c29_8f73_0c3d8f724eb1" legend_exp="" patch_size="0,0" expanded="1" legend_split_behavior="0" providerKey="ogr" source="./data-internal/landuse.geojson|layername=landuse">
+    <layer-tree-layer checked="Qt::Checked" name="Land Use" id="landuse_5fdb587e_20b2_4c29_8f73_0c3d8f724eb1" legend_exp="" patch_size="0,0" expanded="0" legend_split_behavior="0" providerKey="ogr" source="./data-internal/landuse.geojson|layername=landuse">
       <customproperties>
         <property key="cached_name" value="Land Use"/>
       </customproperties>
@@ -113,10 +113,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>degrees</units>
     <extent>
-      <xmin>-90.69890655448173788</xmin>
-      <ymin>47.71490510284603204</ymin>
-      <xmax>-89.85565592071137075</xmax>
-      <ymax>48.06638866250396802</ymax>
+      <xmin>-90.75963999789652803</xmin>
+      <ymin>47.73566252434132906</ymin>
+      <xmax>-89.9163893641261609</xmax>
+      <ymax>48.08714608399926504</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -182,8 +182,8 @@
         <legendlayerfile layerid="mn_dnr_lakes_063e6742_003b_4566_bf0e_5a23510898f2" isInOverview="0" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer checked="Qt::Checked" name="Land Use" drawingOrder="-1" showFeatureCount="0" open="true">
-      <filegroup hidden="false" open="true">
+    <legendlayer checked="Qt::Checked" name="Land Use" drawingOrder="-1" showFeatureCount="0" open="false">
+      <filegroup hidden="false" open="false">
         <legendlayerfile layerid="landuse_5fdb587e_20b2_4c29_8f73_0c3d8f724eb1" isInOverview="0" visible="1"/>
       </filegroup>
     </legendlayer>
@@ -4417,7 +4417,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer labelsEnabled="1" wkbType="Point" readOnly="0" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="0" autoRefreshTime="0" simplifyDrawingTol="1" maxScale="0" simplifyAlgorithm="0" type="vector" styleCategories="AllStyleCategories" geometry="Point" minScale="100000000" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" simplifyMaxScale="1" simplifyLocal="1">
       <extent>
-        <xmin>-90.89218246716842486</xmin>
+        <xmin>-90.99603934877875133</xmin>
         <ymin>47.59186328835304636</ymin>
         <xmax>-89.65559673622763626</xmax>
         <ymax>48.08365595978690266</ymax>
@@ -4775,7 +4775,9 @@ def my_form_open(dialog, layer, feature):
         </settings>
       </labeling>
       <customproperties>
-        <property key="dualview/previewExpressions" value="&quot;fid&quot;"/>
+        <property key="dualview/previewExpressions">
+          <value>"fid"</value>
+        </property>
         <property key="embeddedWidgets/count" value="0"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
