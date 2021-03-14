@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.14.0-Pi" saveUser="Keira" saveUserFull="Keira Dueck" projectname="Devilfish, Minnesota" saveDateTime="2021-03-14T03:31:28">
+<qgis version="3.14.0-Pi" saveUser="Keira" saveUserFull="Keira Dueck" projectname="Devilfish, Minnesota" saveDateTime="2021-03-14T05:11:36">
   <homePath path="C:/Users/Keira/Documents/GitHub/devilfish-map"/>
   <title>Devilfish, Minnesota</title>
   <autotransaction active="0"/>
@@ -20,7 +20,7 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer name="city-grid" providerKey="ogr" patch_size="-1,-1" source="./data-internal/city-grid.geojson" checked="Qt::Unchecked" id="city_grid_5dc7923c_cfe7_4210_b6ba_ae1d672b2195" expanded="1" legend_exp="" legend_split_behavior="0">
+    <layer-tree-layer name="city-grid" providerKey="ogr" patch_size="-1,-1" source="./data-internal/city-grid.geojson" checked="Qt::Checked" id="city_grid_5dc7923c_cfe7_4210_b6ba_ae1d672b2195" expanded="1" legend_exp="" legend_split_behavior="0">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer name="Points of Interest" providerKey="ogr" patch_size="0,0" source="./data-internal/pois.geojson|layername=pois" checked="Qt::Checked" id="pois_fdbe2e3b_3791_4818_8e1b_4b578f2cac50" expanded="1" legend_exp="" legend_split_behavior="0">
@@ -33,7 +33,7 @@
         <property key="cached_name" value="Neighborhoods"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer name="Highways" providerKey="ogr" patch_size="-1,-1" source="./data-internal/streets.geojson|layerid=0|subset=&quot;type&quot; IN ('motorway','primary','secondary','rail')" checked="Qt::Checked" id="Streets_0d29fc64_af9f_4899_8dca_531d0d9a956d" expanded="1" legend_exp="" legend_split_behavior="0">
+    <layer-tree-layer name="Highways" providerKey="ogr" patch_size="-1,-1" source="./data-internal/streets.geojson|layerid=0|subset=&quot;type&quot; IN ('motorway','primary','secondary','rail')" checked="Qt::Checked" id="Streets_0d29fc64_af9f_4899_8dca_531d0d9a956d" expanded="0" legend_exp="" legend_split_behavior="0">
       <customproperties>
         <property key="cached_name" value="Highways"/>
       </customproperties>
@@ -105,10 +105,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>degrees</units>
     <extent>
-      <xmin>-90.82177348061648559</xmin>
-      <ymin>47.67363627157275374</ymin>
-      <xmax>-89.97852284684611845</xmax>
-      <ymax>48.02511983123068973</ymax>
+      <xmin>-90.05858331372559178</xmin>
+      <ymin>47.80835651235535977</ymin>
+      <xmax>-90.03223173142026781</xmax>
+      <ymax>47.81934037359467027</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -129,9 +129,9 @@
   </mapcanvas>
   <projectModels/>
   <legend updateDrawingOrder="true">
-    <legendlayer open="true" name="city-grid" showFeatureCount="0" checked="Qt::Unchecked" drawingOrder="-1">
+    <legendlayer open="true" name="city-grid" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1">
       <filegroup open="true" hidden="false">
-        <legendlayerfile visible="0" layerid="city_grid_5dc7923c_cfe7_4210_b6ba_ae1d672b2195" isInOverview="0"/>
+        <legendlayerfile visible="1" layerid="city_grid_5dc7923c_cfe7_4210_b6ba_ae1d672b2195" isInOverview="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer open="true" name="Points of Interest" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1">
@@ -144,8 +144,8 @@
         <legendlayerfile visible="1" layerid="Reprojected_0c260c54_717b_4b10_939c_7583b49037d7" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="true" name="Highways" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1">
-      <filegroup open="true" hidden="false">
+    <legendlayer open="false" name="Highways" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1">
+      <filegroup open="false" hidden="false">
         <legendlayerfile visible="1" layerid="Streets_0d29fc64_af9f_4899_8dca_531d0d9a956d" isInOverview="0"/>
       </filegroup>
     </legendlayer>
@@ -5542,7 +5542,9 @@ def my_form_open(dialog, layer, feature):
         </settings>
       </labeling>
       <customproperties>
-        <property key="dualview/previewExpressions" value="&quot;fid&quot;"/>
+        <property key="dualview/previewExpressions">
+          <value>"fid"</value>
+        </property>
         <property key="embeddedWidgets/count" value="0"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
@@ -5971,11 +5973,13 @@ def my_form_open(dialog, layer, feature):
             </customproperties>
             <layer-tree-layer name="Highways" providerKey="ogr" patch_size="-1,-1" source="./data-internal/streets.geojson|layerid=0|subset=&quot;type&quot; IN ('motorway','primary','secondary','rail')" checked="Qt::Checked" id="Streets_0d29fc64_af9f_4899_8dca_531d0d9a956d" expanded="1" legend_exp="" legend_split_behavior="0">
               <customproperties>
+                <property key="cached_name" value="Highways"/>
                 <property key="legend/title-style" value="hidden"/>
               </customproperties>
             </layer-tree-layer>
             <layer-tree-layer name="Streets" providerKey="ogr" patch_size="0,0" source="./data-internal/streets.geojson|layerid=0|subset=&quot;type&quot; IN ('major','minor')" checked="Qt::Checked" id="streets_a2b76a53_9683_4a95_8ff3_094db4a3422c" expanded="1" legend_exp="" legend_split_behavior="0">
               <customproperties>
+                <property key="cached_name" value="Streets"/>
                 <property key="legend/title-style" value="hidden"/>
               </customproperties>
             </layer-tree-layer>
@@ -7072,6 +7076,7 @@ def my_form_open(dialog, layer, feature):
             </layer-tree-layer>
             <layer-tree-layer name="Streets" providerKey="ogr" patch_size="0,0" source="./data-internal/streets.geojson|layerid=0|subset=&quot;type&quot; IN ('major','minor')" checked="Qt::Checked" id="streets_a2b76a53_9683_4a95_8ff3_094db4a3422c" expanded="1" legend_exp="" legend_split_behavior="0">
               <customproperties>
+                <property key="cached_name" value="Streets"/>
                 <property key="legend/title-style" value="hidden"/>
               </customproperties>
             </layer-tree-layer>
