@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.14.0-Pi" saveUser="Keira" saveUserFull="Keira Dueck" projectname="Devilfish, Minnesota" saveDateTime="2021-03-14T01:49:26">
+<qgis version="3.14.0-Pi" saveUser="Keira" saveUserFull="Keira Dueck" projectname="Devilfish, Minnesota" saveDateTime="2021-03-14T03:31:28">
   <homePath path="C:/Users/Keira/Documents/GitHub/devilfish-map"/>
   <title>Devilfish, Minnesota</title>
   <autotransaction active="0"/>
@@ -105,10 +105,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>degrees</units>
     <extent>
-      <xmin>-90.35280827910135315</xmin>
-      <ymin>47.77788304302839606</ymin>
-      <xmax>-89.93118296221616959</xmax>
-      <ymax>47.95362482285736405</ymax>
+      <xmin>-90.82177348061648559</xmin>
+      <ymin>47.67363627157275374</ymin>
+      <xmax>-89.97852284684611845</xmax>
+      <ymax>48.02511983123068973</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -4722,7 +4722,9 @@ def my_form_open(dialog, layer, feature):
         </settings>
       </labeling>
       <customproperties>
-        <property key="dualview/previewExpressions" value="&quot;fid&quot;"/>
+        <property key="dualview/previewExpressions">
+          <value>"fid"</value>
+        </property>
         <property key="embeddedWidgets/count" value="0"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
@@ -5959,8 +5961,8 @@ def my_form_open(dialog, layer, feature):
           <customproperties/>
           <layer-tree-layer name="Points of Interest" providerKey="ogr" patch_size="0,0" source="./data-internal/pois.geojson|layername=pois" checked="Qt::Checked" id="pois_fdbe2e3b_3791_4818_8e1b_4b578f2cac50" expanded="1" legend_exp="" legend_split_behavior="0">
             <customproperties>
-              <property key="cached_name" value="Points of Interest [55]"/>
-              <property key="showFeatureCount" value="1"/>
+              <property key="cached_name" value="Points of Interest"/>
+              <property key="showFeatureCount" value="0"/>
             </customproperties>
           </layer-tree-layer>
           <layer-tree-group name="Roadways" checked="Qt::Checked" expanded="1">
@@ -7054,8 +7056,8 @@ def my_form_open(dialog, layer, feature):
           <customproperties/>
           <layer-tree-layer name="Points of Interest" providerKey="ogr" patch_size="0,0" source="./data-internal/pois.geojson|layername=pois" checked="Qt::Checked" id="pois_fdbe2e3b_3791_4818_8e1b_4b578f2cac50" expanded="1" legend_exp="" legend_split_behavior="0">
             <customproperties>
-              <property key="cached_name" value="Points of Interest [55]"/>
-              <property key="showFeatureCount" value="1"/>
+              <property key="cached_name" value="Points of Interest"/>
+              <property key="showFeatureCount" value="0"/>
             </customproperties>
           </layer-tree-layer>
           <layer-tree-group name="Roadways" checked="Qt::Checked" expanded="1">
@@ -7070,7 +7072,6 @@ def my_form_open(dialog, layer, feature):
             </layer-tree-layer>
             <layer-tree-layer name="Streets" providerKey="ogr" patch_size="0,0" source="./data-internal/streets.geojson|layerid=0|subset=&quot;type&quot; IN ('major','minor')" checked="Qt::Checked" id="streets_a2b76a53_9683_4a95_8ff3_094db4a3422c" expanded="1" legend_exp="" legend_split_behavior="0">
               <customproperties>
-                <property key="cached_name" value="Streets"/>
                 <property key="legend/title-style" value="hidden"/>
               </customproperties>
             </layer-tree-layer>
