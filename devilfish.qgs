@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.14.0-Pi" saveUser="Keira" saveUserFull="Keira Dueck" projectname="Devilfish, Minnesota" saveDateTime="2021-03-14T05:11:36">
+<qgis version="3.14.0-Pi" saveUser="Keira" saveUserFull="Keira Dueck" projectname="Devilfish, Minnesota" saveDateTime="2021-03-14T05:30:10">
   <homePath path="C:/Users/Keira/Documents/GitHub/devilfish-map"/>
   <title>Devilfish, Minnesota</title>
   <autotransaction active="0"/>
@@ -20,7 +20,7 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer name="city-grid" providerKey="ogr" patch_size="-1,-1" source="./data-internal/city-grid.geojson" checked="Qt::Checked" id="city_grid_5dc7923c_cfe7_4210_b6ba_ae1d672b2195" expanded="1" legend_exp="" legend_split_behavior="0">
+    <layer-tree-layer name="city-grid" providerKey="ogr" patch_size="-1,-1" source="./data-internal/city-grid.geojson" checked="Qt::Unchecked" id="city_grid_5dc7923c_cfe7_4210_b6ba_ae1d672b2195" expanded="1" legend_exp="" legend_split_behavior="0">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer name="Points of Interest" providerKey="ogr" patch_size="0,0" source="./data-internal/pois.geojson|layername=pois" checked="Qt::Checked" id="pois_fdbe2e3b_3791_4818_8e1b_4b578f2cac50" expanded="1" legend_exp="" legend_split_behavior="0">
@@ -48,7 +48,7 @@
         <property key="cached_name" value="County Bounds"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer name="Rivers" providerKey="ogr" patch_size="0,0" source="./data-internal/rivers.geojson|layername=rivers" checked="Qt::Checked" id="rivers_79409b2b_2391_4e5b_8db1_ea05972824d3" expanded="1" legend_exp="" legend_split_behavior="0">
+    <layer-tree-layer name="Rivers" providerKey="ogr" patch_size="0,0" source="./data-internal/rivers.geojson" checked="Qt::Checked" id="rivers_79409b2b_2391_4e5b_8db1_ea05972824d3" expanded="1" legend_exp="" legend_split_behavior="0">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer name="Lakes - Devilfish" providerKey="ogr" patch_size="-1,-1" source="./data-internal/lakes.geojson|layername=lakes" checked="Qt::Checked" id="Lakes___Devilfish_aef9117a_d225_48fb_b3dd_bae338677ac8" expanded="1" legend_exp="" legend_split_behavior="0">
@@ -89,26 +89,26 @@
   </layer-tree-group>
   <snapping-settings enabled="0" intersection-snapping="0" scaleDependencyMode="0" minScale="0" maxScale="0" self-snapping="0" mode="2" tolerance="12" type="1" unit="1">
     <individual-layer-settings>
-      <layer-setting enabled="0" units="1" minScale="0" maxScale="0" id="boundaries_8392bb63_6bdc_4d98_b63a_d358ba0e349e" tolerance="12" type="1"/>
-      <layer-setting enabled="0" units="1" minScale="0" maxScale="0" id="Streets_0d29fc64_af9f_4899_8dca_531d0d9a956d" tolerance="12" type="1"/>
       <layer-setting enabled="0" units="1" minScale="0" maxScale="0" id="rivers_79409b2b_2391_4e5b_8db1_ea05972824d3" tolerance="12" type="1"/>
-      <layer-setting enabled="0" units="1" minScale="0" maxScale="0" id="Reprojected_0c260c54_717b_4b10_939c_7583b49037d7" tolerance="12" type="1"/>
-      <layer-setting enabled="0" units="1" minScale="0" maxScale="0" id="pois_fdbe2e3b_3791_4818_8e1b_4b578f2cac50" tolerance="12" type="1"/>
-      <layer-setting enabled="0" units="1" minScale="0" maxScale="0" id="mn_dnr_lakes_063e6742_003b_4566_bf0e_5a23510898f2" tolerance="12" type="1"/>
+      <layer-setting enabled="0" units="1" minScale="0" maxScale="0" id="Streets_0d29fc64_af9f_4899_8dca_531d0d9a956d" tolerance="12" type="1"/>
       <layer-setting enabled="0" units="1" minScale="0" maxScale="0" id="landuse_5fdb587e_20b2_4c29_8f73_0c3d8f724eb1" tolerance="12" type="1"/>
       <layer-setting enabled="0" units="1" minScale="0" maxScale="0" id="Lakes___Devilfish_aef9117a_d225_48fb_b3dd_bae338677ac8" tolerance="12" type="1"/>
-      <layer-setting enabled="0" units="1" minScale="0" maxScale="0" id="streets_a2b76a53_9683_4a95_8ff3_094db4a3422c" tolerance="12" type="1"/>
+      <layer-setting enabled="0" units="1" minScale="0" maxScale="0" id="pois_fdbe2e3b_3791_4818_8e1b_4b578f2cac50" tolerance="12" type="1"/>
+      <layer-setting enabled="0" units="1" minScale="0" maxScale="0" id="boundaries_8392bb63_6bdc_4d98_b63a_d358ba0e349e" tolerance="12" type="1"/>
+      <layer-setting enabled="0" units="1" minScale="0" maxScale="0" id="mn_dnr_lakes_063e6742_003b_4566_bf0e_5a23510898f2" tolerance="12" type="1"/>
+      <layer-setting enabled="0" units="1" minScale="0" maxScale="0" id="Reprojected_0c260c54_717b_4b10_939c_7583b49037d7" tolerance="12" type="1"/>
       <layer-setting enabled="0" units="1" minScale="0" maxScale="0" id="city_grid_5dc7923c_cfe7_4210_b6ba_ae1d672b2195" tolerance="12" type="1"/>
+      <layer-setting enabled="0" units="1" minScale="0" maxScale="0" id="streets_a2b76a53_9683_4a95_8ff3_094db4a3422c" tolerance="12" type="1"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>degrees</units>
     <extent>
-      <xmin>-90.05858331372559178</xmin>
-      <ymin>47.80835651235535977</ymin>
-      <xmax>-90.03223173142026781</xmax>
-      <ymax>47.81934037359467027</ymax>
+      <xmin>-90.33718540126585594</xmin>
+      <ymin>47.95923835195586094</ymin>
+      <xmax>-90.29765802780786998</xmax>
+      <ymax>47.97571414381482668</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -129,9 +129,9 @@
   </mapcanvas>
   <projectModels/>
   <legend updateDrawingOrder="true">
-    <legendlayer open="true" name="city-grid" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1">
+    <legendlayer open="true" name="city-grid" showFeatureCount="0" checked="Qt::Unchecked" drawingOrder="-1">
       <filegroup open="true" hidden="false">
-        <legendlayerfile visible="1" layerid="city_grid_5dc7923c_cfe7_4210_b6ba_ae1d672b2195" isInOverview="0"/>
+        <legendlayerfile visible="0" layerid="city_grid_5dc7923c_cfe7_4210_b6ba_ae1d672b2195" isInOverview="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer open="true" name="Points of Interest" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1">
@@ -248,7 +248,7 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -658,7 +658,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -980,7 +980,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -2053,7 +2053,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -2179,7 +2179,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -2289,7 +2289,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -2695,7 +2695,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -3005,7 +3005,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -3444,7 +3444,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -4387,7 +4387,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -4722,9 +4722,7 @@ def my_form_open(dialog, layer, feature):
         </settings>
       </labeling>
       <customproperties>
-        <property key="dualview/previewExpressions">
-          <value>"fid"</value>
-        </property>
+        <property key="dualview/previewExpressions" value="&quot;fid&quot;"/>
         <property key="embeddedWidgets/count" value="0"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
@@ -4901,13 +4899,13 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer wkbType="LineString" type="vector" simplifyDrawingHints="3" minScale="100000000" autoRefreshTime="0" readOnly="0" simplifyDrawingTol="3" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" geometry="Line" autoRefreshEnabled="0" maxScale="0" refreshOnNotifyEnabled="0" simplifyAlgorithm="0" simplifyMaxScale="1" simplifyLocal="1" labelsEnabled="1" styleCategories="AllStyleCategories">
       <extent>
-        <xmin>-90.88721190018537754</xmin>
+        <xmin>-90.88675023188588398</xmin>
         <ymin>47.54956244995790371</ymin>
-        <xmax>-90.04670695191778407</xmax>
-        <ymax>48.01721482010599118</ymax>
+        <xmax>-90.0473026101547589</xmax>
+        <ymax>48.01701249217361323</ymax>
       </extent>
       <id>rivers_79409b2b_2391_4e5b_8db1_ea05972824d3</id>
-      <datasource>./data-internal/rivers.geojson|layername=rivers</datasource>
+      <datasource>./data-internal/rivers.geojson</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -4929,18 +4927,9 @@ def my_form_open(dialog, layer, feature):
         <identifier></identifier>
         <parentidentifier></parentidentifier>
         <language></language>
-        <type></type>
+        <type>dataset</type>
         <title></title>
         <abstract></abstract>
-        <contact>
-          <name></name>
-          <organization></organization>
-          <position></position>
-          <voice></voice>
-          <fax></fax>
-          <email></email>
-          <role></role>
-        </contact>
         <links/>
         <fees></fees>
         <encoding></encoding>
@@ -4954,18 +4943,10 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
-        <extent>
-          <spatial minx="0" maxx="0" crs="" maxy="0" miny="0" maxz="0" minz="0" dimensions="2"/>
-          <temporal>
-            <period>
-              <start></start>
-              <end></end>
-            </period>
-          </temporal>
-        </extent>
+        <extent/>
       </resourceMetadata>
       <provider encoding="UTF-8">ogr</provider>
       <vectorjoins/>
@@ -5302,7 +5283,7 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
@@ -5542,9 +5523,7 @@ def my_form_open(dialog, layer, feature):
         </settings>
       </labeling>
       <customproperties>
-        <property key="dualview/previewExpressions">
-          <value>"fid"</value>
-        </property>
+        <property key="dualview/previewExpressions" value="&quot;fid&quot;"/>
         <property key="embeddedWidgets/count" value="0"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
@@ -5963,7 +5942,6 @@ def my_form_open(dialog, layer, feature):
           <customproperties/>
           <layer-tree-layer name="Points of Interest" providerKey="ogr" patch_size="0,0" source="./data-internal/pois.geojson|layername=pois" checked="Qt::Checked" id="pois_fdbe2e3b_3791_4818_8e1b_4b578f2cac50" expanded="1" legend_exp="" legend_split_behavior="0">
             <customproperties>
-              <property key="cached_name" value="Points of Interest"/>
               <property key="showFeatureCount" value="0"/>
             </customproperties>
           </layer-tree-layer>
@@ -5973,13 +5951,11 @@ def my_form_open(dialog, layer, feature):
             </customproperties>
             <layer-tree-layer name="Highways" providerKey="ogr" patch_size="-1,-1" source="./data-internal/streets.geojson|layerid=0|subset=&quot;type&quot; IN ('motorway','primary','secondary','rail')" checked="Qt::Checked" id="Streets_0d29fc64_af9f_4899_8dca_531d0d9a956d" expanded="1" legend_exp="" legend_split_behavior="0">
               <customproperties>
-                <property key="cached_name" value="Highways"/>
                 <property key="legend/title-style" value="hidden"/>
               </customproperties>
             </layer-tree-layer>
             <layer-tree-layer name="Streets" providerKey="ogr" patch_size="0,0" source="./data-internal/streets.geojson|layerid=0|subset=&quot;type&quot; IN ('major','minor')" checked="Qt::Checked" id="streets_a2b76a53_9683_4a95_8ff3_094db4a3422c" expanded="1" legend_exp="" legend_split_behavior="0">
               <customproperties>
-                <property key="cached_name" value="Streets"/>
                 <property key="legend/title-style" value="hidden"/>
               </customproperties>
             </layer-tree-layer>
@@ -6353,22 +6329,6 @@ def my_form_open(dialog, layer, feature):
           </symbol>
         </fillSymbol2>
       </LayoutItem>
-      <LayoutItem groupUuid="" outlineWidthM="0.3,mm" frameJoinStyle="miter" valign="64" type="65641" id="" frame="false" uuid="{6be2a2f3-cfe4-4831-97ba-874ff3ec4db6}" positionLock="false" marginY="1" position="420,297,mm" visibility="1" blendMode="0" size="56.0282,36.143,mm" halign="2" templateUuid="{6be2a2f3-cfe4-4831-97ba-874ff3ec4db6}" zValue="4" labelText="[%@project_filename%] // [%@layout_name%]&#xa;tag [%env('devilfishGitRev')%]&#xa;[%format_date(now(), 'yyyy-MM-dd HH:mm:ss')%]&#xa;qgis [% @qgis_version %]" excludeFromExports="0" background="false" marginX="1" opacity="1" htmlState="0" referencePoint="8" positionOnPage="420,297,mm" itemRotation="0">
-        <FrameColor alpha="255" green="0" red="0" blue="0"/>
-        <BackgroundColor alpha="255" green="255" red="255" blue="255"/>
-        <LayoutObject>
-          <dataDefinedProperties>
-            <Option type="Map">
-              <Option name="name" type="QString" value=""/>
-              <Option name="properties"/>
-              <Option name="type" type="QString" value="collection"/>
-            </Option>
-          </dataDefinedProperties>
-          <customproperties/>
-        </LayoutObject>
-        <LabelFont description="Fira Code Retina,6,-1,5,57,0,0,0,0,0,Retina" style="Retina"/>
-        <FontColor alpha="255" green="0" red="0" blue="0"/>
-      </LayoutItem>
       <LayoutItem groupUuid="" outlineWidthM="0.3,mm" frameJoinStyle="miter" valign="32" type="65641" id="" frame="false" uuid="{e7a76643-2552-4bc2-9325-5793de70b192}" positionLock="false" marginY="0" position="264.898,219.285,mm" visibility="1" blendMode="0" size="105.44,7.42697,mm" halign="4" templateUuid="{e7a76643-2552-4bc2-9325-5793de70b192}" zValue="4" labelText="Cook County, Minnesota" excludeFromExports="0" background="false" marginX="0" opacity="1" htmlState="0" referencePoint="0" positionOnPage="264.898,219.285,mm" itemRotation="0">
         <FrameColor alpha="255" green="0" red="0" blue="0"/>
         <BackgroundColor alpha="255" green="255" red="255" blue="255"/>
@@ -6383,6 +6343,22 @@ def my_form_open(dialog, layer, feature):
           <customproperties/>
         </LayoutObject>
         <LabelFont description="Trebuchet MS,10,-1,5,50,0,0,0,0,0" style=""/>
+        <FontColor alpha="255" green="0" red="0" blue="0"/>
+      </LayoutItem>
+      <LayoutItem groupUuid="" outlineWidthM="0.3,mm" frameJoinStyle="miter" valign="64" type="65641" id="" frame="false" uuid="{6be2a2f3-cfe4-4831-97ba-874ff3ec4db6}" positionLock="false" marginY="1" position="420,297,mm" visibility="1" blendMode="0" size="56.0282,36.143,mm" halign="2" templateUuid="{6be2a2f3-cfe4-4831-97ba-874ff3ec4db6}" zValue="4" labelText="[%@project_filename%] // [%@layout_name%]&#xa;tag [%env('devilfishGitRev')%]&#xa;[%format_date(now(), 'yyyy-MM-dd HH:mm:ss')%]&#xa;qgis [% @qgis_version %]" excludeFromExports="0" background="false" marginX="1" opacity="1" htmlState="0" referencePoint="8" positionOnPage="420,297,mm" itemRotation="0">
+        <FrameColor alpha="255" green="0" red="0" blue="0"/>
+        <BackgroundColor alpha="255" green="255" red="255" blue="255"/>
+        <LayoutObject>
+          <dataDefinedProperties>
+            <Option type="Map">
+              <Option name="name" type="QString" value=""/>
+              <Option name="properties"/>
+              <Option name="type" type="QString" value="collection"/>
+            </Option>
+          </dataDefinedProperties>
+          <customproperties/>
+        </LayoutObject>
+        <LabelFont description="Fira Code Retina,6,-1,5,57,0,0,0,0,0,Retina" style="Retina"/>
         <FontColor alpha="255" green="0" red="0" blue="0"/>
       </LayoutItem>
       <LayoutItem groupUuid="" outlineWidthM="0.3,mm" frameJoinStyle="miter" type="65643" id="" shapeType="1" frame="false" uuid="{e4e00aa1-0722-4ead-a093-36d51d00b305}" positionLock="false" position="258.665,213.846,mm" visibility="1" blendMode="0" size="117.906,64.9326,mm" templateUuid="{e4e00aa1-0722-4ead-a093-36d51d00b305}" zValue="3" excludeFromExports="0" background="false" opacity="1" referencePoint="0" positionOnPage="258.665,213.846,mm" itemRotation="0" cornerRadiusMeasure="0,mm">
@@ -7060,7 +7036,6 @@ def my_form_open(dialog, layer, feature):
           <customproperties/>
           <layer-tree-layer name="Points of Interest" providerKey="ogr" patch_size="0,0" source="./data-internal/pois.geojson|layername=pois" checked="Qt::Checked" id="pois_fdbe2e3b_3791_4818_8e1b_4b578f2cac50" expanded="1" legend_exp="" legend_split_behavior="0">
             <customproperties>
-              <property key="cached_name" value="Points of Interest"/>
               <property key="showFeatureCount" value="0"/>
             </customproperties>
           </layer-tree-layer>
@@ -7070,22 +7045,16 @@ def my_form_open(dialog, layer, feature):
             </customproperties>
             <layer-tree-layer name="Highways" providerKey="ogr" patch_size="-1,-1" source="./data-internal/streets.geojson|layerid=0|subset=&quot;type&quot; IN ('motorway','primary','secondary','rail')" checked="Qt::Checked" id="Streets_0d29fc64_af9f_4899_8dca_531d0d9a956d" expanded="1" legend_exp="" legend_split_behavior="0">
               <customproperties>
-                <property key="cached_name" value="Highways"/>
                 <property key="legend/title-style" value="hidden"/>
               </customproperties>
             </layer-tree-layer>
             <layer-tree-layer name="Streets" providerKey="ogr" patch_size="0,0" source="./data-internal/streets.geojson|layerid=0|subset=&quot;type&quot; IN ('major','minor')" checked="Qt::Checked" id="streets_a2b76a53_9683_4a95_8ff3_094db4a3422c" expanded="1" legend_exp="" legend_split_behavior="0">
               <customproperties>
-                <property key="cached_name" value="Streets"/>
                 <property key="legend/title-style" value="hidden"/>
               </customproperties>
             </layer-tree-layer>
           </layer-tree-group>
-          <custom-order enabled="0">
-            <item>pois_fdbe2e3b_3791_4818_8e1b_4b578f2cac50</item>
-            <item>streets_a2b76a53_9683_4a95_8ff3_094db4a3422c</item>
-            <item>Streets_0d29fc64_af9f_4899_8dca_531d0d9a956d</item>
-          </custom-order>
+          <custom-order enabled="0"/>
         </layer-tree-group>
       </LayoutItem>
       <LayoutItem groupUuid="" outlineWidthM="0.3,mm" frameJoinStyle="miter" valign="32" type="65641" id="" frame="false" uuid="{09ffada4-2cf9-41a3-94d1-82f125637460}" positionLock="false" marginY="0" position="44.265,218.515,mm" visibility="1" blendMode="0" size="105.44,7.42697,mm" halign="4" templateUuid="{09ffada4-2cf9-41a3-94d1-82f125637460}" zValue="6" labelText="Devilfish, Minnesota" excludeFromExports="0" background="false" marginX="0" opacity="1" htmlState="0" referencePoint="0" positionOnPage="44.265,218.515,mm" itemRotation="0">
