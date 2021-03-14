@@ -29,7 +29,7 @@
 { "type": "Feature", "properties": { "fid": 24, "class": 2, "name": "Detroit", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -83.010485229343431, 42.404345219193964 ] } },
 { "type": "Feature", "properties": { "fid": 25, "class": 2, "name": "Phoenix", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -112.09365188368038, 33.460346496527819 ] } },
 { "type": "Feature", "properties": { "fid": 26, "class": 2, "name": "Orlando", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -81.384334392361112, 28.538310496527828 ] } },
-{ "type": "Feature", "properties": { "fid": 27, "class": 5, "name": "Minneapolis", "Comment": "Condemned City [see PRT-SPEC-0086]" }, "geometry": { "type": "Point", "coordinates": [ -93.257891722222169, 44.966460166666636 ] } },
+{ "type": "Feature", "properties": { "fid": 27, "class": 5, "name": "Minneapolis", "Comment": "Special Administrative Zone" }, "geometry": { "type": "Point", "coordinates": [ -93.257891722222169, 44.966460166666636 ] } },
 { "type": "Feature", "properties": { "fid": 28, "class": 2, "name": "Cleveland", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -81.681280140624992, 41.499244703125001 ] } },
 { "type": "Feature", "properties": { "fid": 29, "class": 2, "name": "St Louis", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -90.213663727430486, 38.621648135416685 ] } },
 { "type": "Feature", "properties": { "fid": 30, "class": 2, "name": "Kansas City", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -94.59735203993047, 39.100179413194461 ] } },
