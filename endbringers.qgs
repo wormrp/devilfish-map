@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUser="Keira" version="3.14.0-Pi" saveDateTime="2021-01-03T03:49:12" projectname="" saveUserFull="Keira Dueck">
+<qgis saveDateTime="2021-04-01T02:02:13" projectname="" saveUser="Keira" version="3.14.0-Pi" saveUserFull="Keira Dueck">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -20,10 +20,10 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer checked="Qt::Checked" name="endbringers" id="endbringers_1f6d13e0_733a_4e2f_997a_83269c44961a" legend_exp="" patch_size="-1,-1" expanded="0" legend_split_behavior="0" providerKey="ogr" source="./data-internal/endbringers.geojson">
+    <layer-tree-layer name="endbringers" legend_exp="" legend_split_behavior="0" providerKey="ogr" source="./data-internal/endbringers.geojson" checked="Qt::Checked" expanded="0" patch_size="-1,-1" id="endbringers_1f6d13e0_733a_4e2f_997a_83269c44961a">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" name="Terrain" id="Difference_5a3c2b8a_6784_42e5_a688_8117c15665b6" legend_exp="" patch_size="-1,-1" expanded="1" legend_split_behavior="0" providerKey="ogr" source="./data-external/gshhs_L_12.geojson|layername=gshhs_L_12">
+    <layer-tree-layer name="Terrain" legend_exp="" legend_split_behavior="0" providerKey="ogr" source="./data-external/gshhs_L_12.geojson|layername=gshhs_L_12" checked="Qt::Checked" expanded="1" patch_size="-1,-1" id="Difference_5a3c2b8a_6784_42e5_a688_8117c15665b6">
       <customproperties/>
     </layer-tree-layer>
     <custom-order enabled="0">
@@ -31,10 +31,10 @@
       <item>endbringers_1f6d13e0_733a_4e2f_997a_83269c44961a</item>
     </custom-order>
   </layer-tree-group>
-  <snapping-settings scaleDependencyMode="0" intersection-snapping="0" enabled="0" maxScale="0" tolerance="12" unit="1" type="1" minScale="0" self-snapping="0" mode="2">
+  <snapping-settings intersection-snapping="0" unit="1" maxScale="0" minScale="0" tolerance="12" scaleDependencyMode="0" enabled="0" self-snapping="0" mode="2" type="1">
     <individual-layer-settings>
-      <layer-setting enabled="0" maxScale="0" id="endbringers_1f6d13e0_733a_4e2f_997a_83269c44961a" tolerance="12" type="1" minScale="0" units="1"/>
-      <layer-setting enabled="0" maxScale="0" id="Difference_5a3c2b8a_6784_42e5_a688_8117c15665b6" tolerance="12" type="1" minScale="0" units="1"/>
+      <layer-setting units="1" maxScale="0" minScale="0" tolerance="12" enabled="0" id="Difference_5a3c2b8a_6784_42e5_a688_8117c15665b6" type="1"/>
+      <layer-setting units="1" maxScale="0" minScale="0" tolerance="12" enabled="0" id="endbringers_1f6d13e0_733a_4e2f_997a_83269c44961a" type="1"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
@@ -65,96 +65,21 @@
   </mapcanvas>
   <projectModels/>
   <legend updateDrawingOrder="true">
-    <legendlayer checked="Qt::Checked" name="endbringers" drawingOrder="-1" showFeatureCount="0" open="false">
+    <legendlayer name="endbringers" open="false" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1">
       <filegroup hidden="false" open="false">
-        <legendlayerfile layerid="endbringers_1f6d13e0_733a_4e2f_997a_83269c44961a" isInOverview="0" visible="1"/>
+        <legendlayerfile layerid="endbringers_1f6d13e0_733a_4e2f_997a_83269c44961a" visible="1" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer checked="Qt::Checked" name="Terrain" drawingOrder="-1" showFeatureCount="0" open="true">
+    <legendlayer name="Terrain" open="true" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1">
       <filegroup hidden="false" open="true">
-        <legendlayerfile layerid="Difference_5a3c2b8a_6784_42e5_a688_8117c15665b6" isInOverview="0" visible="1"/>
+        <legendlayerfile layerid="Difference_5a3c2b8a_6784_42e5_a688_8117c15665b6" visible="1" isInOverview="0"/>
       </filegroup>
     </legendlayer>
   </legend>
   <mapViewDocks/>
   <mapViewDocks3D/>
-  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
-    <units>degrees</units>
-    <extent>
-      <xmin>-24.85741216829046607</xmin>
-      <ymin>-18.96908123898901977</ymin>
-      <xmax>24.85741216829046607</xmax>
-      <ymax>18.96908123898901977</ymax>
-    </extent>
-    <rotation>0</rotation>
-    <destinationsrs>
-      <spatialrefsys>
-        <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
-        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-        <srsid>3452</srsid>
-        <srid>4326</srid>
-        <authid>EPSG:4326</authid>
-        <description>WGS 84</description>
-        <projectionacronym>longlat</projectionacronym>
-        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
-        <geographicflag>true</geographicflag>
-      </spatialrefsys>
-    </destinationsrs>
-    <rendermaptile>0</rendermaptile>
-    <expressionContextScope/>
-  </mapcanvas>
-  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
-    <units>degrees</units>
-    <extent>
-      <xmin>-24.85741216829046607</xmin>
-      <ymin>-18.96908123898901977</ymin>
-      <xmax>24.85741216829046607</xmax>
-      <ymax>18.96908123898901977</ymax>
-    </extent>
-    <rotation>0</rotation>
-    <destinationsrs>
-      <spatialrefsys>
-        <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
-        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-        <srsid>3452</srsid>
-        <srid>4326</srid>
-        <authid>EPSG:4326</authid>
-        <description>WGS 84</description>
-        <projectionacronym>longlat</projectionacronym>
-        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
-        <geographicflag>true</geographicflag>
-      </spatialrefsys>
-    </destinationsrs>
-    <rendermaptile>0</rendermaptile>
-    <expressionContextScope/>
-  </mapcanvas>
-  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
-    <units>degrees</units>
-    <extent>
-      <xmin>-24.85741216829046607</xmin>
-      <ymin>-18.96908123898901977</ymin>
-      <xmax>24.85741216829046607</xmax>
-      <ymax>18.96908123898901977</ymax>
-    </extent>
-    <rotation>0</rotation>
-    <destinationsrs>
-      <spatialrefsys>
-        <wkt>GEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["unknown"],AREA["World"],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
-        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-        <srsid>3452</srsid>
-        <srid>4326</srid>
-        <authid>EPSG:4326</authid>
-        <description>WGS 84</description>
-        <projectionacronym>longlat</projectionacronym>
-        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
-        <geographicflag>true</geographicflag>
-      </spatialrefsys>
-    </destinationsrs>
-    <rendermaptile>0</rendermaptile>
-    <expressionContextScope/>
-  </mapcanvas>
   <projectlayers>
-    <maplayer labelsEnabled="0" wkbType="MultiPolygon" readOnly="0" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="1" autoRefreshTime="0" simplifyDrawingTol="1" maxScale="0" simplifyAlgorithm="0" type="vector" styleCategories="AllStyleCategories" geometry="Polygon" minScale="100000000" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" simplifyMaxScale="1" simplifyLocal="1">
+    <maplayer simplifyAlgorithm="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingHints="1" styleCategories="AllStyleCategories" autoRefreshTime="0" wkbType="MultiPolygon" hasScaleBasedVisibilityFlag="0" geometry="Polygon" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" type="vector" simplifyLocal="1" minScale="100000000" labelsEnabled="0" simplifyDrawingTol="1" autoRefreshEnabled="0" readOnly="0">
       <extent>
         <xmin>-180</xmin>
         <ymin>-55.71877800000000036</ymin>
@@ -209,11 +134,11 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial minx="0" minz="0" maxz="0" miny="0" dimensions="2" crs="" maxy="0" maxx="0"/>
+          <spatial dimensions="2" maxz="0" minz="0" maxy="0" crs="" miny="0" maxx="0" minx="0"/>
           <temporal>
             <period>
               <start></start>
@@ -237,16 +162,16 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <temporal enabled="0" accumulate="0" durationUnit="min" endExpression="" startExpression="" endField="" durationField="" mode="0" startField="" fixedDuration="0">
+      <temporal endField="" fixedDuration="0" startField="" startExpression="" enabled="0" durationUnit="min" accumulate="0" endExpression="" mode="0" durationField="">
         <fixedRange>
           <start></start>
           <end></end>
         </fixedRange>
       </temporal>
-      <renderer-v2 type="singleSymbol" symbollevels="0" enableorderby="0" forceraster="0">
+      <renderer-v2 forceraster="0" enableorderby="0" symbollevels="0" type="singleSymbol">
         <symbols>
-          <symbol name="0" force_rhr="0" type="fill" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleFill" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="0" alpha="1" type="fill">
+            <layer class="SimpleFill" locked="0" enabled="1" pass="0">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="220,220,220,255" k="color"/>
               <prop v="bevel" k="joinstyle"/>
@@ -281,12 +206,12 @@
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory penColor="#000000" width="15" labelPlacementMethod="XHeight" backgroundColor="#ffffff" scaleBasedVisibility="0" minScaleDenominator="0" enabled="0" scaleDependency="Area" spacingUnit="MM" spacing="5" penAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" spacingUnitScale="3x:0,0,0,0,0,0" maxScaleDenominator="1e+08" lineSizeType="MM" sizeType="MM" sizeScale="3x:0,0,0,0,0,0" diagramOrientation="Up" minimumSize="0" showAxis="1" rotationOffset="270" backgroundAlpha="255" penWidth="0" direction="0" opacity="1" barWidth="5" height="15">
+        <DiagramCategory scaleDependency="Area" rotationOffset="270" penAlpha="255" sizeScale="3x:0,0,0,0,0,0" spacingUnitScale="3x:0,0,0,0,0,0" penWidth="0" penColor="#000000" backgroundAlpha="255" direction="0" lineSizeType="MM" opacity="1" height="15" lineSizeScale="3x:0,0,0,0,0,0" labelPlacementMethod="XHeight" width="15" sizeType="MM" backgroundColor="#ffffff" barWidth="5" maxScaleDenominator="1e+08" scaleBasedVisibility="0" spacingUnit="MM" diagramOrientation="Up" showAxis="1" spacing="5" minScaleDenominator="0" enabled="0" minimumSize="0">
           <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
           <attribute field="" color="#000000" label=""/>
           <axisSymbol>
-            <symbol name="" force_rhr="0" type="line" clip_to_extent="1" alpha="1">
-              <layer enabled="1" class="SimpleLine" pass="0" locked="0">
+            <symbol force_rhr="0" clip_to_extent="1" name="" alpha="1" type="line">
+              <layer class="SimpleLine" locked="0" enabled="1" pass="0">
                 <prop v="square" k="capstyle"/>
                 <prop v="5;2" k="customdash"/>
                 <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -315,7 +240,7 @@
           </axisSymbol>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings showAll="1" zIndex="0" linePlacementFlags="18" priority="0" dist="0" placement="1" obstacle="0">
+      <DiagramLayerSettings priority="0" placement="1" linePlacementFlags="18" dist="0" zIndex="0" obstacle="0" showAll="1">
         <properties>
           <Option type="Map">
             <Option name="name" type="QString" value=""/>
@@ -391,42 +316,42 @@
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default field="id" applyOnUpdate="0" expression=""/>
-        <default field="level" applyOnUpdate="0" expression=""/>
-        <default field="source" applyOnUpdate="0" expression=""/>
-        <default field="parent_id" applyOnUpdate="0" expression=""/>
-        <default field="sibling_id" applyOnUpdate="0" expression=""/>
-        <default field="area" applyOnUpdate="0" expression=""/>
+        <default field="id" expression="" applyOnUpdate="0"/>
+        <default field="level" expression="" applyOnUpdate="0"/>
+        <default field="source" expression="" applyOnUpdate="0"/>
+        <default field="parent_id" expression="" applyOnUpdate="0"/>
+        <default field="sibling_id" expression="" applyOnUpdate="0"/>
+        <default field="area" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint field="id" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint field="level" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint field="source" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint field="parent_id" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint field="sibling_id" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint field="area" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="id" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="level" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="source" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="parent_id" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="sibling_id" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="area" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="id" exp="" desc=""/>
-        <constraint field="level" exp="" desc=""/>
-        <constraint field="source" exp="" desc=""/>
-        <constraint field="parent_id" exp="" desc=""/>
-        <constraint field="sibling_id" exp="" desc=""/>
-        <constraint field="area" exp="" desc=""/>
+        <constraint field="id" desc="" exp=""/>
+        <constraint field="level" desc="" exp=""/>
+        <constraint field="source" desc="" exp=""/>
+        <constraint field="parent_id" desc="" exp=""/>
+        <constraint field="sibling_id" desc="" exp=""/>
+        <constraint field="area" desc="" exp=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
         <columns>
-          <column name="id" hidden="0" type="field" width="-1"/>
-          <column name="level" hidden="0" type="field" width="-1"/>
-          <column name="source" hidden="0" type="field" width="-1"/>
-          <column name="parent_id" hidden="0" type="field" width="-1"/>
-          <column name="sibling_id" hidden="0" type="field" width="-1"/>
-          <column name="area" hidden="0" type="field" width="-1"/>
-          <column hidden="1" type="actions" width="-1"/>
+          <column name="id" hidden="0" width="-1" type="field"/>
+          <column name="level" hidden="0" width="-1" type="field"/>
+          <column name="source" hidden="0" width="-1" type="field"/>
+          <column name="parent_id" hidden="0" width="-1" type="field"/>
+          <column name="sibling_id" hidden="0" width="-1" type="field"/>
+          <column name="area" hidden="0" width="-1" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -478,7 +403,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>"id"</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer labelsEnabled="1" wkbType="Point" readOnly="0" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="0" autoRefreshTime="0" simplifyDrawingTol="1" maxScale="0" simplifyAlgorithm="0" type="vector" styleCategories="AllStyleCategories" geometry="Point" minScale="100000000" autoRefreshEnabled="0" refreshOnNotifyEnabled="0" simplifyMaxScale="1" simplifyLocal="1">
+    <maplayer simplifyAlgorithm="0" simplifyMaxScale="1" maxScale="0" simplifyDrawingHints="0" styleCategories="AllStyleCategories" autoRefreshTime="0" wkbType="Point" hasScaleBasedVisibilityFlag="0" geometry="Point" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" type="vector" simplifyLocal="1" minScale="100000000" labelsEnabled="1" simplifyDrawingTol="1" autoRefreshEnabled="0" readOnly="0">
       <extent>
         <xmin>-149.86935359965428916</xmin>
         <ymin>-42.13622084105830368</ymin>
@@ -533,11 +458,11 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial minx="0" minz="0" maxz="0" miny="0" dimensions="2" crs="" maxy="0" maxx="0"/>
+          <spatial dimensions="2" maxz="0" minz="0" maxy="0" crs="" miny="0" maxx="0" minx="0"/>
           <temporal>
             <period>
               <start></start>
@@ -561,52 +486,52 @@ def my_form_open(dialog, layer, feature):
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <temporal enabled="1" accumulate="1" durationUnit="d" endExpression="" startExpression="" endField="" durationField="" mode="1" startField="attack" fixedDuration="1">
+      <temporal endField="" fixedDuration="1" startField="attack" startExpression="" enabled="1" durationUnit="d" accumulate="1" endExpression="" mode="1" durationField="">
         <fixedRange>
           <start></start>
           <end></end>
         </fixedRange>
       </temporal>
-      <renderer-v2 type="categorizedSymbol" symbollevels="0" enableorderby="0" forceraster="0" attr=" round(epoch(attack)/1000/86400)">
+      <renderer-v2 forceraster="0" enableorderby="0" attr=" round(epoch(attack)/1000/86400)" symbollevels="0" type="categorizedSymbol">
         <categories>
-          <category symbol="0" render="true" label="5958" value="5958"/>
-          <category symbol="1" render="true" label="6280" value="6280"/>
-          <category symbol="2" render="true" label="6673" value="6673"/>
-          <category symbol="3" render="true" label="7258" value="7258"/>
-          <category symbol="4" render="true" label="8220" value="8220"/>
-          <category symbol="5" render="true" label="8579" value="8579"/>
-          <category symbol="6" render="true" label="8900" value="8900"/>
-          <category symbol="7" render="true" label="9402" value="9402"/>
-          <category symbol="8" render="true" label="9722" value="9722"/>
-          <category symbol="9" render="true" label="10001" value="10001"/>
-          <category symbol="10" render="true" label="10510" value="10510"/>
-          <category symbol="11" render="true" label="10690" value="10690"/>
-          <category symbol="12" render="true" label="11311" value="11311"/>
-          <category symbol="13" render="true" label="11576" value="11576"/>
-          <category symbol="14" render="true" label="11732" value="11732"/>
-          <category symbol="15" render="true" label="12109" value="12109"/>
-          <category symbol="16" render="true" label="12744" value="12744"/>
-          <category symbol="17" render="true" label="12909" value="12909"/>
-          <category symbol="18" render="true" label="13251" value="13251"/>
-          <category symbol="19" render="true" label="13685" value="13685"/>
-          <category symbol="20" render="true" label="14231" value="14231"/>
-          <category symbol="21" render="true" label="14297" value="14297"/>
-          <category symbol="22" render="true" label="14621" value="14621"/>
-          <category symbol="23" render="true" label="15107" value="15107"/>
-          <category symbol="24" render="true" label="15573" value="15573"/>
-          <category symbol="25" render="true" label="16050" value="16050"/>
-          <category symbol="26" render="true" label="16260" value="16260"/>
-          <category symbol="27" render="true" label="16701" value="16701"/>
-          <category symbol="28" render="true" label="17158" value="17158"/>
-          <category symbol="29" render="true" label="17481" value="17481"/>
-          <category symbol="30" render="true" label="17755" value="17755"/>
-          <category symbol="31" render="true" label="18111" value="18111"/>
-          <category symbol="32" render="true" label="18984" value="18984"/>
-          <category symbol="33" render="true" label="" value=""/>
+          <category render="true" symbol="0" label="5958" value="5958"/>
+          <category render="true" symbol="1" label="6280" value="6280"/>
+          <category render="true" symbol="2" label="6673" value="6673"/>
+          <category render="true" symbol="3" label="7258" value="7258"/>
+          <category render="true" symbol="4" label="8220" value="8220"/>
+          <category render="true" symbol="5" label="8579" value="8579"/>
+          <category render="true" symbol="6" label="8900" value="8900"/>
+          <category render="true" symbol="7" label="9402" value="9402"/>
+          <category render="true" symbol="8" label="9722" value="9722"/>
+          <category render="true" symbol="9" label="10001" value="10001"/>
+          <category render="true" symbol="10" label="10510" value="10510"/>
+          <category render="true" symbol="11" label="10690" value="10690"/>
+          <category render="true" symbol="12" label="11311" value="11311"/>
+          <category render="true" symbol="13" label="11576" value="11576"/>
+          <category render="true" symbol="14" label="11732" value="11732"/>
+          <category render="true" symbol="15" label="12109" value="12109"/>
+          <category render="true" symbol="16" label="12744" value="12744"/>
+          <category render="true" symbol="17" label="12909" value="12909"/>
+          <category render="true" symbol="18" label="13251" value="13251"/>
+          <category render="true" symbol="19" label="13685" value="13685"/>
+          <category render="true" symbol="20" label="14231" value="14231"/>
+          <category render="true" symbol="21" label="14297" value="14297"/>
+          <category render="true" symbol="22" label="14621" value="14621"/>
+          <category render="true" symbol="23" label="15107" value="15107"/>
+          <category render="true" symbol="24" label="15573" value="15573"/>
+          <category render="true" symbol="25" label="16050" value="16050"/>
+          <category render="true" symbol="26" label="16260" value="16260"/>
+          <category render="true" symbol="27" label="16701" value="16701"/>
+          <category render="true" symbol="28" label="17158" value="17158"/>
+          <category render="true" symbol="29" label="17481" value="17481"/>
+          <category render="true" symbol="30" label="17755" value="17755"/>
+          <category render="true" symbol="31" label="18111" value="18111"/>
+          <category render="true" symbol="32" label="18984" value="18984"/>
+          <category render="true" symbol="33" label="" value=""/>
         </categories>
         <symbols>
-          <symbol name="0" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="0" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,26" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -652,8 +577,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="1" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="1" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,32" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -699,8 +624,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="10" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="10" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,88" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -746,8 +671,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="11" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="11" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,94" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -793,8 +718,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="12" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="12" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,100" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -840,8 +765,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="13" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="13" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,106" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -887,8 +812,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="14" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="14" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,112" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -934,8 +859,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="15" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="15" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,119" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -981,8 +906,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="16" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="16" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,125" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -1028,8 +953,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="17" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="17" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,131" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -1075,8 +1000,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="18" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="18" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,137" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -1122,8 +1047,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="19" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="19" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,144" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -1169,8 +1094,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="2" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="2" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,38" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -1216,8 +1141,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="20" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="20" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,150" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -1263,8 +1188,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="21" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="21" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,156" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -1310,8 +1235,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="22" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="22" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,162" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -1357,8 +1282,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="23" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="23" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,168" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -1404,8 +1329,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="24" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="24" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,175" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -1451,8 +1376,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="25" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="25" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,181" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -1498,8 +1423,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="26" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="26" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,187" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -1545,8 +1470,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="27" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="27" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,193" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -1592,8 +1517,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="28" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="28" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,199" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -1639,8 +1564,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="29" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="29" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,206" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -1686,8 +1611,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="3" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="3" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,44" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -1733,8 +1658,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="30" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="30" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,212" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -1780,8 +1705,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="31" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="31" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,218" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -1827,8 +1752,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="32" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="32" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,224" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -1874,8 +1799,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="33" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="33" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,230" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -1921,8 +1846,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="4" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="4" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,50" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -1968,8 +1893,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="5" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="5" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,57" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -2015,8 +1940,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="6" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="6" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,63" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -2062,8 +1987,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="7" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="7" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,69" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -2109,8 +2034,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="8" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="8" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,75" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -2156,8 +2081,8 @@ def my_form_open(dialog, layer, feature):
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol name="9" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="9" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="0,1,2,81" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -2205,8 +2130,8 @@ def my_form_open(dialog, layer, feature):
           </symbol>
         </symbols>
         <source-symbol>
-          <symbol name="0" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-            <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="0" alpha="1" type="marker">
+            <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
               <prop v="0" k="angle"/>
               <prop v="231,113,72,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
@@ -2264,12 +2189,12 @@ def my_form_open(dialog, layer, feature):
       </renderer-v2>
       <labeling type="simple">
         <settings calloutType="simple">
-          <text-style fontKerning="1" blendMode="0" allowHtml="0" fontUnderline="0" fontSizeUnit="Point" useSubstitutions="0" fontCapitals="0" fontSize="8" textOrientation="horizontal" fontWeight="50" namedStyle="Regular" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontLetterSpacing="0" fontWordSpacing="0" fontStrikeout="0" fontFamily="Trebuchet MS" multilineHeight="1" fieldName="concat(&quot;endbringer&quot;, ' ', replace( &quot;generation&quot;, array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10), array('I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X')), ' (', format_date(&quot;attack&quot;, 'yyyy'), ')')" isExpression="1" fontItalic="0" previewBkgrdColor="255,255,255,255" textOpacity="1" textColor="0,0,0,255">
-            <text-buffer bufferSizeUnits="MM" bufferDraw="1" bufferJoinStyle="128" bufferBlendMode="0" bufferSize="1" bufferOpacity="1" bufferColor="255,255,255,255" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferNoFill="1"/>
-            <text-mask maskEnabled="0" maskSizeUnits="MM" maskJoinStyle="128" maskType="0" maskSize="1.5" maskedSymbolLayers="" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskOpacity="1"/>
-            <background shapeOffsetY="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeBorderColor="128,128,128,255" shapeBlendMode="0" shapeRotation="0" shapeRotationType="0" shapeRadiiY="0" shapeBorderWidthUnit="MM" shapeSizeX="0" shapeOffsetX="0" shapeSizeType="0" shapeSizeUnit="MM" shapeFillColor="255,255,255,255" shapeSVGFile="" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiX="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetUnit="MM" shapeJoinStyle="64" shapeRadiiUnit="MM" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeSizeY="0" shapeOpacity="1" shapeDraw="0" shapeType="0" shapeBorderWidth="0">
-              <symbol name="markerSymbol" force_rhr="0" type="marker" clip_to_extent="1" alpha="1">
-                <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
+          <text-style textOrientation="horizontal" fontFamily="Trebuchet MS" textOpacity="1" previewBkgrdColor="255,255,255,255" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontItalic="0" fontUnderline="0" fontLetterSpacing="0" fontKerning="1" fontWeight="50" fontSize="8" fontSizeUnit="Point" fieldName="concat(&quot;endbringer&quot;, ' ', replace( &quot;generation&quot;, array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10), array('I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X')), ' (', format_date(&quot;attack&quot;, 'yyyy'), ')')" textColor="0,0,0,255" isExpression="1" useSubstitutions="0" multilineHeight="1" allowHtml="0" fontStrikeout="0" blendMode="0" namedStyle="Regular" fontCapitals="0" fontWordSpacing="0">
+            <text-buffer bufferColor="255,255,255,255" bufferOpacity="1" bufferJoinStyle="128" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferBlendMode="0" bufferSizeUnits="MM" bufferNoFill="1" bufferSize="1" bufferDraw="1"/>
+            <text-mask maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskedSymbolLayers="" maskSize="1.5" maskOpacity="1" maskJoinStyle="128" maskEnabled="0" maskType="0" maskSizeUnits="MM"/>
+            <background shapeBorderWidthUnit="MM" shapeJoinStyle="64" shapeRadiiY="0" shapeRadiiUnit="MM" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeDraw="0" shapeBlendMode="0" shapeSizeY="0" shapeSizeUnit="MM" shapeType="0" shapeSVGFile="" shapeRadiiX="0" shapeOpacity="1" shapeFillColor="255,255,255,255" shapeBorderColor="128,128,128,255" shapeSizeX="0" shapeOffsetY="0" shapeRotationType="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeSizeType="0" shapeOffsetUnit="MM" shapeRotation="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetX="0" shapeBorderWidth="0">
+              <symbol force_rhr="0" clip_to_extent="1" name="markerSymbol" alpha="1" type="marker">
+                <layer class="SimpleMarker" locked="0" enabled="1" pass="0">
                   <prop v="0" k="angle"/>
                   <prop v="190,207,80,255" k="color"/>
                   <prop v="1" k="horizontal_anchor_point"/>
@@ -2298,7 +2223,7 @@ def my_form_open(dialog, layer, feature):
                 </layer>
               </symbol>
             </background>
-            <shadow shadowBlendMode="6" shadowRadiusUnit="MM" shadowOffsetUnit="MM" shadowDraw="0" shadowScale="100" shadowRadiusAlphaOnly="0" shadowRadius="1.5" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowOffsetAngle="135" shadowOffsetDist="1" shadowOpacity="0.7" shadowUnder="0" shadowOffsetGlobal="1" shadowColor="0,0,0,255"/>
+            <shadow shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowOffsetGlobal="1" shadowBlendMode="6" shadowUnder="0" shadowRadiusAlphaOnly="0" shadowScale="100" shadowOpacity="0.7" shadowColor="0,0,0,255" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowOffsetAngle="135" shadowRadius="1.5" shadowOffsetUnit="MM" shadowDraw="0" shadowOffsetDist="1" shadowRadiusUnit="MM"/>
             <dd_properties>
               <Option type="Map">
                 <Option name="name" type="QString" value=""/>
@@ -2308,9 +2233,9 @@ def my_form_open(dialog, layer, feature):
             </dd_properties>
             <substitutions/>
           </text-style>
-          <text-format multilineAlign="3" decimals="3" leftDirectionSymbol="&lt;" plussign="0" autoWrapLength="0" placeDirectionSymbol="0" formatNumbers="0" wrapChar="" reverseDirectionSymbol="0" useMaxLineLengthForAutoWrap="1" addDirectionSymbol="0" rightDirectionSymbol=">"/>
-          <placement offsetType="1" placement="6" offsetUnits="MM" fitInPolygonOnly="0" distUnits="MM" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" dist="0.4" placementFlags="10" polygonPlacementFlags="2" geometryGeneratorEnabled="0" layerType="PointGeometry" distMapUnitScale="3x:0,0,0,0,0,0" centroidWhole="0" quadOffset="4" centroidInside="0" overrunDistanceUnit="MM" yOffset="0" geometryGeneratorType="PointGeometry" maxCurvedCharAngleIn="25" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" geometryGenerator="" overrunDistance="0" preserveRotation="1" repeatDistanceUnits="MM" maxCurvedCharAngleOut="-25" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" priority="5" rotationAngle="0" xOffset="0" repeatDistance="0"/>
-          <rendering obstacleType="1" zIndex="0" drawLabels="1" maxNumLabels="2000" scaleMin="0" obstacle="1" fontLimitPixelSize="0" displayAll="1" scaleVisibility="0" labelPerPart="0" upsidedownLabels="0" scaleMax="0" limitNumLabels="0" mergeLines="0" minFeatureSize="0" obstacleFactor="1" fontMinPixelSize="3" fontMaxPixelSize="10000"/>
+          <text-format leftDirectionSymbol="&lt;" reverseDirectionSymbol="0" plussign="0" multilineAlign="3" decimals="3" autoWrapLength="0" rightDirectionSymbol=">" placeDirectionSymbol="0" formatNumbers="0" wrapChar="" addDirectionSymbol="0" useMaxLineLengthForAutoWrap="1"/>
+          <placement centroidInside="0" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" layerType="PointGeometry" rotationAngle="0" fitInPolygonOnly="0" maxCurvedCharAngleOut="-25" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" priority="5" dist="0.4" yOffset="0" geometryGenerator="" repeatDistance="0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" quadOffset="4" overrunDistanceUnit="MM" centroidWhole="0" offsetUnits="MM" maxCurvedCharAngleIn="25" overrunDistance="0" geometryGeneratorType="PointGeometry" repeatDistanceUnits="MM" polygonPlacementFlags="2" placementFlags="10" offsetType="1" placement="6" xOffset="0" preserveRotation="1" distUnits="MM" distMapUnitScale="3x:0,0,0,0,0,0" geometryGeneratorEnabled="0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0"/>
+          <rendering upsidedownLabels="0" zIndex="0" mergeLines="0" scaleVisibility="0" labelPerPart="0" obstacleFactor="1" fontLimitPixelSize="0" maxNumLabels="2000" fontMinPixelSize="3" scaleMax="0" obstacleType="1" minFeatureSize="0" drawLabels="1" scaleMin="0" obstacle="1" limitNumLabels="0" displayAll="1" fontMaxPixelSize="10000"/>
           <dd_properties>
             <Option type="Map">
               <Option name="name" type="QString" value=""/>
@@ -2329,7 +2254,7 @@ def my_form_open(dialog, layer, feature):
               <Option name="drawToAllParts" type="bool" value="false"/>
               <Option name="enabled" type="QString" value="0"/>
               <Option name="labelAnchorPoint" type="QString" value="point_on_exterior"/>
-              <Option name="lineSymbol" type="QString" value="&lt;symbol name=&quot;symbol&quot; force_rhr=&quot;0&quot; type=&quot;line&quot; clip_to_extent=&quot;1&quot; alpha=&quot;1&quot;>&lt;layer enabled=&quot;1&quot; class=&quot;SimpleLine&quot; pass=&quot;0&quot; locked=&quot;0&quot;>&lt;prop v=&quot;square&quot; k=&quot;capstyle&quot;/>&lt;prop v=&quot;5;2&quot; k=&quot;customdash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;customdash_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;customdash_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;draw_inside_polygon&quot;/>&lt;prop v=&quot;bevel&quot; k=&quot;joinstyle&quot;/>&lt;prop v=&quot;60,60,60,255&quot; k=&quot;line_color&quot;/>&lt;prop v=&quot;solid&quot; k=&quot;line_style&quot;/>&lt;prop v=&quot;0.3&quot; k=&quot;line_width&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;line_width_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;offset&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;offset_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;offset_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;ring_filter&quot;/>&lt;prop v=&quot;0&quot; k=&quot;use_custom_dash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;width_map_unit_scale&quot;/>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option name=&quot;name&quot; type=&quot;QString&quot; value=&quot;&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option name=&quot;type&quot; type=&quot;QString&quot; value=&quot;collection&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>"/>
+              <Option name="lineSymbol" type="QString" value="&lt;symbol force_rhr=&quot;0&quot; clip_to_extent=&quot;1&quot; name=&quot;symbol&quot; alpha=&quot;1&quot; type=&quot;line&quot;>&lt;layer class=&quot;SimpleLine&quot; locked=&quot;0&quot; enabled=&quot;1&quot; pass=&quot;0&quot;>&lt;prop v=&quot;square&quot; k=&quot;capstyle&quot;/>&lt;prop v=&quot;5;2&quot; k=&quot;customdash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;customdash_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;customdash_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;draw_inside_polygon&quot;/>&lt;prop v=&quot;bevel&quot; k=&quot;joinstyle&quot;/>&lt;prop v=&quot;60,60,60,255&quot; k=&quot;line_color&quot;/>&lt;prop v=&quot;solid&quot; k=&quot;line_style&quot;/>&lt;prop v=&quot;0.3&quot; k=&quot;line_width&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;line_width_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;offset&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;offset_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;offset_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;ring_filter&quot;/>&lt;prop v=&quot;0&quot; k=&quot;use_custom_dash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;width_map_unit_scale&quot;/>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option name=&quot;name&quot; type=&quot;QString&quot; value=&quot;&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option name=&quot;type&quot; type=&quot;QString&quot; value=&quot;collection&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>"/>
               <Option name="minLength" type="double" value="0"/>
               <Option name="minLengthMapUnitScale" type="QString" value="3x:0,0,0,0,0,0"/>
               <Option name="minLengthUnit" type="QString" value="MM"/>
@@ -2351,13 +2276,13 @@ def my_form_open(dialog, layer, feature):
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
-      <LinearlyInterpolatedDiagramRenderer upperWidth="5" classificationAttributeExpression="" lowerValue="0" upperHeight="5" attributeLegend="1" lowerHeight="0" upperValue="0" diagramType="Histogram" lowerWidth="0">
-        <DiagramCategory penColor="#000000" width="15" labelPlacementMethod="XHeight" backgroundColor="#ffffff" scaleBasedVisibility="0" minScaleDenominator="0" enabled="0" scaleDependency="Area" spacingUnit="MM" spacing="5" penAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" spacingUnitScale="3x:0,0,0,0,0,0" maxScaleDenominator="1e+08" lineSizeType="MM" sizeType="MM" sizeScale="3x:0,0,0,0,0,0" diagramOrientation="Up" minimumSize="0" showAxis="1" rotationOffset="270" backgroundAlpha="255" penWidth="0" direction="0" opacity="1" barWidth="5" height="15">
+      <LinearlyInterpolatedDiagramRenderer attributeLegend="1" lowerValue="0" upperHeight="5" upperValue="0" lowerHeight="0" lowerWidth="0" classificationAttributeExpression="" upperWidth="5" diagramType="Histogram">
+        <DiagramCategory scaleDependency="Area" rotationOffset="270" penAlpha="255" sizeScale="3x:0,0,0,0,0,0" spacingUnitScale="3x:0,0,0,0,0,0" penWidth="0" penColor="#000000" backgroundAlpha="255" direction="0" lineSizeType="MM" opacity="1" height="15" lineSizeScale="3x:0,0,0,0,0,0" labelPlacementMethod="XHeight" width="15" sizeType="MM" backgroundColor="#ffffff" barWidth="5" maxScaleDenominator="1e+08" scaleBasedVisibility="0" spacingUnit="MM" diagramOrientation="Up" showAxis="1" spacing="5" minScaleDenominator="0" enabled="0" minimumSize="0">
           <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
           <attribute field="" color="#000000" label=""/>
           <axisSymbol>
-            <symbol name="" force_rhr="0" type="line" clip_to_extent="1" alpha="1">
-              <layer enabled="1" class="SimpleLine" pass="0" locked="0">
+            <symbol force_rhr="0" clip_to_extent="1" name="" alpha="1" type="line">
+              <layer class="SimpleLine" locked="0" enabled="1" pass="0">
                 <prop v="square" k="capstyle"/>
                 <prop v="5;2" k="customdash"/>
                 <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
@@ -2386,7 +2311,7 @@ def my_form_open(dialog, layer, feature):
           </axisSymbol>
         </DiagramCategory>
       </LinearlyInterpolatedDiagramRenderer>
-      <DiagramLayerSettings showAll="1" zIndex="0" linePlacementFlags="18" priority="0" dist="0" placement="0" obstacle="0">
+      <DiagramLayerSettings priority="0" placement="0" linePlacementFlags="18" dist="0" zIndex="0" obstacle="0" showAll="1">
         <properties>
           <Option type="Map">
             <Option name="name" type="QString" value=""/>
@@ -2432,30 +2357,30 @@ def my_form_open(dialog, layer, feature):
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default field="endbringer" applyOnUpdate="0" expression=""/>
-        <default field="generation" applyOnUpdate="0" expression=""/>
-        <default field="attack" applyOnUpdate="0" expression=""/>
+        <default field="endbringer" expression="" applyOnUpdate="0"/>
+        <default field="generation" expression="" applyOnUpdate="0"/>
+        <default field="attack" expression="" applyOnUpdate="0"/>
       </defaults>
       <constraints>
-        <constraint field="endbringer" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint field="generation" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint field="attack" constraints="0" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+        <constraint field="endbringer" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="generation" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="attack" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="endbringer" exp="" desc=""/>
-        <constraint field="generation" exp="" desc=""/>
-        <constraint field="attack" exp="" desc=""/>
+        <constraint field="endbringer" desc="" exp=""/>
+        <constraint field="generation" desc="" exp=""/>
+        <constraint field="attack" desc="" exp=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
         <columns>
-          <column name="endbringer" hidden="0" type="field" width="-1"/>
-          <column name="generation" hidden="0" type="field" width="-1"/>
-          <column name="attack" hidden="0" type="field" width="-1"/>
-          <column hidden="1" type="actions" width="-1"/>
+          <column name="endbringer" hidden="0" width="-1" type="field"/>
+          <column name="generation" hidden="0" width="-1" type="field"/>
+          <column name="attack" hidden="0" width="-1" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -2653,12 +2578,12 @@ def my_form_open(dialog, layer, feature):
   </projectMetadata>
   <Annotations/>
   <Layouts>
-    <Layout name="endbringers" worldFileMap="{3d4a264f-c746-4d93-bb4e-0e909fcd422f}" units="mm" printResolution="300">
-      <Snapper snapToGrid="0" snapToGuides="1" tolerance="5" snapToItems="1"/>
-      <Grid offsetX="0" offsetY="0" offsetUnits="mm" resolution="10" resUnits="mm"/>
+    <Layout name="endbringers" units="mm" worldFileMap="{3d4a264f-c746-4d93-bb4e-0e909fcd422f}" printResolution="300">
+      <Snapper snapToGrid="0" snapToItems="1" snapToGuides="1" tolerance="5"/>
+      <Grid resolution="10" offsetY="0" offsetX="0" resUnits="mm" offsetUnits="mm"/>
       <PageCollection>
-        <symbol name="" force_rhr="0" type="fill" clip_to_extent="1" alpha="1">
-          <layer enabled="1" class="SimpleFill" pass="0" locked="0">
+        <symbol force_rhr="0" clip_to_extent="1" name="" alpha="1" type="fill">
+          <layer class="SimpleFill" locked="0" enabled="1" pass="0">
             <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
             <prop v="255,255,255,255" k="color"/>
             <prop v="miter" k="joinstyle"/>
@@ -2679,9 +2604,9 @@ def my_form_open(dialog, layer, feature):
             </data_defined_properties>
           </layer>
         </symbol>
-        <LayoutItem frameJoinStyle="miter" blendMode="0" uuid="{e7263590-3e96-4915-bc61-c63b93171c46}" itemRotation="0" outlineWidthM="0.3,mm" templateUuid="{e7263590-3e96-4915-bc61-c63b93171c46}" background="true" positionOnPage="0,0,mm" excludeFromExports="0" groupUuid="" id="" visibility="1" type="65638" zValue="0" referencePoint="0" opacity="1" frame="false" size="297,135,mm" position="0,0,mm" positionLock="false">
-          <FrameColor green="0" red="0" blue="0" alpha="255"/>
-          <BackgroundColor green="255" red="255" blue="255" alpha="255"/>
+        <LayoutItem positionLock="false" id="" position="0,0,mm" size="297,135,mm" templateUuid="{e7263590-3e96-4915-bc61-c63b93171c46}" zValue="0" opacity="1" visibility="1" groupUuid="" type="65638" outlineWidthM="0.3,mm" referencePoint="0" uuid="{e7263590-3e96-4915-bc61-c63b93171c46}" positionOnPage="0,0,mm" background="true" frameJoinStyle="miter" excludeFromExports="0" blendMode="0" itemRotation="0" frame="false">
+          <FrameColor alpha="255" green="0" blue="0" red="0"/>
+          <BackgroundColor alpha="255" green="255" blue="255" red="255"/>
           <LayoutObject>
             <dataDefinedProperties>
               <Option type="Map">
@@ -2692,8 +2617,8 @@ def my_form_open(dialog, layer, feature):
             </dataDefinedProperties>
             <customproperties/>
           </LayoutObject>
-          <symbol name="" force_rhr="0" type="fill" clip_to_extent="1" alpha="0">
-            <layer enabled="1" class="SimpleFill" pass="0" locked="0">
+          <symbol force_rhr="0" clip_to_extent="1" name="" alpha="0" type="fill">
+            <layer class="SimpleFill" locked="0" enabled="1" pass="0">
               <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
               <prop v="255,255,255,255" k="color"/>
               <prop v="miter" k="joinstyle"/>
@@ -2717,9 +2642,9 @@ def my_form_open(dialog, layer, feature):
         </LayoutItem>
         <GuideCollection visible="1"/>
       </PageCollection>
-      <LayoutItem frameJoinStyle="miter" labelText="[%@project_filename%] // [%@layout_name%]&#xa;tag [%env('devilfishGitRev')%]&#xa;[%format_date(now(), 'yyyy-MM-dd HH:mm:ss')%]&#xa;qgis [% @qgis_version %]" blendMode="0" uuid="{af366fbc-29b5-41ab-b780-7730c0989bbf}" itemRotation="0" outlineWidthM="0.3,mm" templateUuid="{af366fbc-29b5-41ab-b780-7730c0989bbf}" background="false" positionOnPage="-6.82622e-16,121.02,mm" marginY="1" excludeFromExports="0" groupUuid="" id="" marginX="1" visibility="1" type="65641" htmlState="0" zValue="2" referencePoint="0" opacity="1" halign="1" frame="false" size="72.6454,13.98,mm" position="-6.82622e-16,121.02,mm" positionLock="false" valign="64">
-        <FrameColor green="0" red="0" blue="0" alpha="255"/>
-        <BackgroundColor green="255" red="255" blue="255" alpha="255"/>
+      <LayoutItem positionLock="false" htmlState="0" id="" position="-6.82622e-16,121.02,mm" size="72.6454,13.98,mm" marginX="1" marginY="1" templateUuid="{af366fbc-29b5-41ab-b780-7730c0989bbf}" zValue="2" opacity="1" visibility="1" groupUuid="" type="65641" outlineWidthM="0.3,mm" referencePoint="0" uuid="{af366fbc-29b5-41ab-b780-7730c0989bbf}" positionOnPage="-6.82622e-16,121.02,mm" halign="1" background="false" frameJoinStyle="miter" excludeFromExports="0" valign="64" blendMode="0" labelText="[%@project_filename%] // [%@layout_name%]&#xa;tag [%env('devilfishGitRev')%]&#xa;[%format_date(now(), 'yyyy-MM-dd HH:mm:ss')%]&#xa;qgis [% @qgis_version %]" itemRotation="0" frame="false">
+        <FrameColor alpha="255" green="0" blue="0" red="0"/>
+        <BackgroundColor alpha="255" green="255" blue="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -2731,11 +2656,11 @@ def my_form_open(dialog, layer, feature):
           <customproperties/>
         </LayoutObject>
         <LabelFont style="Retina" description="Fira Code Retina,4,-1,5,57,0,0,0,0,0,Retina"/>
-        <FontColor green="0" red="0" blue="0" alpha="255"/>
+        <FontColor alpha="128" green="0" blue="0" red="0"/>
       </LayoutItem>
-      <LayoutItem frameJoinStyle="miter" followPresetName="" blendMode="0" uuid="{3d4a264f-c746-4d93-bb4e-0e909fcd422f}" itemRotation="0" outlineWidthM="0.3,mm" templateUuid="{3d4a264f-c746-4d93-bb4e-0e909fcd422f}" background="false" keepLayerSet="false" drawCanvasItems="true" mapFlags="0" positionOnPage="0,0,mm" excludeFromExports="0" labelMargin="0,mm" groupUuid="" id="" visibility="1" type="65639" zValue="1" referencePoint="0" opacity="1" followPreset="false" mapRotation="0" frame="false" size="297,155.365,mm" position="0,0,mm" positionLock="false" isTemporal="0">
-        <FrameColor green="0" red="0" blue="0" alpha="255"/>
-        <BackgroundColor green="255" red="255" blue="255" alpha="255"/>
+      <LayoutItem positionLock="false" id="" isTemporal="0" position="0,0,mm" size="297,155.365,mm" drawCanvasItems="true" labelMargin="0,mm" templateUuid="{3d4a264f-c746-4d93-bb4e-0e909fcd422f}" zValue="1" opacity="1" keepLayerSet="false" visibility="1" groupUuid="" type="65639" mapRotation="0" outlineWidthM="0.3,mm" referencePoint="0" followPresetName="" uuid="{3d4a264f-c746-4d93-bb4e-0e909fcd422f}" mapFlags="0" positionOnPage="0,0,mm" background="false" frameJoinStyle="miter" excludeFromExports="0" blendMode="0" itemRotation="0" frame="false" followPreset="false">
+        <FrameColor alpha="255" green="0" blue="0" red="0"/>
+        <BackgroundColor alpha="255" green="255" blue="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -2746,9 +2671,9 @@ def my_form_open(dialog, layer, feature):
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
-        <Extent xmax="16597137.37215588800609112" ymin="-8591137.06811858341097832" xmin="-16581612.25428866036236286" ymax="8765152.88560882210731506"/>
+        <Extent xmin="-16581612.25428866036236286" xmax="16597137.37215588800609112" ymax="8765152.88560882210731506" ymin="-8591137.06811858341097832"/>
         <LayerSet/>
-        <AtlasMap margin="0.10000000000000001" atlasDriven="0" scalingMode="2"/>
+        <AtlasMap atlasDriven="0" scalingMode="2" margin="0.10000000000000001"/>
         <labelBlockingItems/>
       </LayoutItem>
       <customproperties>
@@ -2760,14 +2685,14 @@ def my_form_open(dialog, layer, feature):
         <property key="imageCropMarginTop" value="0"/>
         <property key="imageCropToContents" value="false"/>
       </customproperties>
-      <Atlas enabled="0" coverageLayer="" hideCoverage="0" filenamePattern="'output_'||@atlas_featurenumber" sortFeatures="0" filterFeatures="0" pageNameExpression=""/>
+      <Atlas filterFeatures="0" sortFeatures="0" hideCoverage="0" coverageLayer="" enabled="0" filenamePattern="'output_'||@atlas_featurenumber" pageNameExpression=""/>
     </Layout>
   </Layouts>
   <Bookmarks/>
   <ProjectViewSettings UseProjectScales="0">
     <Scales/>
   </ProjectViewSettings>
-  <ProjectTimeSettings cumulativeTemporalRange="0" frameRate="1" timeStep="1" timeStepUnit="h"/>
+  <ProjectTimeSettings frameRate="1" timeStep="1" timeStepUnit="h" cumulativeTemporalRange="0"/>
   <ProjectDisplaySettings>
     <BearingFormat id="bearing">
       <Option type="Map">
