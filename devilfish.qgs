@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUserFull="Keira Dueck" saveUser="Keira" saveDateTime="2021-04-16T04:17:09" version="3.14.0-Pi" projectname="Devilfish, Minnesota">
+<qgis saveUserFull="Keira Dueck" saveUser="Keira" saveDateTime="2021-04-16T04:46:19" version="3.14.0-Pi" projectname="Devilfish, Minnesota">
   <homePath path="C:/Users/Keira/Documents/GitHub/devilfish-map"/>
   <title>Devilfish, Minnesota</title>
   <autotransaction active="0"/>
@@ -105,10 +105,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>degrees</units>
     <extent>
-      <xmin>-90.25667272917681316</xmin>
-      <ymin>47.78165877884721624</ymin>
-      <xmax>-89.96547618785453437</xmax>
-      <ymax>47.90303526266480105</ymax>
+      <xmin>-90.2301153889883949</xmin>
+      <ymin>47.90338376810295529</ymin>
+      <xmax>-90.12091668599254035</xmax>
+      <ymax>47.94889994953454959</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
