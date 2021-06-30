@@ -15,7 +15,8 @@ Foreach-Object {
 }
 
 
-Get-ChildItem "export" -Filter *.png | 
-Foreach-Object {
-	Measure-Command { optipng $_.FullName | Out-Default }
+Measure-Command { 
+	Get-ChildItem "export" -Filter *.png | 	Foreach-Object -Parallel {
+		optipng $_.FullName
+	} -ThrottleLimit 8
 }

@@ -14,14 +14,14 @@ $tag = $(git describe --tags --dirty --always)
 
 
 Get-ChildItem "export" -Filter *.png | 
-Foreach-Object {
+Foreach-Object -Parallel {
 	echo $_.Name
 	Switch ($_.Name) {
 		'city.png' {$dest = 'Devilfish city.png'}
 		'overview.png' {$dest = 'Devilfish overview.png'}
-		'endbringers.png' {$dest = 'Endbringer map.png'}
-		'prt-departments.png' {$dest = 'PRT departments.png'}
+		# 'endbringers.png' {$dest = 'Endbringer map.png'}
+		# 'prt-departments.png' {$dest = 'PRT departments.png'}
 		default {return}
 	}
 	Measure-Command { python-qgis pwb/pwb.py upload -always -abortonwarn -ignorewarn:exists -filename:$dest $_.FullName "CLI upload from sylae/devilfish-map tag $tag" | Out-Default }
-}
+} -ThrottleLimit 32
