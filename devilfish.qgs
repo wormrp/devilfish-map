@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveDateTime="2021-06-29T20:00:54" saveUserFull="Keira Dueck" projectname="Devilfish, Minnesota" version="3.14.0-Pi" saveUser="Keira">
+<qgis saveDateTime="2021-06-29T21:23:52" saveUserFull="Keira Dueck" projectname="Devilfish, Minnesota" version="3.14.0-Pi" saveUser="Keira">
   <homePath path="C:/Users/Keira/Documents/GitHub/devilfish-map"/>
   <title>Devilfish, Minnesota</title>
   <autotransaction active="0"/>
@@ -105,10 +105,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>degrees</units>
     <extent>
-      <xmin>-90.56970960461769948</xmin>
-      <ymin>47.86407161321122317</ymin>
-      <xmax>-89.86597723302840279</xmax>
-      <ymax>48.12226276571399808</ymax>
+      <xmin>-90.25566371569675539</xmin>
+      <ymin>47.79406006518939876</ymin>
+      <xmax>-89.83038356442557415</xmax>
+      <ymax>47.95009036424590931</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -4424,11 +4424,12 @@ def my_form_open(dialog, layer, feature):
       <renderer-v2 symbollevels="0" forceraster="0" attr="owner" enableorderby="0" type="categorizedSymbol">
         <categories>
           <category value="Heroes" label="Heroes" render="true" symbol="0"/>
-          <category value="Maids" label="Maids of Dishonor" render="true" symbol="1"/>
-          <category value="HoM" label="House of Mirrors" render="true" symbol="2"/>
-          <category value="Lowrys" label="Lowrys" render="true" symbol="3"/>
+          <category value="HoM" label="House of Mirrors" render="true" symbol="1"/>
+          <category value="Lowrys" label="Lowrys" render="true" symbol="2"/>
+          <category value="Maids" label="Maids of Dishonor" render="true" symbol="3"/>
           <category value="Mafia" label="Devilfish Mafia" render="true" symbol="4"/>
-          <category value="" label="Unclaimed" render="true" symbol="5"/>
+          <category value="Furies" label="Furies" render="true" symbol="5"/>
+          <category value="" label="Unclaimed" render="true" symbol="6"/>
         </categories>
         <symbols>
           <symbol alpha="1" clip_to_extent="1" name="0" type="marker" force_rhr="0">
@@ -4463,7 +4464,7 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" name="1" type="marker" force_rhr="0">
             <layer pass="0" class="SimpleMarker" enabled="1" locked="0">
               <prop v="0" k="angle"/>
-              <prop v="226,88,123,255" k="color"/>
+              <prop v="206,189,176,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
               <prop v="bevel" k="joinstyle"/>
               <prop v="square" k="name"/>
@@ -4492,7 +4493,7 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" name="2" type="marker" force_rhr="0">
             <layer pass="0" class="SimpleMarker" enabled="1" locked="0">
               <prop v="0" k="angle"/>
-              <prop v="206,189,176,255" k="color"/>
+              <prop v="228,127,55,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
               <prop v="bevel" k="joinstyle"/>
               <prop v="square" k="name"/>
@@ -4521,7 +4522,7 @@ def my_form_open(dialog, layer, feature):
           <symbol alpha="1" clip_to_extent="1" name="3" type="marker" force_rhr="0">
             <layer pass="0" class="SimpleMarker" enabled="1" locked="0">
               <prop v="0" k="angle"/>
-              <prop v="228,127,55,255" k="color"/>
+              <prop v="226,88,123,255" k="color"/>
               <prop v="1" k="horizontal_anchor_point"/>
               <prop v="bevel" k="joinstyle"/>
               <prop v="square" k="name"/>
@@ -4577,6 +4578,35 @@ def my_form_open(dialog, layer, feature):
             </layer>
           </symbol>
           <symbol alpha="1" clip_to_extent="1" name="5" type="marker" force_rhr="0">
+            <layer pass="0" class="SimpleMarker" enabled="1" locked="0">
+              <prop v="0" k="angle"/>
+              <prop v="60,54,170,255" k="color"/>
+              <prop v="1" k="horizontal_anchor_point"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="square" k="name"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="255,255,255,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.4" k="outline_width"/>
+              <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="area" k="scale_method"/>
+              <prop v="1.6" k="size"/>
+              <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+              <prop v="MM" k="size_unit"/>
+              <prop v="1" k="vertical_anchor_point"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" name="6" type="marker" force_rhr="0">
             <layer pass="0" class="SimpleMarker" enabled="1" locked="0">
               <prop v="0" k="angle"/>
               <prop v="0,0,0,255" k="color"/>
@@ -5232,10 +5262,10 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer wkbType="LineString" styleCategories="AllStyleCategories" simplifyLocal="1" minScale="100000" autoRefreshEnabled="0" geometry="Line" simplifyDrawingHints="1" refreshOnNotifyMessage="" simplifyDrawingTol="1" type="vector" maxScale="0" simplifyMaxScale="1" hasScaleBasedVisibilityFlag="1" simplifyAlgorithm="0" autoRefreshTime="0" labelsEnabled="1" refreshOnNotifyEnabled="0" readOnly="0">
       <extent>
-        <xmin>-90.36946581065500084</xmin>
+        <xmin>-90.39896987982707799</xmin>
         <ymin>47.79535725021185044</ymin>
         <xmax>-90.01903989670407213</xmax>
-        <ymax>47.94978819125982739</ymax>
+        <ymax>47.99819885435888267</ymax>
       </extent>
       <id>streets_a2b76a53_9683_4a95_8ff3_094db4a3422c</id>
       <datasource>./data-internal/streets.geojson|layerid=0|subset="type" IN ('major','minor')</datasource>
@@ -5525,7 +5555,9 @@ def my_form_open(dialog, layer, feature):
         </settings>
       </labeling>
       <customproperties>
-        <property value="&quot;fid&quot;" key="dualview/previewExpressions"/>
+        <property key="dualview/previewExpressions">
+          <value>"fid"</value>
+        </property>
         <property value="0" key="embeddedWidgets/count"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
@@ -5632,7 +5664,7 @@ def my_form_open(dialog, layer, feature):
       <attributeactions>
         <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <attributetableconfig sortExpression="&quot;Label&quot;" actionWidgetStyle="dropDown" sortOrder="0">
         <columns>
           <column name="fid" width="-1" type="field" hidden="0"/>
           <column name="Label" width="-1" type="field" hidden="0"/>
@@ -5944,6 +5976,7 @@ def my_form_open(dialog, layer, feature):
           <customproperties/>
           <layer-tree-layer patch_size="0,0" legend_split_behavior="0" expanded="1" name="Points of Interest" checked="Qt::Checked" providerKey="ogr" id="pois_fdbe2e3b_3791_4818_8e1b_4b578f2cac50" source="./data-internal/pois.geojson|layername=pois" legend_exp="">
             <customproperties>
+              <property value="Points of Interest" key="cached_name"/>
               <property value="0" key="showFeatureCount"/>
             </customproperties>
           </layer-tree-layer>
@@ -7064,11 +7097,13 @@ def my_form_open(dialog, layer, feature):
             </customproperties>
             <layer-tree-layer patch_size="-1,-1" legend_split_behavior="0" expanded="1" name="Highways" checked="Qt::Checked" providerKey="ogr" id="Streets_0d29fc64_af9f_4899_8dca_531d0d9a956d" source="./data-internal/streets.geojson|layerid=0|subset=&quot;type&quot; IN ('motorway','primary','secondary','rail')" legend_exp="">
               <customproperties>
+                <property value="Highways" key="cached_name"/>
                 <property value="hidden" key="legend/title-style"/>
               </customproperties>
             </layer-tree-layer>
             <layer-tree-layer patch_size="0,0" legend_split_behavior="0" expanded="1" name="Streets" checked="Qt::Checked" providerKey="ogr" id="streets_a2b76a53_9683_4a95_8ff3_094db4a3422c" source="./data-internal/streets.geojson|layerid=0|subset=&quot;type&quot; IN ('major','minor')" legend_exp="">
               <customproperties>
+                <property value="Streets" key="cached_name"/>
                 <property value="hidden" key="legend/title-style"/>
               </customproperties>
             </layer-tree-layer>

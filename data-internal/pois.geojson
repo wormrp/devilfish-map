@@ -62,6 +62,9 @@
 { "type": "Feature", "properties": { "fid": 57, "Label": "Baker St. Apts", "type": null, "owner": "Mafia" }, "geometry": { "type": "Point", "coordinates": [ -90.160516814192235, 47.856386070576534 ] } },
 { "type": "Feature", "properties": { "fid": 58, "Label": "Black Couch Warehouse", "type": null, "owner": "Mafia" }, "geometry": { "type": "Point", "coordinates": [ -90.102736411199814, 47.816626288319391 ] } },
 { "type": "Feature", "properties": { "fid": 59, "Label": "Fimbul's Junkyard", "type": null, "owner": "Mafia" }, "geometry": { "type": "Point", "coordinates": [ -90.465937731494918, 47.775865360465836 ] } },
-{ "type": "Feature", "properties": { "fid": 60, "Label": "Las Gauchas Steakhouse", "type": null, "owner": "Maids" }, "geometry": { "type": "Point", "coordinates": [ -90.182026677652459, 47.879666296340091 ] } }
+{ "type": "Feature", "properties": { "fid": 60, "Label": "Las Gauchas Steakhouse", "type": null, "owner": "Maids" }, "geometry": { "type": "Point", "coordinates": [ -90.182026677652459, 47.879666296340091 ] } },
+{ "type": "Feature", "properties": { "fid": 61, "Label": "Landmark Apartments", "type": null, "owner": "Furies" }, "geometry": { "type": "Point", "coordinates": [ -90.097789565329066, 47.883023047710374 ] } },
+{ "type": "Feature", "properties": { "fid": 62, "Label": "Abandoned Power Plant", "type": null, "owner": null }, "geometry": { "type": "Point", "coordinates": [ -90.069003108918594, 47.880293619542158 ] } },
+{ "type": "Feature", "properties": { "fid": 63, "Label": "Furies Warehouse", "type": null, "owner": "Furies" }, "geometry": { "type": "Point", "coordinates": [ -90.064496118287224, 47.881816875045558 ] } }
 ]
 }
