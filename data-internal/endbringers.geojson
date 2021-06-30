@@ -33,7 +33,7 @@
 { "type": "Feature", "properties": { "endbringer": "Atcen", "generation": 4, "attack": "2015\/09\/23" }, "geometry": { "type": "Point", "coordinates": [ -82.384681788256856, 23.107562020203446 ] } },
 { "type": "Feature", "properties": { "endbringer": "Golden Calf", "generation": 1, "attack": "2016\/12\/23" }, "geometry": { "type": "Point", "coordinates": [ 35.220749860320147, 31.78128149103124 ] } },
 { "type": "Feature", "properties": { "endbringer": "Golden Calf", "generation": 2, "attack": "2017\/11\/11" }, "geometry": { "type": "Point", "coordinates": [ -76.793645492463043, 17.993353234586014 ] } },
-{ "type": "Feature", "properties": { "endbringer": "ZZ", "generation": 1, "attack": "2018\/08\/12" }, "geometry": { "type": "Point", "coordinates": [ -74.004805601011171, 40.68640254767994 ] } },
+{ "type": "Feature", "properties": { "endbringer": "Crocosaur", "generation": 1, "attack": "2018\/08\/12" }, "geometry": { "type": "Point", "coordinates": [ -74.004805601011171, 40.68640254767994 ] } },
 { "type": "Feature", "properties": { "endbringer": "Famine", "generation": 1, "attack": "2019\/08\/03" }, "geometry": { "type": "Point", "coordinates": [ 28.064330253805636, -14.684357289497813 ] } },
 { "type": "Feature", "properties": { "endbringer": "Famine", "generation": 2, "attack": "2021\/12\/23" }, "geometry": { "type": "Point", "coordinates": [ 76.932471790440673, 43.268216489335316 ] } }
 ]
