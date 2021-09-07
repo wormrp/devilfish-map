@@ -1,4 +1,4 @@
-<qgis projectname="Devilfish, Minnesota" saveDateTime="2021-09-07T05:20:02" saveUser="Keira" saveUserFull="Keira Dueck" version="3.14.0-Pi">
+<qgis projectname="Devilfish, Minnesota" saveDateTime="2021-09-07T05:20:31" saveUser="Keira" saveUserFull="Keira Dueck" version="3.14.0-Pi">
   <homePath path="C:/Users/Keira/Documents/GitHub/devilfish-map"></homePath>
   <title>Devilfish, Minnesota</title>
   <autotransaction active="0"></autotransaction>
@@ -98,10 +98,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>degrees</units>
     <extent>
-      <xmin>-91.04768976197213703</xmin>
-      <ymin>47.55413632917456113</ymin>
-      <xmax>-89.9824932913527249</xmax>
-      <ymax>48.16833201776584161</ymax>
+      <xmin>-90.42799514375360559</xmin>
+      <ymin>47.72175170254437404</ymin>
+      <xmax>-89.89539690844389952</xmax>
+      <ymax>48.02884954684001428</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
