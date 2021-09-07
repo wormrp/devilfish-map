@@ -38,7 +38,7 @@
 { "type": "Feature", "properties": { "fid": 33, "Label": "435 Auto Salvage", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.052872532904203, 47.884653029718201 ] } },
 { "type": "Feature", "properties": { "fid": 34, "Label": "A1 Towing", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.172988554962032, 47.805336067456501 ] } },
 { "type": "Feature", "properties": { "fid": 35, "Label": "Greyhound Bus", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.182075788262267, 47.849164205019321 ] } },
-{ "type": "Feature", "properties": { "fid": 36, "Label": "Devilfish Marina", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.330051846569461, 47.751037043786518 ] } },
+{ "type": "Feature", "properties": { "fid": 36, "Label": "Devilfish Marina", "type": null, "owner": "Mafia" }, "geometry": { "type": "Point", "coordinates": [ -90.330051846569461, 47.751037043786518 ] } },
 { "type": "Feature", "properties": { "fid": 37, "Label": "Cloverleaf Acres Mall", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.356303853881016, 47.918346845370209 ] } },
 { "type": "Feature", "properties": { "fid": 38, "Label": "Devilfish Zoo and Fish Hatchery", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.47806530089855, 47.882110100235074 ] } },
 { "type": "Feature", "properties": { "fid": 39, "Label": "Gilbert Spencer Perfoming Arts Theatre", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.21214218979847, 47.923844060576478 ] } },
@@ -69,6 +69,8 @@
 { "type": "Feature", "properties": { "fid": 64, "Label": "STF Cape HQ", "type": null, "owner": "STF" }, "geometry": { "type": "Point", "coordinates": [ -90.191782150567775, 47.917811466471143 ] } },
 { "type": "Feature", "properties": { "fid": 65, "Label": "Siberian Touchstone Coal Mine", "type": null, "owner": "STF" }, "geometry": { "type": "Point", "coordinates": [ -90.228096391933406, 47.98050857273298 ] } },
 { "type": "Feature", "properties": { "fid": 66, "Label": "Siberian Touchstone Logging Camp", "type": null, "owner": "STF" }, "geometry": { "type": "Point", "coordinates": [ -89.98558209783026, 47.994540724626425 ] } },
-{ "type": "Feature", "properties": { "fid": 67, "Label": "USS Devilfish Museum", "type": null, "owner": null }, "geometry": { "type": "Point", "coordinates": [ -90.077843663118486, 47.804085519080111 ] } }
+{ "type": "Feature", "properties": { "fid": 67, "Label": "USS Devilfish Museum", "type": null, "owner": null }, "geometry": { "type": "Point", "coordinates": [ -90.077843663118486, 47.804085519080111 ] } },
+{ "type": "Feature", "properties": { "fid": 68, "Label": "Found Family Estate", "type": null, "owner": "FoundFamily" }, "geometry": { "type": "Point", "coordinates": [ -90.409818231681072, 48.005735582000419 ] } },
+{ "type": "Feature", "properties": { "fid": 69, "Label": "Safe Harbor Compassion Ctr", "type": null, "owner": "FoundFamily" }, "geometry": { "type": "Point", "coordinates": [ -90.515180265991518, 47.917856800090881 ] } }
 ]
 }
