@@ -6,10 +6,16 @@ The dataset is clipped to features within our interested area, as well as filter
 
 ---
 
-alos-dem.tif is a downset of ALOS synthetic aperture radar imaging by JAXA
+usgs_alos_dem.tif is a combination of USGS 3DEP data, along with ALOS synthetic aperture radar imaging by JAXA north of the border.
 
+https://www.usgs.gov/core-science-systems/ngp/3dep
 https://www.eorc.jaxa.jp/ALOS/en/obs/palsar_strat.htm
 https://asf.alaska.edu/doi/10-5067-z97hfcnkr6va/
 © JAXA/METI 2010.
 
-The data was clipped, converted from UTM, and downsampled because daddy github doesn't want to take a 280 MiB GeoTIFF file apparently.
+The data was merged and upsampled where needed. It is not included in this repo because I ended up with a 992 MiB geotiff, but it can be easily created from the above sources:
+
+- download the ALOS data from alaska (should be just a single file for our map coverage)
+- download the USGS data, you should get four files to cover the entire region
+- convert the data from UTM to EPSG:4326
+- use gdalmerge to combine them. Make sure to specify the ALOS data first in the arguments so that it's overwritten by the higher-resolution USGS data south of the border. Use the argument "-n 0" to specify 0 as a nodata point as well.

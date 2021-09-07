@@ -9,3 +9,4 @@ pywikibot.lwp
 apicache-py3/*
 throttle.ctrl
 user-password.py
+data-external/usgs_alos_dem.tif
