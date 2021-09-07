@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUser="Keira" saveUserFull="Keira Dueck" projectname="Devilfish, Minnesota" version="3.14.0-Pi" saveDateTime="2021-09-07T02:36:58">
+<qgis saveUser="Keira" saveUserFull="Keira Dueck" projectname="Devilfish, Minnesota" version="3.14.0-Pi" saveDateTime="2021-09-07T03:07:22">
   <homePath path="C:/Users/Keira/Documents/GitHub/devilfish-map"/>
   <title>Devilfish, Minnesota</title>
   <autotransaction active="0"/>
@@ -55,7 +55,7 @@
     <layer-tree-layer name="Rivers" providerKey="ogr" id="rivers_79409b2b_2391_4e5b_8db1_ea05972824d3" legend_exp="" checked="Qt::Checked" legend_split_behavior="0" source="./data-internal/rivers.geojson" patch_size="0,0" expanded="1">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer name="Land Use" providerKey="ogr" id="landuse_5fdb587e_20b2_4c29_8f73_0c3d8f724eb1" legend_exp="" checked="Qt::Checked" legend_split_behavior="0" source="./data-internal/landuse.geojson|layername=landuse" patch_size="0,0" expanded="0">
+    <layer-tree-layer name="Land Use" providerKey="ogr" id="landuse_5fdb587e_20b2_4c29_8f73_0c3d8f724eb1" legend_exp="" checked="Qt::Checked" legend_split_behavior="0" source="./data-internal/landuse.geojson|layername=landuse" patch_size="0,0" expanded="1">
       <customproperties>
         <property key="cached_name" value="Land Use"/>
       </customproperties>
@@ -99,10 +99,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>degrees</units>
     <extent>
-      <xmin>-91.01922642604476721</xmin>
-      <ymin>47.60785362368243057</ymin>
-      <xmax>-89.98318183932205727</xmax>
-      <ymax>47.98796622997052452</ymax>
+      <xmin>-90.9227532076990741</xmin>
+      <ymin>47.9459192799656222</ymin>
+      <xmax>-90.66374206101839661</xmax>
+      <ymax>48.04094743153764568</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -168,8 +168,8 @@
         <legendlayerfile isInOverview="0" layerid="rivers_79409b2b_2391_4e5b_8db1_ea05972824d3" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer name="Land Use" showFeatureCount="0" checked="Qt::Checked" open="false" drawingOrder="-1">
-      <filegroup hidden="false" open="false">
+    <legendlayer name="Land Use" showFeatureCount="0" checked="Qt::Checked" open="true" drawingOrder="-1">
+      <filegroup hidden="false" open="true">
         <legendlayerfile isInOverview="0" layerid="landuse_5fdb587e_20b2_4c29_8f73_0c3d8f724eb1" visible="1"/>
       </filegroup>
     </legendlayer>
@@ -2784,6 +2784,8 @@ def my_form_open(dialog, layer, feature):
           <category render="true" label="Reservation" symbol="0" value="rez"/>
           <category render="true" label="Urban Boundary" symbol="1" value="urban"/>
           <category render="true" label="Park / Recreation" symbol="2" value="park"/>
+          <category render="true" label="Forest" symbol="3" value="forest"/>
+          <category render="true" label="Agricultural" symbol="4" value="ag"/>
         </categories>
         <symbols>
           <symbol name="0" clip_to_extent="1" force_rhr="0" type="fill" alpha="1">
@@ -2839,6 +2841,50 @@ def my_form_open(dialog, layer, feature):
               <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
               <prop v="MM" k="offset_unit"/>
               <prop v="83,83,83,16" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol name="3" clip_to_extent="1" force_rhr="0" type="fill" alpha="1">
+            <layer enabled="1" pass="0" class="SimpleFill" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="49,162,44,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+          <symbol name="4" clip_to_extent="1" force_rhr="0" type="fill" alpha="1">
+            <layer enabled="1" pass="0" class="SimpleFill" locked="0">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="203,189,33,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
               <prop v="solid" k="outline_style"/>
               <prop v="0.26" k="outline_width"/>
               <prop v="MM" k="outline_width_unit"/>
@@ -4434,7 +4480,7 @@ def my_form_open(dialog, layer, feature):
       <labeling type="simple">
         <settings calloutType="simple">
           <text-style textColor="0,0,0,255" fontUnderline="0" fontStrikeout="0" textOpacity="1" fontSizeUnit="Point" multilineHeight="1" fontCapitals="0" fontKerning="1" allowHtml="0" previewBkgrdColor="255,255,255,255" fontFamily="Trebuchet MS" namedStyle="Regular" textOrientation="rotation-based" fontWeight="50" fontSizeMapUnitScale="3x:0,0,0,0,0,0" isExpression="0" fontSize="7" fontLetterSpacing="0" fieldName="Label" useSubstitutions="0" fontItalic="0" fontWordSpacing="0" blendMode="0">
-            <text-buffer bufferDraw="1" bufferColor="255,255,255,255" bufferSizeUnits="MM" bufferJoinStyle="128" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSize="0.5" bufferBlendMode="0" bufferNoFill="0" bufferOpacity="1"/>
+            <text-buffer bufferDraw="1" bufferColor="255,255,255,255" bufferSizeUnits="MM" bufferJoinStyle="128" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSize="0.3" bufferBlendMode="0" bufferNoFill="1" bufferOpacity="1"/>
             <text-mask maskJoinStyle="128" maskedSymbolLayers="" maskEnabled="0" maskOpacity="1" maskType="0" maskSize="0" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskSizeUnits="MM"/>
             <background shapeRadiiY="0" shapeRadiiUnit="MM" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeBorderColor="128,128,128,255" shapeType="0" shapeRotationType="0" shapeOpacity="1" shapeBorderWidth="0" shapeBlendMode="0" shapeBorderWidthUnit="MM" shapeFillColor="255,255,255,255" shapeSizeUnit="MM" shapeRadiiX="0" shapeSizeY="0" shapeSizeX="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeDraw="0" shapeOffsetX="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeSVGFile="" shapeRotation="0" shapeSizeType="0" shapeOffsetUnit="MM" shapeOffsetY="0" shapeJoinStyle="64">
               <symbol name="markerSymbol" clip_to_extent="1" force_rhr="0" type="marker" alpha="1">
@@ -5020,10 +5066,10 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer autoRefreshTime="0" hasScaleBasedVisibilityFlag="1" autoRefreshEnabled="0" simplifyMaxScale="1" type="vector" styleCategories="AllStyleCategories" simplifyLocal="1" refreshOnNotifyEnabled="0" minScale="100000" maxScale="0" labelsEnabled="1" simplifyAlgorithm="0" readOnly="0" simplifyDrawingHints="1" wkbType="LineString" refreshOnNotifyMessage="" geometry="Line" simplifyDrawingTol="1">
       <extent>
-        <xmin>-90.39896987982707799</xmin>
+        <xmin>-90.90712726388244391</xmin>
         <ymin>47.79535725021185044</ymin>
         <xmax>-90.01903989670407213</xmax>
-        <ymax>47.99819885435888267</ymax>
+        <ymax>48.00845019231298494</ymax>
       </extent>
       <id>streets_a2b76a53_9683_4a95_8ff3_094db4a3422c</id>
       <datasource>./data-internal/streets.geojson|layerid=0|subset="type" IN ('major','minor')</datasource>
