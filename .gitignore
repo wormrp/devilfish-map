@@ -3,10 +3,13 @@
 export/*
 export-tiles/*
 
+# huge fucking data that im not including in the repo
+# see data-external/ATTRIBUTION for instructions
+data-external/usgs_alos_dem.tif
+
 # pywikibot nonsense
 logs/*
 pywikibot.lwp
 apicache-py3/*
 throttle.ctrl
 user-password.py
-data-external/usgs_alos_dem.tif
