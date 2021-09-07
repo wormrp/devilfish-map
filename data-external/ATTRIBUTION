@@ -19,3 +19,5 @@ The data was merged and upsampled where needed. It is not included in this repo 
 - download the USGS data, you should get four files to cover the entire region
 - convert the data from UTM to EPSG:4326
 - use gdalmerge to combine them. Make sure to specify the ALOS data first in the arguments so that it's overwritten by the higher-resolution USGS data south of the border. Use the argument "-n 0" to specify 0 as a nodata point as well.
+
+If that's too much bother, grab the old data from a prior map release, and it should fit in just fine (albeit at a lower resolution, tweak as needed!)
