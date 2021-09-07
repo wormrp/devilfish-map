@@ -1,4 +1,5 @@
 *.qgs~
+*.aux.xml
 export/*
 export-tiles/*
 
