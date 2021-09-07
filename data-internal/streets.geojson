@@ -106,6 +106,7 @@
 { "type": "Feature", "properties": { "fid": null, "Label": "Progress St", "type": "minor" }, "geometry": { "type": "LineString", "coordinates": [ [ -90.082511458028421, 47.874559490111125 ], [ -90.085829616071422, 47.816691508743311 ] ] } },
 { "type": "Feature", "properties": { "fid": null, "Label": "Garden St", "type": "minor" }, "geometry": { "type": "LineString", "coordinates": [ [ -90.078203064339078, 47.874385764559143 ], [ -90.081555967492491, 47.816552528301735 ] ] } },
 { "type": "Feature", "properties": { "fid": null, "Label": "Crescent Dr", "type": "minor" }, "geometry": { "type": "LineString", "coordinates": [ [ -90.066163883586171, 47.874107803675962 ], [ -90.06582511875979, 47.873769038849588 ], [ -90.06557321670941, 47.873525823076797 ], [ -90.065460295100607, 47.873256548471211 ], [ -90.065382118602216, 47.872509528597661 ], [ -90.065503726488615, 47.870459567084175 ], [ -90.068867487489001, 47.812589414146949 ] ] } },
-{ "type": "Feature", "properties": { "fid": null, "Label": "Cutlass St", "type": "minor" }, "geometry": { "type": "LineString", "coordinates": [ [ -90.059479792973377, 47.863045829153002 ], [ -90.062215970417213, 47.816035694784517 ] ] } }
+{ "type": "Feature", "properties": { "fid": null, "Label": "Cutlass St", "type": "minor" }, "geometry": { "type": "LineString", "coordinates": [ [ -90.059479792973377, 47.863045829153002 ], [ -90.062215970417213, 47.816035694784517 ] ] } },
+{ "type": "Feature", "properties": { "fid": null, "Label": "Balao St", "type": "minor" }, "geometry": { "type": "LineString", "coordinates": [ [ -90.148714635882115, 47.807434253880935 ], [ -90.080025895512378, 47.805640855622663 ] ] } }
 ]
 }

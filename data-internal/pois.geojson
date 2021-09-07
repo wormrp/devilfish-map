@@ -65,6 +65,10 @@
 { "type": "Feature", "properties": { "fid": 60, "Label": "Las Gauchas Steakhouse", "type": null, "owner": "Maids" }, "geometry": { "type": "Point", "coordinates": [ -90.182026677652459, 47.879666296340091 ] } },
 { "type": "Feature", "properties": { "fid": 61, "Label": "Landmark Apartments", "type": null, "owner": "Furies" }, "geometry": { "type": "Point", "coordinates": [ -90.097789565329066, 47.883023047710374 ] } },
 { "type": "Feature", "properties": { "fid": 62, "Label": "Abandoned Power Plant", "type": null, "owner": null }, "geometry": { "type": "Point", "coordinates": [ -90.069003108918594, 47.880293619542158 ] } },
-{ "type": "Feature", "properties": { "fid": 63, "Label": "Furies Warehouse", "type": null, "owner": "Furies" }, "geometry": { "type": "Point", "coordinates": [ -90.064496118287224, 47.881816875045558 ] } }
+{ "type": "Feature", "properties": { "fid": 63, "Label": "Furies Warehouse", "type": null, "owner": "Furies" }, "geometry": { "type": "Point", "coordinates": [ -90.064496118287224, 47.881816875045558 ] } },
+{ "type": "Feature", "properties": { "fid": 64, "Label": "STF Cape HQ", "type": null, "owner": "STF" }, "geometry": { "type": "Point", "coordinates": [ -90.191782150567775, 47.917811466471143 ] } },
+{ "type": "Feature", "properties": { "fid": 65, "Label": "Siberian Touchstone Coal Mine", "type": null, "owner": "STF" }, "geometry": { "type": "Point", "coordinates": [ -90.228096391933406, 47.98050857273298 ] } },
+{ "type": "Feature", "properties": { "fid": 66, "Label": "Siberian Touchstone Logging Camp", "type": null, "owner": "STF" }, "geometry": { "type": "Point", "coordinates": [ -89.98558209783026, 47.994540724626425 ] } },
+{ "type": "Feature", "properties": { "fid": 67, "Label": "USS Devilfish Museum", "type": null, "owner": null }, "geometry": { "type": "Point", "coordinates": [ -90.077843663118486, 47.804085519080111 ] } }
 ]
 }
