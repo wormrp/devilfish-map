@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUser="Keira" saveUserFull="Keira Dueck" projectname="Devilfish, Minnesota" version="3.14.0-Pi" saveDateTime="2021-09-07T01:40:46">
+<qgis saveUser="Keira" saveUserFull="Keira Dueck" projectname="Devilfish, Minnesota" version="3.14.0-Pi" saveDateTime="2021-09-07T01:42:00">
   <homePath path="C:/Users/Keira/Documents/GitHub/devilfish-map"/>
   <title>Devilfish, Minnesota</title>
   <autotransaction active="0"/>
@@ -2967,7 +2967,9 @@ def my_form_open(dialog, layer, feature):
         </settings>
       </labeling>
       <customproperties>
-        <property key="dualview/previewExpressions" value="&quot;fid&quot;"/>
+        <property key="dualview/previewExpressions">
+          <value>"fid"</value>
+        </property>
         <property key="embeddedWidgets/count" value="0"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
@@ -3032,7 +3034,14 @@ def my_form_open(dialog, layer, feature):
       <referencedLayers/>
       <referencingLayers/>
       <fieldConfiguration>
-        <field name="fid">
+        <field name="type">
+          <editWidget type="Classification">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Label">
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
@@ -3042,40 +3051,22 @@ def my_form_open(dialog, layer, feature):
             </config>
           </editWidget>
         </field>
-        <field name="type">
-          <editWidget type="TextEdit">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
-        <field name="Label">
-          <editWidget type="TextEdit">
-            <config>
-              <Option/>
-            </config>
-          </editWidget>
-        </field>
       </fieldConfiguration>
       <aliases>
-        <alias name="" index="0" field="fid"/>
-        <alias name="" index="1" field="type"/>
-        <alias name="" index="2" field="Label"/>
+        <alias name="" index="0" field="type"/>
+        <alias name="" index="1" field="Label"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default applyOnUpdate="0" expression="maximum( &quot;fid&quot; ) +1" field="fid"/>
-        <default applyOnUpdate="0" expression="" field="type"/>
+        <default applyOnUpdate="0" expression="'park'" field="type"/>
         <default applyOnUpdate="0" expression="" field="Label"/>
       </defaults>
       <constraints>
-        <constraint constraints="3" field="fid" exp_strength="0" notnull_strength="1" unique_strength="1"/>
-        <constraint constraints="0" field="type" exp_strength="0" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="1" field="type" exp_strength="0" notnull_strength="1" unique_strength="0"/>
         <constraint constraints="0" field="Label" exp_strength="0" notnull_strength="0" unique_strength="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint exp="" desc="" field="fid"/>
         <constraint exp="" desc="" field="type"/>
         <constraint exp="" desc="" field="Label"/>
       </constraintExpressions>
@@ -3085,7 +3076,6 @@ def my_form_open(dialog, layer, feature):
       </attributeactions>
       <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
         <columns>
-          <column name="fid" width="-1" hidden="0" type="field"/>
           <column name="type" width="-1" hidden="0" type="field"/>
           <column name="Label" width="395" hidden="0" type="field"/>
           <column width="-1" hidden="1" type="actions"/>
