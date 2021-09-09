@@ -138,6 +138,7 @@
 { "type": "Feature", "properties": { "Label": "Colorado St W.", "type": "minor" }, "geometry": { "type": "LineString", "coordinates": [ [ -90.305346016994335, 47.934472111352243 ], [ -90.29026195110599, 47.934094318620765 ] ] } },
 { "type": "Feature", "properties": { "Label": "Claymore Ave", "type": "minor" }, "geometry": { "type": "LineString", "coordinates": [ [ -90.290464669157018, 47.93047303707273 ], [ -90.305567163959097, 47.93084161534734 ] ] } },
 { "type": "Feature", "properties": { "Label": "Brule River Turnpike", "type": "minor" }, "geometry": { "type": "LineString", "coordinates": [ [ -90.301429872826631, 47.927128189230665 ], [ -90.303595270189959, 47.927183475971852 ] ] } },
-{ "type": "Feature", "properties": { "Label": "Brunswick Ave", "type": "minor" }, "geometry": { "type": "LineString", "coordinates": [ [ -90.303383337682092, 47.930795543063013 ], [ -90.303484696707613, 47.928860507121321 ] ] } }
+{ "type": "Feature", "properties": { "Label": "Brunswick Ave", "type": "minor" }, "geometry": { "type": "LineString", "coordinates": [ [ -90.303383337682092, 47.930795543063013 ], [ -90.303484696707613, 47.928860507121321 ] ] } },
+{ "type": "Feature", "properties": { "Label": "Brule River Access Rd", "type": "minor" }, "geometry": { "type": "LineString", "coordinates": [ [ -90.303484696707599, 47.92886511434974 ], [ -90.305705380812128, 47.928925008319368 ] ] } }
 ]
 }
