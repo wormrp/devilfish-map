@@ -1,0 +1,22 @@
+{
+"type": "FeatureCollection",
+"name": "eb-shelters",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Label": "City Hall" }, "geometry": { "type": "Point", "coordinates": [ -90.163023660056112, 47.875830506701234 ] } },
+{ "type": "Feature", "properties": { "Label": "Train Stn" }, "geometry": { "type": "Point", "coordinates": [ -90.144078139513127, 47.881243512570663 ] } },
+{ "type": "Feature", "properties": { "Label": "Arena" }, "geometry": { "type": "Point", "coordinates": [ -90.28172314590708, 47.92532084607884 ] } },
+{ "type": "Feature", "properties": { "Label": "Cloverleaf Acres" }, "geometry": { "type": "Point", "coordinates": [ -90.356925263164456, 47.918554588742062 ] } },
+{ "type": "Feature", "properties": { "Label": "Zoo" }, "geometry": { "type": "Point", "coordinates": [ -90.477944608673738, 47.882596764038027 ] } },
+{ "type": "Feature", "properties": { "Label": "DMV" }, "geometry": { "type": "Point", "coordinates": [ -90.530528094262451, 47.954512413446103 ] } },
+{ "type": "Feature", "properties": { "Label": "Mercy Hospital" }, "geometry": { "type": "Point", "coordinates": [ -90.162250373503355, 47.912174974681655 ] } },
+{ "type": "Feature", "properties": { "Label": "Nashwood HS" }, "geometry": { "type": "Point", "coordinates": [ -90.215027180730246, 47.87138410902277 ] } },
+{ "type": "Feature", "properties": { "Label": "Jefferson Library" }, "geometry": { "type": "Point", "coordinates": [ -90.411828608411497, 47.932280425053804 ] } },
+{ "type": "Feature", "properties": { "Label": "Cty Jail" }, "geometry": { "type": "Point", "coordinates": [ -90.530141450986079, 47.718853336487904 ] } },
+{ "type": "Feature", "properties": { "Label": "Devils Track Airport" }, "geometry": { "type": "Point", "coordinates": [ -90.385536865617141, 47.827113453876393 ] } },
+{ "type": "Feature", "properties": { "Label": "Bus Stn" }, "geometry": { "type": "Point", "coordinates": [ -90.183709075342861, 47.847605547524928 ] } },
+{ "type": "Feature", "properties": { "Label": "Cty Fairgrounds" }, "geometry": { "type": "Point", "coordinates": [ -90.448946362944696, 47.965338425184946 ] } },
+{ "type": "Feature", "properties": { "Label": "Devilfish Airport" }, "geometry": { "type": "Point", "coordinates": [ -90.595097521419177, 47.859398167454763 ] } },
+{ "type": "Feature", "properties": { "Label": "Eagle Mtn HS" }, "geometry": { "type": "Point", "coordinates": [ -90.568419135348435, 47.898449138369905 ] } }
+]
+}
