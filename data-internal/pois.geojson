@@ -73,6 +73,7 @@
 { "type": "Feature", "properties": { "Label": "Found Family Estate", "type": null, "owner": "FoundFamily" }, "geometry": { "type": "Point", "coordinates": [ -90.409818231681072, 48.005735582000419 ] } },
 { "type": "Feature", "properties": { "Label": "Safe Harbor Compassion Ctr", "type": null, "owner": "FoundFamily" }, "geometry": { "type": "Point", "coordinates": [ -90.515180265991518, 47.917856800090881 ] } },
 { "type": "Feature", "properties": { "Label": "Nashwood Highschool", "type": null, "owner": "" }, "geometry": { "type": "Point", "coordinates": [ -90.215239488015214, 47.871253178629132 ] } },
-{ "type": "Feature", "properties": { "Label": "Rockstar's Noise Control", "type": null, "owner": "" }, "geometry": { "type": "Point", "coordinates": [ -90.281760415363678, 47.937819532871714 ] } }
+{ "type": "Feature", "properties": { "Label": "Rockstar's Noise Control", "type": null, "owner": "" }, "geometry": { "type": "Point", "coordinates": [ -90.281760415363678, 47.937819532871714 ] } },
+{ "type": "Feature", "properties": { "Label": "Ice Queen's Castle", "type": null, "owner": "" }, "geometry": { "type": "Point", "coordinates": [ -90.208651289609435, 47.757612327991694 ] } }
 ]
 }
