@@ -1,12 +1,14 @@
 # this is designed to run on keira's computer in particular. it shouldn't be *too* difficult to change, however.
 # note that to export... i think all you'll need tbh is uhhh the Roadgeek 2014 fonts, plus probably changing a few env vars somewhere
 
+$python = "C:\Program Files\QGIS 3.20.3\bin\python-qgis"
+
 Remove-Item "export-tiles" -Recurse -ErrorAction Ignore
 mkdir "export-tiles" | out-null
 
 $env:devilfishGitRev = $(git describe --tags --dirty --always)
 
-Measure-Command { python-qgis .\renderTiles.py devilfish.qgs | Out-Default }
+Measure-Command { & $python .\renderTiles.py devilfish.qgs | Out-Default }
 
 php renderTilesHTMLFixer.php
 

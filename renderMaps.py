@@ -14,6 +14,7 @@ layouts = project.layoutManager().layouts()
 settings = QgsLayoutExporter.ImageExportSettings()
 settings.dpi = 300
 for layout in layouts:
+    print(layout.name())
     QgsLayoutExporter(layout).exportToImage(os.path.join(os.getcwd(), "export", layout.name() + ".png"), settings)
 
 qgs.exitQgis()
