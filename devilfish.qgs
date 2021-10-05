@@ -1,4 +1,4 @@
-<qgis projectname="Devilfish, Minnesota" saveDateTime="2021-10-05T01:42:29" saveUser="Keira" saveUserFull="Keira Dueck" version="3.20.3-Odense">
+<qgis projectname="Devilfish, Minnesota" saveDateTime="2021-10-05T01:48:32" saveUser="Keira" saveUserFull="Keira Dueck" version="3.20.3-Odense">
   <homePath path="C:/Users/Keira/Documents/GitHub/devilfish-map"></homePath>
   <title>Devilfish, Minnesota</title>
   <autotransaction active="0"></autotransaction>
@@ -21,7 +21,7 @@
     <customproperties>
       <Option></Option>
     </customproperties>
-    <layer-tree-layer checked="Qt::Checked" expanded="1" id="city_grid_5dc7923c_cfe7_4210_b6ba_ae1d672b2195" legend_exp="" legend_split_behavior="0" name="city-grid" patch_size="-1,-1" providerKey="ogr" source="./data-internal/city-grid.geojson">
+    <layer-tree-layer checked="Qt::Unchecked" expanded="1" id="city_grid_5dc7923c_cfe7_4210_b6ba_ae1d672b2195" legend_exp="" legend_split_behavior="0" name="city-grid" patch_size="-1,-1" providerKey="ogr" source="./data-internal/city-grid.geojson">
       <customproperties>
         <Option></Option>
       </customproperties>
@@ -125,10 +125,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>degrees</units>
     <extent>
-      <xmin>-90.22368679349595766</xmin>
-      <ymin>47.85620674060730551</ymin>
-      <xmax>-90.10660434412191933</xmax>
-      <ymax>47.92371685503103151</ymax>
+      <xmin>-90.21000961937548368</xmin>
+      <ymin>47.86378814042129903</ymin>
+      <xmax>-90.13566017207298842</xmax>
+      <ymax>47.90665826930538884</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -149,9 +149,9 @@
   </mapcanvas>
   <projectModels></projectModels>
   <legend updateDrawingOrder="true">
-    <legendlayer checked="Qt::Checked" drawingOrder="-1" name="city-grid" open="true" showFeatureCount="0">
+    <legendlayer checked="Qt::Unchecked" drawingOrder="-1" name="city-grid" open="true" showFeatureCount="0">
       <filegroup hidden="false" open="true">
-        <legendlayerfile isInOverview="0" layerid="city_grid_5dc7923c_cfe7_4210_b6ba_ae1d672b2195" visible="1"></legendlayerfile>
+        <legendlayerfile isInOverview="0" layerid="city_grid_5dc7923c_cfe7_4210_b6ba_ae1d672b2195" visible="0"></legendlayerfile>
       </filegroup>
     </legendlayer>
     <legendlayer checked="Qt::Checked" drawingOrder="-1" name="Neighborhoods" open="true" showFeatureCount="0">
@@ -4367,7 +4367,7 @@ def my_form_open(dialog, layer, feature):
       <renderer-v2 attr="type" enableorderby="0" forceraster="0" symbollevels="0" type="categorizedSymbol">
         <categories>
           <category label="Reservation" render="true" symbol="0" value="rez"></category>
-          <category label="Urban Boundary" render="false" symbol="1" value="urban"></category>
+          <category label="Urban Boundary" render="true" symbol="1" value="urban"></category>
           <category label="Park / Recreation" render="true" symbol="2" value="park"></category>
           <category label="Forest" render="true" symbol="3" value="forest"></category>
           <category label="Agricultural" render="true" symbol="4" value="ag"></category>
@@ -9988,6 +9988,7 @@ def my_form_open(dialog, layer, feature):
           <layer-tree-layer checked="Qt::Checked" expanded="1" id="pois_fdbe2e3b_3791_4818_8e1b_4b578f2cac50" legend_exp="" legend_split_behavior="0" name="Points of Interest" patch_size="0,0" providerKey="ogr" source="./data-internal/pois.geojson|layername=pois">
             <customproperties>
               <Option type="Map">
+                <Option name="cached_name" type="QString" value="Points of Interest"></Option>
                 <Option name="showFeatureCount" type="QString" value="0"></Option>
               </Option>
             </customproperties>
@@ -12302,6 +12303,7 @@ def my_form_open(dialog, layer, feature):
           <layer-tree-layer checked="Qt::Checked" expanded="1" id="pois_fdbe2e3b_3791_4818_8e1b_4b578f2cac50" legend_exp="" legend_split_behavior="0" name="Points of Interest" patch_size="0,0" providerKey="ogr" source="./data-internal/pois.geojson|layername=pois">
             <customproperties>
               <Option type="Map">
+                <Option name="cached_name" type="QString" value="Points of Interest"></Option>
                 <Option name="showFeatureCount" type="QString" value="0"></Option>
               </Option>
             </customproperties>
@@ -12795,7 +12797,7 @@ def my_form_open(dialog, layer, feature):
   <Bookmarks></Bookmarks>
   <ProjectViewSettings UseProjectScales="0">
     <Scales></Scales>
-    <DefaultViewExtent xmax="-90.10274189240614362" xmin="-90.22754924521173336" ymax="47.92371685503103151" ymin="47.85620674060730551">
+    <DefaultViewExtent xmax="-90.13320744622181735" xmin="-90.21246234522665475" ymax="47.90665826930538884" ymin="47.86378814042129903">
       <spatialrefsys>
         <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
         <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
