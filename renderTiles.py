@@ -9,7 +9,7 @@ gdal.PushErrorHandler('CPLQuietErrorHandler')
 qgs = QgsApplication([], False)
 qgs.initQgis()
 
-sys.path.append('H:\\OSGeo4W\\apps\\qgis\\python\\plugins')
+sys.path.append('C:\\Program Files\\QGIS 3.20.3\\apps\\qgis\\python\\plugins')
 
 import processing
 from processing.core.Processing import Processing
