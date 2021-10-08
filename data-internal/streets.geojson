@@ -216,6 +216,17 @@
 { "type": "Feature", "properties": { "Label": "Barley St", "type": "minor" }, "geometry": { "type": "LineString", "coordinates": [ [ -90.16873133962514, 47.909354998097193 ], [ -90.172298336772101, 47.847852457815733 ] ] } },
 { "type": "Feature", "properties": { "Label": "MLK Blvd", "type": "minor" }, "geometry": { "type": "LineString", "coordinates": [ [ -90.161860176699918, 47.91904221140161 ], [ -90.165802647230777, 47.847702268462172 ] ] } },
 { "type": "Feature", "properties": { "Label": "Constitution Ave", "type": "minor" }, "geometry": { "type": "LineString", "coordinates": [ [ -90.163944053980529, 47.919192400755158 ], [ -90.167999166526528, 47.847777363138967 ] ] } },
-{ "type": "Feature", "properties": { "Label": "Market St", "type": "minor" }, "geometry": { "type": "LineString", "coordinates": [ [ -90.170139364814702, 47.847777363138967 ], [ -90.166121799607083, 47.918328811972202 ] ] } }
+{ "type": "Feature", "properties": { "Label": "Market St", "type": "minor" }, "geometry": { "type": "LineString", "coordinates": [ [ -90.170139364814702, 47.847777363138967 ], [ -90.166121799607083, 47.918328811972202 ] ] } },
+{ "type": "Feature", "properties": { "Label": "Rain Rd", "type": "minor" }, "geometry": { "type": "LineString", "coordinates": [ [ -90.292231404196187, 47.93776914537758 ], [ -90.292807416020111, 47.926904922365054 ] ] } },
+{ "type": "Feature", "properties": { "Label": "Ridge St", "type": "minor" }, "geometry": { "type": "LineString", "coordinates": [ [ -90.294391448535933, 47.937817146362903 ], [ -90.294951460031427, 47.926952923350385 ] ] } },
+{ "type": "Feature", "properties": { "Label": "Byron St", "type": "minor" }, "geometry": { "type": "LineString", "coordinates": [ [ -90.296535492547235, 47.937865147348234 ], [ -90.297111504371173, 47.927000924335708 ] ] } },
+{ "type": "Feature", "properties": { "Label": "Brule Hill Rd", "type": "minor" }, "geometry": { "type": "LineString", "coordinates": [ [ -90.305127668920889, 47.938073151617992 ], [ -90.305543677460406, 47.930793002176607 ] ] } },
+{ "type": "Feature", "properties": { "Label": "Brunswick Ave", "type": "minor" }, "geometry": { "type": "LineString", "coordinates": [ [ -90.302983624909587, 47.938041150961098 ], [ -90.303383633120646, 47.930793002176607 ] ] } },
+{ "type": "Feature", "properties": { "Label": "Burnham Rd", "type": "minor" }, "geometry": { "type": "LineString", "coordinates": [ [ -90.300823580569826, 47.937977149647331 ], [ -90.301431593050651, 47.927128926963249 ] ] } },
+{ "type": "Feature", "properties": { "Label": "Butler Rd", "type": "minor" }, "geometry": { "type": "LineString", "coordinates": [ [ -90.298683964680947, 47.937922925448198 ], [ -90.299278297148746, 47.927086724174899 ] ] } },
+{ "type": "Feature", "properties": { "Label": "Colorado St W.", "type": "minor" }, "geometry": { "type": "LineString", "coordinates": [ [ -90.305346016994335, 47.934472111352243 ], [ -90.29026195110599, 47.934094318620765 ] ] } },
+{ "type": "Feature", "properties": { "Label": "Claymore Ave", "type": "minor" }, "geometry": { "type": "LineString", "coordinates": [ [ -90.290464669157018, 47.93047303707273 ], [ -90.305567163959097, 47.93084161534734 ] ] } },
+{ "type": "Feature", "properties": { "Label": "Brule River Turnpike", "type": "minor" }, "geometry": { "type": "LineString", "coordinates": [ [ -90.301429872826631, 47.927128189230665 ], [ -90.303595270189959, 47.927183475971852 ] ] } },
+{ "type": "Feature", "properties": { "Label": "Brunswick Ave", "type": "minor" }, "geometry": { "type": "LineString", "coordinates": [ [ -90.303383337682092, 47.930795543063013 ], [ -90.303484696707613, 47.928860507121321 ] ] } }
 ]
 }
