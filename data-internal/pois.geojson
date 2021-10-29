@@ -44,7 +44,7 @@
 { "type": "Feature", "properties": { "Label": "Gilbert Spencer Perfoming Arts Theatre", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.21214218979847, 47.923844060576478 ] } },
 { "type": "Feature", "properties": { "Label": "Big Dicks Brewery", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.172801574853011, 47.866590751183438 ] } },
 { "type": "Feature", "properties": { "Label": "Cook County Fairgrounds", "type": null, "owner": null }, "geometry": { "type": "Point", "coordinates": [ -90.449980888518212, 47.965166664677959 ] } },
-{ "type": "Feature", "properties": { "Label": "Bombtastic Bob's Family Fun Center", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.380723456123704, 47.959632053449909 ] } },
+{ "type": "Feature", "properties": { "Label": "Bombtastic Bob's Family Fun Center", "type": null, "owner": "Maids" }, "geometry": { "type": "Point", "coordinates": [ -90.380723456123704, 47.959632053449909 ] } },
 { "type": "Feature", "properties": { "Label": "Sapphic Cabin", "type": null, "owner": "Maids" }, "geometry": { "type": "Point", "coordinates": [ -90.823005358543753, 47.955148041258823 ] } },
 { "type": "Feature", "properties": { "Label": "Cook County Jail", "type": null, "owner": "Heroes" }, "geometry": { "type": "Point", "coordinates": [ -90.530413434788272, 47.718349522507687 ] } },
 { "type": "Feature", "properties": { "Label": "West Precinct", "type": null, "owner": "Heroes" }, "geometry": { "type": "Point", "coordinates": [ -90.509389377263801, 47.93187957614051 ] } },
@@ -74,6 +74,7 @@
 { "type": "Feature", "properties": { "Label": "Safe Harbor Compassion Ctr", "type": null, "owner": "FoundFamily" }, "geometry": { "type": "Point", "coordinates": [ -90.515180265991518, 47.917856800090881 ] } },
 { "type": "Feature", "properties": { "Label": "Nashwood Highschool", "type": null, "owner": "" }, "geometry": { "type": "Point", "coordinates": [ -90.215239488015214, 47.871253178629132 ] } },
 { "type": "Feature", "properties": { "Label": "Rockstar's Noise Control", "type": null, "owner": "" }, "geometry": { "type": "Point", "coordinates": [ -90.281760415363678, 47.937819532871714 ] } },
-{ "type": "Feature", "properties": { "Label": "Ice Queen's Castle", "type": null, "owner": "" }, "geometry": { "type": "Point", "coordinates": [ -90.208651289609435, 47.757612327991694 ] } }
+{ "type": "Feature", "properties": { "Label": "Ice Queen's Castle", "type": null, "owner": "" }, "geometry": { "type": "Point", "coordinates": [ -90.208651289609435, 47.757612327991694 ] } },
+{ "type": "Feature", "properties": { "Label": "Presidential Lanes Bowling", "type": null, "owner": "Maids" }, "geometry": { "type": "Point", "coordinates": [ -90.141103972460073, 47.897486872880179 ] } }
 ]
 }
