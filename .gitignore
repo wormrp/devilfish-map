@@ -1,5 +1,8 @@
 *.qgs~
 *.aux.xml
+*.gpkg-shm
+*.gpkg-wal
+
 export/*
 export-tiles/*
 
