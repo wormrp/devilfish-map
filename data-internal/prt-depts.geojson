@@ -185,6 +185,20 @@
 { "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Kelowna", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -119.467171566687284, 49.883270359832537 ] } },
 { "type": "Feature", "properties": { "fid": null, "class": 8, "name": "Port McNeil", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -127.085415028421664, 50.587808469374913 ] } },
 { "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Fort Nelson", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -122.673548797632193, 58.804666380044559 ] } },
-{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Dease Lake", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -130.005604020386897, 58.44219366989379 ] } }
+{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Dease Lake", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -130.005604020386897, 58.44219366989379 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Fort McMurray", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -111.391221277926064, 56.722148905907581 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Grande Prarie", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -118.784498432958245, 55.17896750183408 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "High Level", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -117.113042504112926, 58.510218039090987 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 8, "name": "Saskatoon", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -106.701426910130948, 52.139249975422345 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "La Ronge", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -105.300124904668721, 55.107056025825642 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Black Lake", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -105.603805124299029, 59.12899685460976 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Thompson", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -97.892514043269927, 55.743569766170836 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Tadoule", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -98.486026664515478, 58.718542669757433 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 7, "name": "Thunder Bay", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -89.27115408005271, 48.418802868687273 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 7, "name": "Timmins", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -81.353117505499284, 48.477109470856313 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 8, "name": "Windsor", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -83.015341555667845, 42.275716441829239 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 7, "name": "Sault Ste. Marie", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -84.351048633689913, 46.528211293356705 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Fort Severn", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -87.655089423267967, 56.005949475931487 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Pickle Crow", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -90.057169592521916, 51.50130893804495 ] } }
 ]
 }
