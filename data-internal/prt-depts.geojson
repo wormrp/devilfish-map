@@ -71,7 +71,7 @@
 { "type": "Feature", "properties": { "fid": 66, "class": 4, "name": "Bismark", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -100.824283167726364, 46.81913090507561 ] } },
 { "type": "Feature", "properties": { "fid": 67, "class": 2, "name": "Omaha", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -95.934718316751002, 41.25381527430293 ] } },
 { "type": "Feature", "properties": { "fid": 68, "class": 4, "name": "Milwaukee", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -87.923015084772743, 43.029034941544587 ] } },
-{ "type": "Feature", "properties": { "fid": 69, "class": 5, "name": "Guam", "Comment": "[TS\/\/SCI]" }, "geometry": { "type": "Point", "coordinates": [ 144.781048186091482, 13.495077484534834 ] } },
+{ "type": "Feature", "properties": { "fid": 69, "class": 5, "name": "Guam", "Comment": "[TS//SCI]" }, "geometry": { "type": "Point", "coordinates": [ 144.781048186091482, 13.495077484534834 ] } },
 { "type": "Feature", "properties": { "fid": 70, "class": 7, "name": "Halifax", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -63.59259591374763, 44.650740192680018 ] } },
 { "type": "Feature", "properties": { "fid": 71, "class": 7, "name": "Montreal", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -73.617660961174366, 45.496722438497343 ] } },
 { "type": "Feature", "properties": { "fid": 72, "class": 7, "name": "Toronto", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -79.359434118972274, 43.659047283402479 ] } },
@@ -179,6 +179,12 @@
 { "type": "Feature", "properties": { "fid": null, "class": 4, "name": "Cheyenne", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -104.813872136997176, 41.132056734701784 ] } },
 { "type": "Feature", "properties": { "fid": null, "class": 4, "name": "Hilo", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -155.066388993073048, 19.710211097802535 ] } },
 { "type": "Feature", "properties": { "fid": null, "class": 4, "name": "Odessa", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -102.368760480621347, 31.858756075981887 ] } },
-{ "type": "Feature", "properties": { "fid": null, "class": 4, "name": "Cody", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -109.034176885243426, 44.530724280716214 ] } }
+{ "type": "Feature", "properties": { "fid": null, "class": 4, "name": "Cody", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -109.034176885243426, 44.530724280716214 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Prince George", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -122.722137632773027, 53.97396439034096 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 8, "name": "Victoria", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -123.34650416433297, 48.429492412418227 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Kelowna", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -119.467171566687284, 49.883270359832537 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 8, "name": "Port McNeil", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -127.085415028421664, 50.587808469374913 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Fort Nelson", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -122.673548797632193, 58.804666380044559 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Dease Lake", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -130.005604020386897, 58.44219366989379 ] } }
 ]
 }
