@@ -5,6 +5,7 @@
 
 export/*
 export-tiles/*
+test/*
 
 # huge fucking data that im not including in the repo
 # see data-external/ATTRIBUTION for instructions
