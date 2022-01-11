@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUser="Keira" saveDateTime="2022-01-11T07:59:25" version="3.20.3-Odense" projectname="Parahuman Response Team Facilities Map" saveUserFull="Keira">
+<qgis saveUser="Keira" saveDateTime="2022-01-11T11:43:26" version="3.20.3-Odense" projectname="Parahuman Response Team Facilities Map" saveUserFull="Keira">
   <homePath path="C:/Users/Keira/Documents/GitHub/devilfish-map"/>
   <title>Parahuman Response Team Facilities Map</title>
   <autotransaction active="0"/>
@@ -7,15 +7,15 @@
   <trust active="0"/>
   <projectCrs>
     <spatialrefsys>
-      <wkt>PROJCRS["Google Maps Global Mercator",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Web mapping and visualisation."],AREA["World between 85.06°S and 85.06°N."],BBOX[-85.06,-180,85.06,180]],ID["EPSG",900913]]</wkt>
-      <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
-      <srsid>63321</srsid>
-      <srid>520003321</srid>
-      <authid>EPSG:900913</authid>
-      <description>Google Maps Global Mercator</description>
-      <projectionacronym>merc</projectionacronym>
+      <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+      <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+      <srsid>3452</srsid>
+      <srid>4326</srid>
+      <authid>EPSG:4326</authid>
+      <description>WGS 84</description>
+      <projectionacronym>longlat</projectionacronym>
       <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
-      <geographicflag>false</geographicflag>
+      <geographicflag>true</geographicflag>
     </spatialrefsys>
   </projectCrs>
   <layer-tree-group>
@@ -27,7 +27,7 @@
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer legend_split_behavior="0" expanded="1" patch_size="0,0" providerKey="wms" id="OpenStreetMap_d100bb83_59f8_4b32_a801_cd50def84d95" legend_exp="" name="OpenStreetMap" source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=http://a.tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0" checked="Qt::Checked">
+    <layer-tree-layer legend_split_behavior="0" expanded="1" patch_size="0,0" providerKey="wms" id="OpenStreetMap_d100bb83_59f8_4b32_a801_cd50def84d95" legend_exp="" name="OpenStreetMap" source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=http://a.tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0" checked="Qt::Unchecked">
       <customproperties>
         <Option/>
       </customproperties>
@@ -45,32 +45,32 @@
   </layer-tree-group>
   <snapping-settings enabled="0" maxScale="0" unit="1" intersection-snapping="0" self-snapping="0" mode="2" scaleDependencyMode="0" minScale="0" type="1" tolerance="12">
     <individual-layer-settings>
-      <layer-setting enabled="0" maxScale="0" minScale="0" type="1" tolerance="12" id="prt_depts_d7282293_6f78_47e0_8a01_93a45aa4f82b" units="1"/>
       <layer-setting enabled="0" maxScale="0" minScale="0" type="1" tolerance="12" id="kaf_regions_956cbb59_b4e8_44f9_8030_77570108d5aa" units="1"/>
+      <layer-setting enabled="0" maxScale="0" minScale="0" type="1" tolerance="12" id="prt_depts_d7282293_6f78_47e0_8a01_93a45aa4f82b" units="1"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
   <polymorphicRelations/>
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
-    <units>meters</units>
+    <units>degrees</units>
     <extent>
-      <xmin>-11565941.92826873995363712</xmin>
-      <ymin>2956467.2085794061422348</ymin>
-      <xmax>-3749454.92420131899416447</xmax>
-      <ymax>13050093.60330139100551605</ymax>
+      <xmin>-150.18580604443047832</xmin>
+      <ymin>40.08282639805568692</ymin>
+      <xmax>-60.39540109598954132</xmax>
+      <ymax>55.42705871484761815</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
       <spatialrefsys>
-        <wkt>PROJCRS["Google Maps Global Mercator",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Web mapping and visualisation."],AREA["World between 85.06°S and 85.06°N."],BBOX[-85.06,-180,85.06,180]],ID["EPSG",900913]]</wkt>
-        <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
-        <srsid>63321</srsid>
-        <srid>520003321</srid>
-        <authid>EPSG:900913</authid>
-        <description>Google Maps Global Mercator</description>
-        <projectionacronym>merc</projectionacronym>
+        <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
         <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
-        <geographicflag>false</geographicflag>
+        <geographicflag>true</geographicflag>
       </spatialrefsys>
     </destinationsrs>
     <rendermaptile>0</rendermaptile>
@@ -83,9 +83,9 @@
         <legendlayerfile isInOverview="0" layerid="prt_depts_d7282293_6f78_47e0_8a01_93a45aa4f82b" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" showFeatureCount="0" name="OpenStreetMap" checked="Qt::Checked">
+    <legendlayer drawingOrder="-1" open="true" showFeatureCount="0" name="OpenStreetMap" checked="Qt::Unchecked">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="OpenStreetMap_d100bb83_59f8_4b32_a801_cd50def84d95" visible="1"/>
+        <legendlayerfile isInOverview="0" layerid="OpenStreetMap_d100bb83_59f8_4b32_a801_cd50def84d95" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="false" showFeatureCount="0" name="kaf-regions" checked="Qt::Checked">
@@ -101,7 +101,7 @@
     <extent>
       <xmin>-129.27695737878894988</xmin>
       <ymin>1.18948333507586312</ymin>
-      <xmax>-29.84730870562709271</xmax>
+      <xmax>-29.8473087056270856</xmax>
       <ymax>77.0658082910310327</ymax>
     </extent>
     <rotation>0</rotation>
@@ -1661,57 +1661,43 @@ def my_form_open(dialog, layer, feature):
               <Option type="Map">
                 <Option type="QString" value="0" name="angle"/>
                 <Option type="QString" value="square" name="cap_style"/>
-                <Option type="QString" value="0,0,162,255" name="color"/>
+                <Option type="QString" value="255,255,255,255" name="color"/>
                 <Option type="QString" value="1" name="horizontal_anchor_point"/>
                 <Option type="QString" value="bevel" name="joinstyle"/>
-                <Option type="QString" value="triangle" name="name"/>
+                <Option type="QString" value="circle" name="name"/>
                 <Option type="QString" value="0,0" name="offset"/>
                 <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
                 <Option type="QString" value="MM" name="offset_unit"/>
-                <Option type="QString" value="255,255,255,255" name="outline_color"/>
+                <Option type="QString" value="0,0,162,255" name="outline_color"/>
                 <Option type="QString" value="solid" name="outline_style"/>
-                <Option type="QString" value="0.4" name="outline_width"/>
+                <Option type="QString" value="0.2" name="outline_width"/>
                 <Option type="QString" value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale"/>
                 <Option type="QString" value="MM" name="outline_width_unit"/>
                 <Option type="QString" value="area" name="scale_method"/>
-                <Option type="QString" value="2.8" name="size"/>
+                <Option type="QString" value="2.4" name="size"/>
                 <Option type="QString" value="3x:0,0,0,0,0,0" name="size_map_unit_scale"/>
                 <Option type="QString" value="MM" name="size_unit"/>
                 <Option type="QString" value="1" name="vertical_anchor_point"/>
               </Option>
               <prop k="angle" v="0"/>
               <prop k="cap_style" v="square"/>
-              <prop k="color" v="0,0,162,255"/>
+              <prop k="color" v="255,255,255,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="name" v="triangle"/>
+              <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="255,255,255,255"/>
+              <prop k="outline_color" v="0,0,162,255"/>
               <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.4"/>
+              <prop k="outline_width" v="0.2"/>
               <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="scale_method" v="area"/>
-              <prop k="size" v="2.8"/>
+              <prop k="size" v="2.4"/>
               <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
-              <effect enabled="0" type="effectStack">
-                <effect type="drawSource">
-                  <Option type="Map">
-                    <Option type="QString" value="0" name="blend_mode"/>
-                    <Option type="QString" value="2" name="draw_mode"/>
-                    <Option type="QString" value="1" name="enabled"/>
-                    <Option type="QString" value="1" name="opacity"/>
-                  </Option>
-                  <prop k="blend_mode" v="0"/>
-                  <prop k="draw_mode" v="2"/>
-                  <prop k="enabled" v="1"/>
-                  <prop k="opacity" v="1"/>
-                </effect>
-              </effect>
               <data_defined_properties>
                 <Option type="Map">
                   <Option type="QString" value="" name="name"/>
@@ -1905,8 +1891,8 @@ def my_form_open(dialog, layer, feature):
         </orderby>
       </renderer-v2>
       <labeling type="rule-based">
-        <rules key="{8b948ccf-a945-45f0-923e-42e5d806ff24}">
-          <rule filter="&quot;class&quot; = 1" key="{72cac359-150a-4fa4-8cae-c1a329a6ca60}">
+        <rules key="{8e5d5474-d1cb-4c0a-a90f-7ab5d6a306fe}">
+          <rule filter="&quot;class&quot; = 1" key="{fff71f28-6489-4259-b5fc-cb32c6d368ed}">
             <settings calloutType="simple">
               <text-style multilineHeight="1" fontItalic="0" fontKerning="1" fieldName="name" fontSizeUnit="Point" fontWeight="75" fontStrikeout="0" fontLetterSpacing="0" isExpression="0" fontUnderline="0" previewBkgrdColor="255,255,255,255" textColor="0,0,0,255" allowHtml="0" namedStyle="Bold" fontSize="8" textOrientation="horizontal" capitalization="0" blendMode="0" textOpacity="1" legendString="Aa" fontFamily="Trebuchet MS" fontWordSpacing="0" useSubstitutions="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0">
                 <families/>
@@ -2002,7 +1988,7 @@ def my_form_open(dialog, layer, feature):
               </callout>
             </settings>
           </rule>
-          <rule filter="&quot;class&quot; IN (3,9)" key="{b85b4cf1-a4ba-4f07-aa1f-c6b1f13571af}">
+          <rule filter="&quot;class&quot; IN (3,9)" key="{c8f8c2dd-9f93-4d5c-86a5-e71c4d37460b}">
             <settings calloutType="simple">
               <text-style multilineHeight="1" fontItalic="1" fontKerning="1" fieldName="name" fontSizeUnit="Point" fontWeight="50" fontStrikeout="0" fontLetterSpacing="0" isExpression="0" fontUnderline="0" previewBkgrdColor="255,255,255,255" textColor="0,0,0,255" allowHtml="0" namedStyle="Italic" fontSize="7" textOrientation="horizontal" capitalization="0" blendMode="0" textOpacity="1" legendString="Aa" fontFamily="Trebuchet MS" fontWordSpacing="0" useSubstitutions="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0">
                 <families/>
@@ -2187,7 +2173,7 @@ def my_form_open(dialog, layer, feature):
               </callout>
             </settings>
           </rule>
-          <rule filter="&quot;class&quot; IN (4,8)" key="{bc75c372-2851-4d6e-a4ae-97768f7b8a2f}">
+          <rule filter="&quot;class&quot; IN (4,8)" key="{36b367bd-717c-423a-8ac9-ad07484abcd8}">
             <settings calloutType="simple">
               <text-style multilineHeight="1" fontItalic="0" fontKerning="1" fieldName="name" fontSizeUnit="Point" fontWeight="50" fontStrikeout="0" fontLetterSpacing="0" isExpression="0" fontUnderline="0" previewBkgrdColor="255,255,255,255" textColor="0,0,0,255" allowHtml="0" namedStyle="Regular" fontSize="5" textOrientation="horizontal" capitalization="0" blendMode="0" textOpacity="1" legendString="Aa" fontFamily="Trebuchet MS" fontWordSpacing="0" useSubstitutions="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0">
                 <families/>
@@ -2372,7 +2358,7 @@ def my_form_open(dialog, layer, feature):
               </callout>
             </settings>
           </rule>
-          <rule filter="ELSE" key="{35363a5b-931d-42ab-915b-d0470d4a2afd}">
+          <rule filter="ELSE" key="{06850a51-2173-4edb-bfef-f8a401b2daa9}">
             <settings calloutType="simple">
               <text-style multilineHeight="1" fontItalic="0" fontKerning="1" fieldName="name" fontSizeUnit="Point" fontWeight="50" fontStrikeout="0" fontLetterSpacing="0" isExpression="0" fontUnderline="0" previewBkgrdColor="255,255,255,255" textColor="0,0,0,255" allowHtml="0" namedStyle="Regular" fontSize="7" textOrientation="horizontal" capitalization="0" blendMode="0" textOpacity="1" legendString="Aa" fontFamily="Trebuchet MS" fontWordSpacing="0" useSubstitutions="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0">
                 <families/>
@@ -2535,11 +2521,12 @@ def my_form_open(dialog, layer, feature):
       <customproperties>
         <Option type="Map">
           <Option type="List" name="dualview/previewExpressions">
+            <Option type="QString" value="&quot;fid&quot;"/>
             <Option type="QString" value="fid"/>
           </Option>
           <Option type="QString" value="0" name="embeddedWidgets/count"/>
-          <Option name="variableNames"/>
-          <Option name="variableValues"/>
+          <Option type="invalid" name="variableNames"/>
+          <Option type="invalid" name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -2860,7 +2847,7 @@ def my_form_open(dialog, layer, feature):
     <WMSContactPerson type="QString"></WMSContactPerson>
     <WMSContactPhone type="QString"></WMSContactPhone>
     <WMSContactPosition type="QString"></WMSContactPosition>
-    <WMSDefaultMapUnitsPerMm type="double">1</WMSDefaultMapUnitsPerMm>
+    <WMSDefaultMapUnitsPerMm type="double">8.983152841195214e-06</WMSDefaultMapUnitsPerMm>
     <WMSFeatureInfoUseAttributeFormSettings type="bool">false</WMSFeatureInfoUseAttributeFormSettings>
     <WMSFees type="QString">conditions unknown</WMSFees>
     <WMSImageQuality type="int">90</WMSImageQuality>
@@ -3056,7 +3043,7 @@ def my_form_open(dialog, layer, feature):
         <LabelFont description="Fira Code Retina,6,-1,5,57,0,0,0,0,0,Retina" style="Retina"/>
         <FontColor green="0" alpha="128" blue="0" red="0"/>
       </LayoutItem>
-      <LayoutItem templateUuid="{9301b2d6-2c84-45ea-a5d4-03fcb2c65310}" marginX="0" itemRotation="0" labelText="Copyright ©️ 2020 Parahuman Response Team. Visit https://www.prt.gov/copyright for more info." valign="64" frame="false" excludeFromExports="0" opacity="1" halign="1" background="false" visibility="1" groupUuid="" marginY="0" positionOnPage="327.029,120.627,mm" referencePoint="0" id="" blendMode="0" outlineWidthM="0.3,mm" size="101.538,11.088,mm" frameJoinStyle="miter" zValue="15" position="327.029,120.627,mm" uuid="{9301b2d6-2c84-45ea-a5d4-03fcb2c65310}" type="65641" htmlState="0" positionLock="false">
+      <LayoutItem templateUuid="{9301b2d6-2c84-45ea-a5d4-03fcb2c65310}" marginX="0" itemRotation="0" labelText="Copyright ©️ [%format_date(now(), 'yyyy')%] Parahuman Response Team. Visit https://www.prt.gov/copyright for more info." valign="64" frame="false" excludeFromExports="0" opacity="1" halign="1" background="false" visibility="1" groupUuid="" marginY="0" positionOnPage="327.029,120.627,mm" referencePoint="0" id="" blendMode="0" outlineWidthM="0.3,mm" size="101.538,11.088,mm" frameJoinStyle="miter" zValue="15" position="327.029,120.627,mm" uuid="{9301b2d6-2c84-45ea-a5d4-03fcb2c65310}" type="65641" htmlState="0" positionLock="false">
         <FrameColor green="0" alpha="255" blue="0" red="0"/>
         <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
         <LayoutObject>
@@ -3224,7 +3211,7 @@ def my_form_open(dialog, layer, feature):
         </atlasClippingSettings>
         <itemClippingSettings enabled="0" clippingType="0" clipSource="" forceLabelsInside="0"/>
       </LayoutItem>
-      <LayoutItem labelVerticalPlacement="0" labelHorizontalPlacement="0" minBarWidth="50" positionLock="false" outlineWidthM="0.3,mm" outlineWidth="0.3" style="Numeric" lineJoinStyle="miter" frame="false" maxBarWidth="150" position="359.759,123.466,mm" uuid="{17a4f86c-b60a-4b58-b864-289872a4a706}" type="65646" boxContentSpace="1" positionOnPage="359.759,123.466,mm" segmentSizeMode="0" mapUuid="{246f236e-8884-44f4-8066-59670b57c2c7}" unitLabel="mi" itemRotation="0" labelBarSpace="3" numSubdivisions="1" alignment="1" segmentMillimeters="12.8748" size="14.3,12.1,mm" id="" numMapUnitsPerScaleBarUnit="1" blendMode="0" numSegments="4" numSegmentsLeft="2" height="3" templateUuid="{17a4f86c-b60a-4b58-b864-289872a4a706}" visibility="1" referencePoint="0" background="false" excludeFromExports="0" unitType="mi" lineCapStyle="square" frameJoinStyle="miter" numUnitsPerSegment="200" zValue="8" opacity="1" groupUuid="" subdivisionsHeight="1.5">
+      <LayoutItem labelVerticalPlacement="0" labelHorizontalPlacement="0" minBarWidth="50" positionLock="false" outlineWidthM="0.3,mm" outlineWidth="0.3" style="Numeric" lineJoinStyle="miter" frame="false" maxBarWidth="150" position="359.759,123.466,mm" uuid="{17a4f86c-b60a-4b58-b864-289872a4a706}" type="65646" boxContentSpace="1" positionOnPage="359.759,123.466,mm" segmentSizeMode="0" mapUuid="{246f236e-8884-44f4-8066-59670b57c2c7}" unitLabel="mi" itemRotation="0" labelBarSpace="3" numSubdivisions="1" alignment="1" segmentMillimeters="12.8748" size="14.9886,12.1,mm" id="" numMapUnitsPerScaleBarUnit="1" blendMode="0" numSegments="4" numSegmentsLeft="2" height="3" templateUuid="{17a4f86c-b60a-4b58-b864-289872a4a706}" visibility="1" referencePoint="0" background="false" excludeFromExports="0" unitType="mi" lineCapStyle="square" frameJoinStyle="miter" numUnitsPerSegment="200" zValue="8" opacity="1" groupUuid="" subdivisionsHeight="1.5">
         <FrameColor green="0" alpha="255" blue="0" red="0"/>
         <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
         <LayoutObject>
@@ -3627,7 +3614,7 @@ def my_form_open(dialog, layer, feature):
           </symbol>
         </fillSymbol2>
       </LayoutItem>
-      <LayoutItem labelVerticalPlacement="0" labelHorizontalPlacement="0" minBarWidth="50" positionLock="false" outlineWidthM="0.3,mm" outlineWidth="0.3" style="Double Box" lineJoinStyle="miter" frame="false" maxBarWidth="150" position="328.235,112.988,mm" uuid="{7573a4ad-debd-4472-b6ec-764ec77374c9}" type="65646" boxContentSpace="1" positionOnPage="328.235,112.988,mm" segmentSizeMode="0" mapUuid="{246f236e-8884-44f4-8066-59670b57c2c7}" unitLabel="mi" itemRotation="0" labelBarSpace="3" numSubdivisions="1" alignment="0" segmentMillimeters="12.8748" size="75.3442,17.7271,mm" id="" numMapUnitsPerScaleBarUnit="1" blendMode="0" numSegments="4" numSegmentsLeft="2" height="3" templateUuid="{7573a4ad-debd-4472-b6ec-764ec77374c9}" visibility="1" referencePoint="0" background="false" excludeFromExports="0" unitType="mi" lineCapStyle="square" frameJoinStyle="miter" numUnitsPerSegment="200" zValue="7" opacity="1" groupUuid="" subdivisionsHeight="1.5">
+      <LayoutItem labelVerticalPlacement="0" labelHorizontalPlacement="0" minBarWidth="50" positionLock="false" outlineWidthM="0.3,mm" outlineWidth="0.3" style="Double Box" lineJoinStyle="miter" frame="false" maxBarWidth="150" position="328.235,113.988,mm" uuid="{7573a4ad-debd-4472-b6ec-764ec77374c9}" type="65646" boxContentSpace="1" positionOnPage="328.235,113.988,mm" segmentSizeMode="0" mapUuid="{246f236e-8884-44f4-8066-59670b57c2c7}" unitLabel="mi" itemRotation="0" labelBarSpace="3" numSubdivisions="1" alignment="0" segmentMillimeters="12.8748" size="75.3442,17.7271,mm" id="" numMapUnitsPerScaleBarUnit="1" blendMode="0" numSegments="4" numSegmentsLeft="2" height="3" templateUuid="{7573a4ad-debd-4472-b6ec-764ec77374c9}" visibility="1" referencePoint="0" background="false" excludeFromExports="0" unitType="mi" lineCapStyle="square" frameJoinStyle="miter" numUnitsPerSegment="200" zValue="7" opacity="1" groupUuid="" subdivisionsHeight="1.5">
         <FrameColor green="0" alpha="255" blue="0" red="0"/>
         <BackgroundColor green="255" alpha="255" blue="255" red="255"/>
         <LayoutObject>
@@ -4030,7 +4017,7 @@ def my_form_open(dialog, layer, feature):
           </symbol>
         </fillSymbol2>
       </LayoutItem>
-      <LayoutItem rasterBorderColor="0,0,0,255" rasterBorder="1" positionLock="false" rasterBorderWidth="0" outlineWidthM="0.3,mm" equalColumnWidth="0" symbolWidth="7" resizeToContents="0" columnSpace="2" map_uuid="{246f236e-8884-44f4-8066-59670b57c2c7}" columnCount="2" frame="true" wmsLegendWidth="50" position="325.526,77.4973,mm" uuid="{e844c8e8-6375-4443-a582-70cede6ed28d}" type="65642" positionOnPage="325.526,77.4973,mm" minSymbolSize="0" splitLayer="0" wrapChar="" lineSpacing="1" itemRotation="0" boxSpace="2" title="" size="103.333,54.9187,mm" wmsLegendHeight="25" id="" blendMode="0" fontColor="#000000" symbolHeight="4" templateUuid="{e844c8e8-6375-4443-a582-70cede6ed28d}" visibility="1" referencePoint="0" background="true" maxSymbolSize="0" legendFilterByAtlas="0" excludeFromExports="0" frameJoinStyle="miter" zValue="6" titleAlignment="4" opacity="1" groupUuid="" symbolAlignment="1">
+      <LayoutItem rasterBorderColor="0,0,0,255" rasterBorder="1" positionLock="false" rasterBorderWidth="0" outlineWidthM="0.3,mm" equalColumnWidth="0" symbolWidth="7" resizeToContents="0" columnSpace="0" map_uuid="{246f236e-8884-44f4-8066-59670b57c2c7}" columnCount="2" frame="true" wmsLegendWidth="50" position="325.526,77.4973,mm" uuid="{e844c8e8-6375-4443-a582-70cede6ed28d}" type="65642" positionOnPage="325.526,77.4973,mm" minSymbolSize="0" splitLayer="0" wrapChar="" lineSpacing="0" itemRotation="0" boxSpace="1" title="" size="103.333,54.9187,mm" wmsLegendHeight="25" id="" blendMode="0" fontColor="#000000" symbolHeight="4" templateUuid="{e844c8e8-6375-4443-a582-70cede6ed28d}" visibility="1" referencePoint="0" background="true" maxSymbolSize="0" legendFilterByAtlas="0" excludeFromExports="0" frameJoinStyle="miter" zValue="6" titleAlignment="4" opacity="1" groupUuid="" symbolAlignment="1">
         <FrameColor green="0" alpha="255" blue="0" red="0"/>
         <BackgroundColor green="255" alpha="26" blue="255" red="255"/>
         <LayoutObject>
@@ -4046,7 +4033,7 @@ def my_form_open(dialog, layer, feature):
           </customproperties>
         </LayoutObject>
         <styles>
-          <style alignment="1" marginBottom="3.5" name="title">
+          <style alignment="1" marginBottom="5.5" name="title">
             <styleFont description="MS Shell Dlg 2,16,-1,5,50,0,0,0,0,0" style=""/>
           </style>
           <style alignment="1" name="group">
@@ -4055,10 +4042,10 @@ def my_form_open(dialog, layer, feature):
           <style alignment="1" name="subgroup" marginTop="3">
             <styleFont description="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0" style=""/>
           </style>
-          <style alignment="1" name="symbol" marginTop="1.5">
+          <style alignment="1" name="symbol" marginTop="1">
             <styleFont description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
           </style>
-          <style alignment="1" marginLeft="1" name="symbolLabel" marginTop="1.5">
+          <style alignment="1" marginLeft="1" name="symbolLabel" marginTop="1">
             <styleFont description="Trebuchet MS,8,-1,5,50,0,0,0,0,0,Regular" style="Regular"/>
           </style>
         </styles>
@@ -4069,8 +4056,7 @@ def my_form_open(dialog, layer, feature):
           <layer-tree-layer legend_split_behavior="0" expanded="1" patch_size="-1,-1" providerKey="ogr" id="prt_depts_d7282293_6f78_47e0_8a01_93a45aa4f82b" legend_exp="" name="prt-depts" source="./data-internal/prt-depts.geojson|layername=prt-depts" checked="Qt::Checked">
             <customproperties>
               <Option type="Map">
-                <Option type="QString" value=" " name="cached_name"/>
-                <Option type="QString" value="0,1,2,3" name="legend/node-order"/>
+                <Option type="QString" value="0,1,2,3,4" name="legend/node-order"/>
                 <Option type="QString" value=" " name="legend/title-label"/>
               </Option>
             </customproperties>
@@ -4078,8 +4064,7 @@ def my_form_open(dialog, layer, feature):
           <layer-tree-layer legend_split_behavior="0" expanded="1" patch_size="-1,-1" providerKey="ogr" id="prt_depts_d7282293_6f78_47e0_8a01_93a45aa4f82b" legend_exp="" name="prt-depts" source="./data-internal/prt-depts.geojson|layername=prt-depts" checked="Qt::Checked">
             <customproperties>
               <Option type="Map">
-                <Option type="QString" value=" " name="cached_name"/>
-                <Option type="QString" value="4,5,6" name="legend/node-order"/>
+                <Option type="QString" value="5,6,8,7" name="legend/node-order"/>
                 <Option type="QString" value=" " name="legend/title-label"/>
               </Option>
             </customproperties>
@@ -4448,17 +4433,17 @@ def my_form_open(dialog, layer, feature):
   <Bookmarks/>
   <ProjectViewSettings UseProjectScales="0">
     <Scales/>
-    <DefaultViewExtent xmax="1683042.72101179137825966" ymax="13050093.60330139100551605" ymin="2956467.2085794061422348" xmin="-16998439.57348185032606125">
+    <DefaultViewExtent xmax="-60.39540109598954132" ymax="78.40527664629439641" ymin="17.10460846660891221" xmin="-150.18580604443047832">
       <spatialrefsys>
-        <wkt>PROJCRS["Google Maps Global Mercator",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Web mapping and visualisation."],AREA["World between 85.06°S and 85.06°N."],BBOX[-85.06,-180,85.06,180]],ID["EPSG",900913]]</wkt>
-        <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
-        <srsid>63321</srsid>
-        <srid>520003321</srid>
-        <authid>EPSG:900913</authid>
-        <description>Google Maps Global Mercator</description>
-        <projectionacronym>merc</projectionacronym>
+        <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
         <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
-        <geographicflag>false</geographicflag>
+        <geographicflag>true</geographicflag>
       </spatialrefsys>
     </DefaultViewExtent>
   </ProjectViewSettings>
