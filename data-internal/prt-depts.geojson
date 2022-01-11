@@ -214,6 +214,13 @@
 { "type": "Feature", "properties": { "fid": null, "class": 7, "name": "Yellowknife", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -114.379297982989868, 62.45282241049695 ] } },
 { "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Colville Lake", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -126.123219436534058, 67.023088243845606 ] } },
 { "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Paulatuk", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -124.055764501290724, 69.340046847537181 ] } },
-{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Inuvik", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -133.719840866630818, 68.360738875273341 ] } }
+{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Inuvik", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -133.719840866630818, 68.360738875273341 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 4, "name": "Iqaluit", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -68.520278232545664, 63.747217620659335 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Nanisivik", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -84.54010866404748, 73.033717894092263 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Grise Fiord", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -82.900093765396548, 76.420032264647404 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Taloyoak", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -93.538271483800372, 69.531954597827948 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Cambridge Bay", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -105.060472102963956, 69.118064701644386 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Naujaat", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -86.219897335244696, 66.525823695422162 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Baker Lake", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -96.018761357065102, 64.318464090206518 ] } }
 ]
 }
