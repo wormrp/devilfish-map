@@ -38,7 +38,7 @@
 { "type": "Feature", "properties": { "Label": "435 Auto Salvage", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.052872532904203, 47.884653029718201 ] } },
 { "type": "Feature", "properties": { "Label": "A1 Towing", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.172988554962032, 47.805336067456501 ] } },
 { "type": "Feature", "properties": { "Label": "Greyhound Bus", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.182075788262267, 47.849164205019321 ] } },
-{ "type": "Feature", "properties": { "Label": "Devilfish Marina", "type": null, "owner": "Mafia" }, "geometry": { "type": "Point", "coordinates": [ -90.330051846569461, 47.751037043786518 ] } },
+{ "type": "Feature", "properties": { "Label": "Devilfish Marina", "type": null, "owner": "Mafia" }, "geometry": { "type": "Point", "coordinates": [ -90.340912938234496, 47.747372697211894 ] } },
 { "type": "Feature", "properties": { "Label": "Cloverleaf Acres Mall", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.356303853881016, 47.918346845370209 ] } },
 { "type": "Feature", "properties": { "Label": "Devilfish Zoo and Fish Hatchery", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.47806530089855, 47.882110100235074 ] } },
 { "type": "Feature", "properties": { "Label": "Gilbert Spencer Perfoming Arts Theatre", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.21214218979847, 47.923844060576478 ] } },
