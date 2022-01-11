@@ -15,7 +15,7 @@ php renderTilesHTMLFixer.php
 Measure-Command { 
 	Get-ChildItem "export-tiles" -recurse -Filter *.png | Foreach-Object -Parallel {
 		optipng $_.FullName
-	} -ThrottleLimit 8
+	} -ThrottleLimit 16
 }
 
 Measure-Command {
