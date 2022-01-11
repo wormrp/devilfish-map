@@ -199,6 +199,21 @@
 { "type": "Feature", "properties": { "fid": null, "class": 8, "name": "Windsor", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -83.015341555667845, 42.275716441829239 ] } },
 { "type": "Feature", "properties": { "fid": null, "class": 7, "name": "Sault Ste. Marie", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -84.351048633689913, 46.528211293356705 ] } },
 { "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Fort Severn", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -87.655089423267967, 56.005949475931487 ] } },
-{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Pickle Crow", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -90.057169592521916, 51.50130893804495 ] } }
+{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Pickle Crow", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -90.057169592521916, 51.50130893804495 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 7, "name": "Quebec City", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -71.228236774892395, 46.826880789363123 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Donaldson", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -73.879304356221255, 61.811981227021889 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "La Grande-Quatre", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -73.465312296810225, 53.881205267255012 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Mistissini", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -73.856330947606239, 50.422773454016941 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 7, "name": "Charlottetown", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -63.138362748061162, 46.253244038492497 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 7, "name": "Happy Valley\/Goose Bay", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -60.328470411865617, 53.302390768639654 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "St. Anthony", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -55.59203076233532, 51.371470460142191 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Kauk Bight", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -61.704445487010716, 56.521036680457613 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Sydney", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -60.223700736093221, 46.127641899653469 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 7, "name": "Whitehorse", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -135.06216817344071, 60.677082694230506 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Eagle Plains", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -136.744981742500187, 66.353048207253167 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 7, "name": "Yellowknife", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -114.379297982989868, 62.45282241049695 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Colville Lake", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -126.123219436534058, 67.023088243845606 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Paulatuk", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -124.055764501290724, 69.340046847537181 ] } },
+{ "type": "Feature", "properties": { "fid": null, "class": 9, "name": "Inuvik", "Comment": null }, "geometry": { "type": "Point", "coordinates": [ -133.719840866630818, 68.360738875273341 ] } }
 ]
 }
