@@ -73,9 +73,10 @@
 { "type": "Feature", "properties": { "Label": "Found Family Estate", "type": null, "owner": "FoundFamily" }, "geometry": { "type": "Point", "coordinates": [ -90.409818231681072, 48.005735582000419 ] } },
 { "type": "Feature", "properties": { "Label": "Safe Harbor Compassion Ctr", "type": null, "owner": "FoundFamily" }, "geometry": { "type": "Point", "coordinates": [ -90.515180265991518, 47.917856800090881 ] } },
 { "type": "Feature", "properties": { "Label": "Nashwood Highschool", "type": null, "owner": "" }, "geometry": { "type": "Point", "coordinates": [ -90.215239488015214, 47.871253178629132 ] } },
-{ "type": "Feature", "properties": { "Label": "Rockstar's Noise Control", "type": null, "owner": "" }, "geometry": { "type": "Point", "coordinates": [ -90.281760415363678, 47.937819532871714 ] } },
-{ "type": "Feature", "properties": { "Label": "Ice Queen's Castle", "type": null, "owner": "" }, "geometry": { "type": "Point", "coordinates": [ -90.208651289609435, 47.757612327991694 ] } },
+{ "type": "Feature", "properties": { "Label": "[Rockstar] Noise Control", "type": null, "owner": "" }, "geometry": { "type": "Point", "coordinates": [ -90.281760415363678, 47.937819532871714 ] } },
+{ "type": "Feature", "properties": { "Label": "[Ice Queen] Castle", "type": null, "owner": "" }, "geometry": { "type": "Point", "coordinates": [ -90.208651289609435, 47.757612327991694 ] } },
 { "type": "Feature", "properties": { "Label": "Presidential Lanes Bowling", "type": null, "owner": "Maids" }, "geometry": { "type": "Point", "coordinates": [ -90.141103972460073, 47.897486872880179 ] } },
-{ "type": "Feature", "properties": { "Label": "[Phix] Warehouse", "type": null, "owner": "" }, "geometry": { "type": "Point", "coordinates": [ -90.121074486014194, 47.829070363915172 ] } }
+{ "type": "Feature", "properties": { "Label": "[Phix] Warehouse", "type": null, "owner": "" }, "geometry": { "type": "Point", "coordinates": [ -90.121074486014194, 47.829070363915172 ] } },
+{ "type": "Feature", "properties": { "Label": "[Zeal] Hideout", "type": null, "owner": "" }, "geometry": { "type": "Point", "coordinates": [ -90.099517443132328, 47.860890632049433 ] } }
 ]
 }
