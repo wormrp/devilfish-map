@@ -19,7 +19,7 @@
 { "type": "Feature", "properties": { "Label": "Mercy General Medical Center", "type": "hospital" }, "geometry": { "type": "Point", "coordinates": [ -90.162566581808662, 47.9121639056373 ] } },
 { "type": "Feature", "properties": { "Label": "Devilfish State University", "type": "education" }, "geometry": { "type": "Point", "coordinates": [ -90.24599199943593, 47.929366423353521 ] } },
 { "type": "Feature", "properties": { "Label": "Greenwood Lake Ranch", "type": null, "owner": "Lowrys" }, "geometry": { "type": "Point", "coordinates": [ -90.175044742564921, 48.026500886769327 ] } },
-{ "type": "Feature", "properties": { "Label": "Northshore Arena", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.281465627871498, 47.925066330196813 ] } },
+{ "type": "Feature", "properties": { "Label": "Northshore Arena", "type": null, "owner": "Maids" }, "geometry": { "type": "Point", "coordinates": [ -90.281465627871498, 47.925066330196813 ] } },
 { "type": "Feature", "properties": { "Label": "GMPC Center", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.187701162760504, 47.906906439796906 ] } },
 { "type": "Feature", "properties": { "Label": "Federal Building", "type": null, "owner": "Heroes" }, "geometry": { "type": "Point", "coordinates": [ -90.169875218823037, 47.889935520416024 ] } },
 { "type": "Feature", "properties": { "Label": "Imperial Street Station", "type": null }, "geometry": { "type": "Point", "coordinates": [ -90.144205859553125, 47.881328421758759 ] } },
@@ -64,19 +64,18 @@
 { "type": "Feature", "properties": { "Label": "Fimbul's Junkyard", "type": null, "owner": "Mafia" }, "geometry": { "type": "Point", "coordinates": [ -90.465937731494918, 47.775865360465836 ] } },
 { "type": "Feature", "properties": { "Label": "Las Gauchas Steakhouse", "type": null, "owner": "Maids" }, "geometry": { "type": "Point", "coordinates": [ -90.182026677652459, 47.879666296340091 ] } },
 { "type": "Feature", "properties": { "Label": "Landmark Apartments", "type": null, "owner": "Furies" }, "geometry": { "type": "Point", "coordinates": [ -90.097789565329066, 47.883023047710374 ] } },
-{ "type": "Feature", "properties": { "Label": "[Callow] Abandoned Power Plant", "type": null, "owner": null }, "geometry": { "type": "Point", "coordinates": [ -90.069003108918594, 47.880293619542158 ] } },
+{ "type": "Feature", "properties": { "Label": "Abandoned Power Plant", "type": null, "owner": null }, "geometry": { "type": "Point", "coordinates": [ -90.069003108918594, 47.880293619542158 ] } },
 { "type": "Feature", "properties": { "Label": "Furies Warehouse", "type": null, "owner": "Furies" }, "geometry": { "type": "Point", "coordinates": [ -90.064496118287224, 47.881816875045558 ] } },
 { "type": "Feature", "properties": { "Label": "STF Cape HQ", "type": null, "owner": "STF" }, "geometry": { "type": "Point", "coordinates": [ -90.191782150567775, 47.917811466471143 ] } },
 { "type": "Feature", "properties": { "Label": "Siberian Touchstone Coal Mine", "type": null, "owner": "STF" }, "geometry": { "type": "Point", "coordinates": [ -90.228096391933406, 47.98050857273298 ] } },
 { "type": "Feature", "properties": { "Label": "Siberian Touchstone Logging Camp", "type": null, "owner": "STF" }, "geometry": { "type": "Point", "coordinates": [ -89.98558209783026, 47.994540724626425 ] } },
-{ "type": "Feature", "properties": { "Label": "USS Devilfish Museum", "type": null, "owner": null }, "geometry": { "type": "Point", "coordinates": [ -90.077843663118486, 47.804085519080111 ] } },
-{ "type": "Feature", "properties": { "Label": "Found Family Estate", "type": null, "owner": "FoundFamily" }, "geometry": { "type": "Point", "coordinates": [ -90.409818231681072, 48.005735582000419 ] } },
-{ "type": "Feature", "properties": { "Label": "Safe Harbor Compassion Ctr", "type": null, "owner": "FoundFamily" }, "geometry": { "type": "Point", "coordinates": [ -90.515180265991518, 47.917856800090881 ] } },
+{ "type": "Feature", "properties": { "Label": "USS Devilfish Museum", "type": null, "owner": "Maids" }, "geometry": { "type": "Point", "coordinates": [ -90.077843663118486, 47.804085519080111 ] } },
 { "type": "Feature", "properties": { "Label": "Nashwood Highschool", "type": null, "owner": "" }, "geometry": { "type": "Point", "coordinates": [ -90.215239488015214, 47.871253178629132 ] } },
 { "type": "Feature", "properties": { "Label": "[Rockstar] Noise Control", "type": null, "owner": "" }, "geometry": { "type": "Point", "coordinates": [ -90.281760415363678, 47.937819532871714 ] } },
 { "type": "Feature", "properties": { "Label": "[Ice Queen] Castle", "type": null, "owner": "" }, "geometry": { "type": "Point", "coordinates": [ -90.208651289609435, 47.757612327991694 ] } },
 { "type": "Feature", "properties": { "Label": "Presidential Lanes Bowling", "type": null, "owner": "Maids" }, "geometry": { "type": "Point", "coordinates": [ -90.141103972460073, 47.897486872880179 ] } },
-{ "type": "Feature", "properties": { "Label": "[Phix] Warehouse", "type": null, "owner": "" }, "geometry": { "type": "Point", "coordinates": [ -90.121074486014194, 47.829070363915172 ] } },
-{ "type": "Feature", "properties": { "Label": "[Zeal] Hideout", "type": null, "owner": "" }, "geometry": { "type": "Point", "coordinates": [ -90.099517443132328, 47.860890632049433 ] } }
+{ "type": "Feature", "properties": { "Label": "Phix's Warehouse", "type": null, "owner": "Heirarchy" }, "geometry": { "type": "Point", "coordinates": [ -90.121074486014194, 47.829070363915172 ] } },
+{ "type": "Feature", "properties": { "Label": "[Zeal] Hideout", "type": null, "owner": "" }, "geometry": { "type": "Point", "coordinates": [ -90.099517443132328, 47.860890632049433 ] } },
+{ "type": "Feature", "properties": { "Label": "[Pavlov] 'Howl at the Moon' Nightclub", "type": null, "owner": "" }, "geometry": { "type": "Point", "coordinates": [ -90.137266854830102, 47.887195802063765 ] } }
 ]
 }
