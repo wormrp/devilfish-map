@@ -76,6 +76,8 @@
 { "type": "Feature", "properties": { "Label": "Presidential Lanes Bowling", "type": null, "owner": "Maids" }, "geometry": { "type": "Point", "coordinates": [ -90.141103972460073, 47.897486872880179 ] } },
 { "type": "Feature", "properties": { "Label": "Phix's Warehouse", "type": null, "owner": "Heirarchy" }, "geometry": { "type": "Point", "coordinates": [ -90.121074486014194, 47.829070363915172 ] } },
 { "type": "Feature", "properties": { "Label": "[Zeal] Hideout", "type": null, "owner": "" }, "geometry": { "type": "Point", "coordinates": [ -90.099517443132328, 47.860890632049433 ] } },
-{ "type": "Feature", "properties": { "Label": "[Pavlov] 'Howl at the Moon' Nightclub", "type": null, "owner": "" }, "geometry": { "type": "Point", "coordinates": [ -90.137266854830102, 47.887195802063765 ] } }
+{ "type": "Feature", "properties": { "Label": "[Pavlov] 'Howl at the Moon' Nightclub", "type": null, "owner": "" }, "geometry": { "type": "Point", "coordinates": [ -90.137266854830102, 47.887195802063765 ] } },
+{ "type": "Feature", "properties": { "Label": "[Hathor] Midtown Community Center", "type": null, "owner": "" }, "geometry": { "type": "Point", "coordinates": [ -90.114960566279109, 47.861278997632482 ] } },
+{ "type": "Feature", "properties": { "Label": "Scarlet Aveue Strip", "type": null, "owner": "Furies" }, "geometry": { "type": "Point", "coordinates": [ -90.076248683653205, 47.896191160086794 ] } }
 ]
 }
