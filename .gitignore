@@ -2,6 +2,7 @@
 *.aux.xml
 *.gpkg-shm
 *.gpkg-wal
+*_attachments.zip
 
 export/*
 export-tiles/*
